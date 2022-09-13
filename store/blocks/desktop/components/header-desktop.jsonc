@@ -1,0 +1,19 @@
+{
+  "header-layout.desktop": {
+    "title": "Desktop header",
+    "children": ["header-row#header__desktop"]
+  },
+  "header-row#header__desktop": {
+    "title": "Header desktop",
+    "children": [
+      "logo#header__logo",
+      "header-spacer",
+      "login",
+      "minicart.v2",
+      "drawer#header__desktop--menu"
+    ],
+    "props": {
+      "blockClass": "header__desktop"
+    }
+  }
+}

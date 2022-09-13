@@ -1,0 +1,321 @@
+{
+  "drawer#header__desktop--menu": {
+    "children": ["menu#header__desktop--menu"],
+    "blocks": ["drawer-trigger"]
+  },
+  "drawer-trigger": {
+    "children": ["rich-text#menu"]
+  },
+  "rich-text#menu": {
+    "props": {
+      "text": "Menu"
+    }
+  },
+
+  // ----------------------------------- Menu nivel 1
+  "menu#header__desktop--menu": {
+    "children": [
+      "menu-item#deparment__products",
+      "menu-item#department__store",
+      "menu-item#department__playStation",
+      "menu-item#department__assistance",
+      "menu-item#department__websSony"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#deparment__products": {
+    "props": {
+      "id": "deparment-products",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Products title",
+        "text": "Productos"
+      }
+    },
+    "blocks": ["submenu.accordion#deparment__products"]
+  },
+  "menu-item#department__store": {
+    "props": {
+      "id": "department-store",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://store.sony.com.co/?cpint=gwt_header",
+        "tagTitle": "store title",
+        "text": "Tienda"
+      }
+    }
+  },
+  "menu-item#department__playStation": {
+    "props": {
+      "id": "department-playStation",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.playstation.com/es-co/?",
+        "noFollow": true,
+        "tagTitle": "playStation title",
+        "text": "PlayStation"
+      }
+    }
+  },
+  "menu-item#department__assistance": {
+    "props": {
+      "id": "department-assistance",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony-latin.com/es/electronics/support",
+        "tagTitle": "assistance title",
+        "text": "Asistencia"
+      }
+    }
+  },
+  "menu-item#department__websSony": {
+    "props": {
+      "id": "deparment-websSony",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "websSony title",
+        "text": "Webs Sony"
+      }
+    },
+    "blocks": ["submenu.accordion#deparment__websSony"]
+  },
+
+  // ----------------------------------- Menu nivel 2 Products
+  "submenu.accordion#deparment__products": {
+    "children": ["menu#department__products"]
+  },
+  "menu#department__products": {
+    "children": [
+      "menu-item#category__televisions-theaterAtHome",
+      "menu-item#category__audio",
+      "menu-item#category__gameAccesories",
+      "menu-item#category__cameras",
+      "menu-item#category__imagingPlatform",
+      "menu-item#category__carAudio-soundSystemsCar-aquaticEnvironments",
+      "menu-item#category__multimedia-storage-cables",
+      "menu-item#category__allProducts",
+      "menu-item#category__professionalProductsAndSolutions"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__televisions-theaterAtHome": {
+    "props": {
+      "id": "category-televisions-theaterAtHome",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Televisiones y teatros en casa",
+        "text": "Televisiones y teatros en casa"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category__audio": {
+    "props": {
+      "id": "category-audio",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Audio",
+        "text": "Audio"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category__gameAccesories": {
+    "props": {
+      "id": "category-gameAccesories",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Accesorios de juegos",
+        "text": "Accesorios de juegos"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category__cameras": {
+    "props": {
+      "id": "category-cameras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Cámaras",
+        "text": "Cámaras"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category__imagingPlatform": {
+    "props": {
+      "id": "category-imagingPlatform",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Imaging Platform",
+        "text": "Imaging Platform"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category__carAudio-soundSystemsCar-aquaticEnvironments": {
+    "props": {
+      "id": "category-carAudio-soundSystemsCar-aquaticEnvironments",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Car audio | Equipos de sonido para carros y entornos acuátios",
+        "text": "Car audio | Equipos de sonido para carros y entornos acuátios"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category__multimedia-storage-cables": {
+    "props": {
+      "id": "category-multimedia-storage-cables",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Multimedia, almacenamiento y cables",
+        "text": "Multimedia, almacenamiento y cables"
+      }
+    },
+    "blocks": []
+  },
+  "menu-item#category__allProducts": {
+    "props": {
+      "id": "category-allProducts",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/all-products",
+        "tagTitle": "Todos los productos",
+        "text": "Todos los productos"
+      }
+    }
+  },
+  "menu-item#category__professionalProductsAndSolutions": {
+    "props": {
+      "id": "category-professionalProductsAndSolutions",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://pro.sony/en_GB/change-country-region-language?originalUrl=%2F%3Fcmp%3Dgwt-&cmp=gwt-",
+        "tagTitle": "Productos y soluciones profesionales",
+        "text": "Productos y soluciones profesionales"
+      }
+    }
+  },
+
+  // ----------------------------------- Menu nivel 2 Webs Sony
+  "submenu.accordion#deparment__websSony": {
+    "children": ["menu#department__websSony"]
+  },
+  "menu#department__websSony": {
+    "children": [
+      "menu-item#category__sonyGroupSite",
+      "menu-item#category__sonyDesign",
+      "menu-item#category__sonyProfessional",
+      "menu-item#category__playStation",
+      "menu-item#category__sonyEnvironment",
+      "menu-item#category__sonyPictures",
+      "menu-item#category__sonyMusic"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__sonyGroupSite": {
+    "props": {
+      "id": "category-sonyGroupSite",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com/en/",
+        "tagTitle": "Sony Group Site",
+        "text": "Sony Group Site"
+      }
+    }
+  },
+  "menu-item#category__sonyDesign": {
+    "props": {
+      "id": "category-sonyDesign",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com/en/SonyInfo/design/?s_tc=sd_top_wtss&cpint=SONYSITES_SECONDARYVISUAL_WWWSONYDESIGN_6832",
+        "tagTitle": "Sony Design",
+        "text": "Sony Design"
+      }
+    }
+  },
+  "menu-item#category__sonyProfessional": {
+    "props": {
+      "id": "category-sonyProfessional",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://pro.sony/en_GB/?cmp=gwt-",
+        "tagTitle": "Sony Professional",
+        "text": "Sony Professional"
+      }
+    }
+  },
+  "menu-item#category__playStation": {
+    "props": {
+      "id": "category-playStation",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.playstation.com/es-mx/?smcid=gwo",
+        "tagTitle": "Sony PlayStation",
+        "text": "Sony PlayStation"
+      }
+    }
+  },
+  "menu-item#category__sonyEnvironment": {
+    "props": {
+      "id": "category-sonyEnvironment",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/electronics/eco/desarrollo-sustentable",
+        "tagTitle": "Sony y el medio ambiente",
+        "text": "Sony y el medio ambiente"
+      }
+    }
+  },
+  "menu-item#category__sonyPictures": {
+    "props": {
+      "id": "category-sonyPictures",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sonypictures.com.co/",
+        "tagTitle": "Sony Pictures",
+        "text": "Sony Pictures"
+      }
+    }
+  },
+  "menu-item#category__sonyMusic": {
+    "props": {
+      "id": "category-sonyMusic",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sonymusiclatin.com/",
+        "tagTitle": "Sony Music",
+        "text": "Sony Music"
+      }
+    }
+  }
+}
