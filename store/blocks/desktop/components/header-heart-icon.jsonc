@@ -1,0 +1,8 @@
+{
+  "icon#header__heart--icon": {
+    "props": {
+      "id": "mpa-heart",
+      "size": 24
+    }
+  }
+}

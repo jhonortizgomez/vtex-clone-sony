@@ -1,0 +1,23 @@
+{
+  "submenu.accordion#category__multimedia-storage-cables": {
+    "children": ["menu#category__multimedia-storage-cables"]
+  },
+  "menu#category__multimedia-storage-cables": {
+    "children": ["menu-item#item__multimedia-storage-cables"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#item__multimedia-storage-cables": {
+    "props": {
+      "id": "item-multimedia-storage-cables",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/memory-cards-storage-cables",
+        "tagTitle": "Tarjetas de memoria, almacenamiento y cables",
+        "text": "Tarjetas de memoria, almacenamiento y cables"
+      }
+    }
+  }
+}

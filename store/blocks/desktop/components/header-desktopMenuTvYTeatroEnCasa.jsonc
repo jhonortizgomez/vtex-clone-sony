@@ -1,0 +1,51 @@
+{
+  "submenu.accordion#category__televisions-theaterAtHome": {
+    "children": ["menu#category__televisions-theaterAtHome"]
+  },
+  "menu#category__televisions-theaterAtHome": {
+    "children": [
+      "menu-item#item__Televisions",
+      "menu-item#item__HomeTheare-soundBars",
+      "menu-item#item__blueRayDisc-dvdPlayers"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#item__Televisions": {
+    "props": {
+      "id": "item-Televisions",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/bravia",
+        "tagTitle": "Televisores",
+        "text": "Televisores"
+      }
+    }
+  },
+  "menu-item#item__HomeTheare-soundBars": {
+    "props": {
+      "id": "item-HomeTheare-soundBars",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/home-theatre-sound-bars",
+        "tagTitle": "Home Theatre y barras de sonido",
+        "text": "Home Theatre y barras de sonido"
+      }
+    }
+  },
+  "menu-item#item__blueRayDisc-dvdPlayers": {
+    "props": {
+      "id": "item-blueRayDisc-dvdPlayers",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/blu-ray-disc-dvd-players",
+        "tagTitle": "Reproductores de Blue-ray Disc y DVD",
+        "text": "Reproductores de Blue-ray Disc y DVD"
+      }
+    }
+  }
+}

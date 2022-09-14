@@ -1,0 +1,131 @@
+{
+  "submenu.accordion#deparment__products": {
+    "children": ["menu#department__products"]
+  },
+  "menu#department__products": {
+    "children": [
+      "menu-item#category__televisions-theaterAtHome",
+      "menu-item#category__audio",
+      "menu-item#category__gameAccesories",
+      "menu-item#category__cameras",
+      "menu-item#category__imagingPlatform",
+      "menu-item#category__carAudio-soundSystemsCar-aquaticEnvironments",
+      "menu-item#category__multimedia-storage-cables",
+      "menu-item#category__allProducts",
+      "menu-item#category__professionalProductsAndSolutions"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__televisions-theaterAtHome": {
+    "props": {
+      "id": "category-televisions-theaterAtHome",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Televisiones y teatros en casa",
+        "text": "Televisiones y teatros en casa"
+      }
+    },
+    "blocks": ["submenu.accordion#category__televisions-theaterAtHome"]
+  },
+  "menu-item#category__audio": {
+    "props": {
+      "id": "category-audio",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Audio",
+        "text": "Audio"
+      }
+    },
+    "blocks": ["submenu.accordion#category__audio"]
+  },
+  "menu-item#category__gameAccesories": {
+    "props": {
+      "id": "category-gameAccesories",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Accesorios de juegos",
+        "text": "Accesorios de juegos"
+      }
+    },
+    "blocks": ["submenu.accordion#category__gameAccesories"]
+  },
+  "menu-item#category__cameras": {
+    "props": {
+      "id": "category-cameras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Cámaras",
+        "text": "Cámaras"
+      }
+    },
+    "blocks": ["submenu.accordion#category__cameras"]
+  },
+  "menu-item#category__imagingPlatform": {
+    "props": {
+      "id": "category-imagingPlatform",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Imaging Platform",
+        "text": "Imaging Platform"
+      }
+    },
+    "blocks": ["submenu.accordion#category__imagingPlatform"]
+  },
+  "menu-item#category__carAudio-soundSystemsCar-aquaticEnvironments": {
+    "props": {
+      "id": "category-carAudio-soundSystemsCar-aquaticEnvironments",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Car audio | Equipos de sonido para carros y entornos acuátios",
+        "text": "Car audio | Equipos de sonido para carros y entornos acuátios"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#category__carAudio-soundSystemsCar-aquaticEnvironments"
+    ]
+  },
+  "menu-item#category__multimedia-storage-cables": {
+    "props": {
+      "id": "category-multimedia-storage-cables",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Multimedia, almacenamiento y cables",
+        "text": "Multimedia, almacenamiento y cables"
+      }
+    },
+    "blocks": ["submenu.accordion#category__multimedia-storage-cables"]
+  },
+  "menu-item#category__allProducts": {
+    "props": {
+      "id": "category-allProducts",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/all-products",
+        "tagTitle": "Todos los productos",
+        "text": "Todos los productos"
+      }
+    }
+  },
+  "menu-item#category__professionalProductsAndSolutions": {
+    "props": {
+      "id": "category-professionalProductsAndSolutions",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://pro.sony/en_GB/change-country-region-language?originalUrl=%2F%3Fcmp%3Dgwt-&cmp=gwt-",
+        "tagTitle": "Productos y soluciones profesionales",
+        "text": "Productos y soluciones profesionales"
+      }
+    }
+  }
+}

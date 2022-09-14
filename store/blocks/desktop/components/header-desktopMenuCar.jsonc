@@ -1,0 +1,25 @@
+{
+  "submenu.accordion#category__carAudio-soundSystemsCar-aquaticEnvironments": {
+    "children": ["menu#category__carAudio-soundSystemsCar-aquaticEnvironments"]
+  },
+  "menu#category__carAudio-soundSystemsCar-aquaticEnvironments": {
+    "children": [
+      "menu-item#item__carAudio-soundSystemsCar-aquaticEnvironments"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#item__carAudio-soundSystemsCar-aquaticEnvironments": {
+    "props": {
+      "id": "item-carAudio-soundSystemsCar-aquaticEnvironments",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/car-audio",
+        "tagTitle": "Car audio | Equipos de sonido para carros y entornos acuáticos",
+        "text": "Car audio | Equipos de sonido para carros y entornos acuáticos"
+      }
+    }
+  }
+}

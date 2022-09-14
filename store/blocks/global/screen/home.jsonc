@@ -1,5 +1,10 @@
 {
   "store.home": {
-    "blocks": []
+    "blocks": [
+      "slider-layout#desktop__home--section-one",
+      "flex-layout.row#desktop__home--section-two-title",
+      "slider-layout#desktop__home--section-two"
+      // "list-context.image-list#home__section-two--slider-list"
+    ]
   }
 }

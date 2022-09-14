@@ -1,0 +1,103 @@
+{
+  "submenu.accordion#category__cameras": {
+    "children": ["menu#category__cameras"]
+  },
+  "menu#category__cameras": {
+    "children": [
+      "menu-item#item__professionalMicrophones-tripods&More",
+      "menu-item#item__glasses",
+      "menu-item#item__compactCameras",
+      "menu-item#item__camcordesHandycam",
+      "menu-item#item__actionCam",
+      "menu-item#item__filmCameras",
+      "menu-item#item__cameraAccesories"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#item__professionalMicrophones-tripods&More": {
+    "props": {
+      "id": "item-professionalMicrophones-tripods&More",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/interchangeable-lens-cameras",
+        "tagTitle": "Micrófonos profesionales, trípodes y más",
+        "text": "Micrófonos profesionales, trípodes y más"
+      }
+    }
+  },
+  "menu-item#item__glasses": {
+    "props": {
+      "id": "item-glasses",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/lenses",
+        "tagTitle": "Lentes",
+        "text": "Lentes"
+      }
+    }
+  },
+  "menu-item#item__compactCameras": {
+    "props": {
+      "id": "item-compactCameras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/compact-cameras",
+        "tagTitle": "Cámaras compactas",
+        "text": "Cámaras compactas"
+      }
+    }
+  },
+  "menu-item#item__camcordesHandycam": {
+    "props": {
+      "id": "item-camcordesHandycam",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/handycam",
+        "tagTitle": "Videocámaras Handycam",
+        "text": "Videocámaras Handycam"
+      }
+    }
+  },
+  "menu-item#item__actionCam": {
+    "props": {
+      "id": "item-actionCam",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/action-cam",
+        "tagTitle": "Action Cam",
+        "text": "Action Cam"
+      }
+    }
+  },
+  "menu-item#item__filmCameras": {
+    "props": {
+      "id": "item-filmCameras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/electronics/gama-de-cine",
+        "tagTitle": "Cámaras de Cine",
+        "text": "Cámaras de Cine"
+      }
+    }
+  },
+  "menu-item#item__cameraAccesories": {
+    "props": {
+      "id": "item-cameraAccesories",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/camera-accessories",
+        "tagTitle": "Accesorios para cámaras",
+        "text": "Accesorios para cámaras"
+      }
+    }
+  }
+}

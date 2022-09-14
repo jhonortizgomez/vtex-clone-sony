@@ -9,7 +9,10 @@
       "logo#header__logo",
       "header-spacer",
       "login",
+      "icon#header__heart--icon",
       "minicart.v2",
+      // "search-bar#header__search",
+      "icon-search",
       "drawer#header__desktop--menu"
     ],
     "props": {
