@@ -18,7 +18,7 @@
   "image#home__slider--one": {
     "props": {
       "src": "assets/img/home--section-two-img1.jfif",
-      "maxHeight": 700
+      "maxHeight": 600
     }
   },
   "image#home__slider--two": {
