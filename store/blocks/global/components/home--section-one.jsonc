@@ -1,0 +1,18 @@
+{
+  "slider-layout#desktop__home--section-one": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "mobile": 1
+      },
+      "blockClass": "home__slider--section-one",
+      "fullWidth": true
+    },
+    "children": ["image#home__slider--section-one"]
+  },
+  "image#home__slider--section-one": {
+    "props": {
+      "src": "assets/img/home--section-one.webp"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "search-bar#header__search": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "icon-search": {
+    "props": {
+      "size": 24
+    }
+  }
+}

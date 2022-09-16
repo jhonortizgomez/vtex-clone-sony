@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#desktop__home--section-two-title": {
+    "children": ["rich-text#home__desktop--section-two-title"],
+    "props": {
+      "blockClass": "home__desktop--section-two-title"
+    }
+  },
+  "rich-text#home__desktop--section-two-title": {
+    "title": "Section two",
+    "props": {
+      "text": "LO MÁS RECIENTE"
+    }
+  }
+}

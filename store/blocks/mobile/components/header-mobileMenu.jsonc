@@ -1,0 +1,18 @@
+{
+  "drawer#header__mobile--menu": {
+    "children": ["menu#header__mobile--menu"]
+    // "blocks": ["drawer-trigger"]
+  },
+  "menu#header__mobile--menu": {
+    "children": [
+      "menu-item#deparment__products",
+      "menu-item#department__store",
+      "menu-item#department__playStation",
+      "menu-item#department__assistance",
+      "menu-item#department__websSony"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

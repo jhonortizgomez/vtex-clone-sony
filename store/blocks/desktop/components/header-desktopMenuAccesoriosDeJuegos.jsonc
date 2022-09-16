@@ -1,0 +1,23 @@
+{
+  "submenu.accordion#category__gameAccesories": {
+    "children": ["menu#category__gameAccesories"]
+  },
+  "menu#category__gameAccesories": {
+    "children": ["menu-item#item__gameAccesories"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#item__gameAccesories": {
+    "props": {
+      "id": "item-gameAccesories",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/gaming-gear",
+        "tagTitle": "Accesorios de juegos",
+        "text": "Accesorios de juegos"
+      }
+    }
+  }
+}
