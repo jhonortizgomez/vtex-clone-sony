@@ -1,0 +1,73 @@
+{
+  "flex-layout.row#footer__container-privacy": {
+    "children": ["flex-layout.col#footer__container-privacy"]
+  },
+  "flex-layout.col#footer__container-privacy": {
+    "children": [
+      "flex-layout.row#footer__container-privacy-one",
+      "flex-layout.row#footer__container-privacy-two",
+      "flex-layout.row#footer__container-privacy-three"
+    ],
+    "props": {
+      "blockClass": "footer__container-privacy"
+    }
+  },
+  "flex-layout.row#footer__container-privacy-one": {
+    "children": ["menu#footer-privacy", "menu#footer-brand"],
+    "props": {
+      "blockClass": "footer__container-privacy-one"
+    }
+  },
+  "menu#footer-privacy": {
+    "children": ["menu-item#footer-privacy"]
+  },
+  "menu-item#footer-privacy": {
+    "props": {
+      "id": "footer-privacy",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "POLÍTICA DE PRIVACIDAD EN LÍNEA DE SONY LATIN AMERICA, INC",
+        "text": "POLÍTICA DE PRIVACIDAD EN LÍNEA DE SONY LATIN AMERICA, INC"
+      },
+      "blockClass": "footer-privacy"
+    }
+  },
+  "menu#footer-brand": {
+    "children": ["menu-item#footer-brand"]
+  },
+  "menu-item#footer-brand": {
+    "props": {
+      "id": "footer-brand",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "2022 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS",
+        "text": "2022 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS"
+      },
+      "blockClass": "footer-brand"
+    }
+  },
+  "flex-layout.row#footer__container-privacy-two": {
+    "children": ["rich-text#footer-corporation"],
+    "props": {
+      "blockClass": "footer__container-privacy-two"
+    }
+  },
+  "rich-text#footer-corporation": {
+    "props": {
+      "text": "Sony Group Portal Site",
+      "blockClass": "footer-corporation"
+    }
+  },
+  "flex-layout.row#footer__container-privacy-three": {
+    "children": ["rich-text#addres"]
+  },
+  "rich-text#addres": {
+    "props": {
+      "text": "Sony Colombia S.A | NIT 900.261429-2 | Km 2.5 Via Bogotá - Funza Parque Industrial San Carlos II, Bodega #5 Almaviva - Funza, Cundinamarca | Email: compras.online@am.sony.com | Teléfonos: Bogotá (358-1251), Nacional (01-8000-940011)"
+    }
+  }
+}
