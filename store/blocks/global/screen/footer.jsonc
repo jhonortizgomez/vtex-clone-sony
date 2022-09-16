@@ -1,0 +1,6 @@
+{
+  "footer": {
+    "title": "footer",
+    "blocks": ["footer-layout.desktop"]
+  }
+}

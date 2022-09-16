@@ -1,0 +1,55 @@
+.styledLinkContainer--footer__menu-dealer-menu-item {
+  margin: 0;
+}
+.styledLink--footer__menu-dealer-menu-item {
+  color: white;
+}
+.styledLinkContainer--footer__menu-shopping-menu-item {
+  margin: 0;
+}
+.styledLinkContent--footer__menu-shopping-menu-item {
+  white-space: inherit;
+}
+.styledLink--footer__menu-shopping-menu-item {
+  color: white;
+}
+.styledLinkContainer--footer__menu-community-menu-item {
+  margin: 0;
+}
+.styledLink--footer__menu-community-menu-item {
+  color: white;
+}
+.styledLinkContainer--footer__menu-news-menu-item {
+  margin: 0;
+}
+.styledLink--footer__menu-news-menu-item {
+  color: white;
+}
+
+/* container Social */
+.styledLinkContainer--footer__social-menu-item {
+  margin: 0;
+}
+.styledLinkContainer--footer__social-menu-item-2 {
+  margin: 0;
+  width: 100%;
+}
+.menuContainerNav--contact {
+  width: auto !important;
+}
+.styledLinkContent--footer__social-menu-item {
+  color: white;
+}
+.styledLinkContent--footer__social-menu-item-2 {
+  color: white;
+}
+
+/* container privacy */
+.styledLinkContainer--footer-privacy {
+  margin: 0;
+  padding: 0;
+}
+.styledLinkContainer--footer-brand {
+  margin: 0;
+  padding: 0;
+}
