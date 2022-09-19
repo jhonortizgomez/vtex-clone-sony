@@ -1,0 +1,178 @@
+{
+  "slider-layout#desktop__home--section-two": {
+    "props": {
+      "blockClass": "desktop__home--section-two",
+      "infinite": true,
+      "fullWidth": false,
+      "centerMode": "to-the-left",
+      "centerModeSlidesGap": 30,
+      "itemsPerPage": {
+        "desktop": 2,
+        "mobile": 1
+      }
+    },
+    "children": [
+      "flex-layout.row#desktop__home--section-two-slider-one",
+      "flex-layout.row#desktop__home--section-two-slider-two",
+      "flex-layout.row#desktop__home--section-two-slider-three"
+    ]
+  },
+  "flex-layout.row#desktop__home--section-two-slider-one": {
+    "children": ["flex-layout.col#desktop__home--section-two-col-slider-one"],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-one"
+    }
+  },
+  "flex-layout.col#desktop__home--section-two-col-slider-one": {
+    "children": [
+      "image#desktop__home--section-two-col-slider-one-img",
+      "flex-layout.row#desktop__home--section-two-slider-one-container-text"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-col-slider-one"
+    }
+  },
+  "image#desktop__home--section-two-col-slider-one-img": {
+    "props": {
+      "src": "assets/img/home--section-two-img1.jfif",
+      "blockClass": "desktop__home--section-two-col-slider-one-img"
+    }
+  },
+  "flex-layout.row#desktop__home--section-two-slider-one-container-text": {
+    "children": [
+      "flex-layout.col#desktop__home--section-two-slider-one-container-text-col"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-one-container-text"
+    }
+  },
+  "flex-layout.col#desktop__home--section-two-slider-one-container-text-col": {
+    "children": [
+      "rich-text#home__section-two-img-one-title",
+      "rich-text#home__section-two-img-one-description",
+      "rich-text#home__section-two-img-one-description-two"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-one-container-text-col"
+    }
+  },
+  "rich-text#home__section-two-img-one-title": {
+    "props": {
+      "blockClass": "home__section-two-img-one-title",
+      "text": "Serie X, una nueva gama de parlantes"
+    }
+  },
+  "rich-text#home__section-two-img-one-description": {
+    "props": {
+      "blockClass": "home__section-two-img-one-description",
+      "text": "LIVE LIFE LOUD"
+    }
+  },
+  "rich-text#home__section-two-img-one-description-two": {
+    "props": {
+      "blockClass": "home__section-two-img-one-description-two",
+      "text": "Fiestas que recordarás para siempre"
+    }
+  },
+  "flex-layout.row#desktop__home--section-two-slider-two": {
+    "children": ["flex-layout.col#desktop__home--section-two-col-slider-two"],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-two"
+    }
+  },
+  "flex-layout.col#desktop__home--section-two-col-slider-two": {
+    "children": [
+      "image#desktop__home--section-two-col-slider-two-img",
+      "flex-layout.row#desktop__home--section-two-slider-two-container-text"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-col-slider-two"
+    }
+  },
+  "image#desktop__home--section-two-col-slider-two-img": {
+    "props": {
+      "src": "assets/img/home--section-two-img2.webp",
+      "blockClass": "desktop__home--section-two-col-slider-two-img"
+    }
+  },
+  "flex-layout.row#desktop__home--section-two-slider-two-container-text": {
+    "children": [
+      "flex-layout.col#desktop__home--section-two-slider-two-container-text-col"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-two-container-text"
+    }
+  },
+  "flex-layout.col#desktop__home--section-two-slider-two-container-text-col": {
+    "children": [
+      "rich-text#home__section-two-img-two-title",
+      "rich-text#home__section-two-img-two-description"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-two-container-text-col"
+    }
+  },
+  "rich-text#home__section-two-img-two-title": {
+    "props": {
+      "blockClass": "home__section-two-img-two-title",
+      "text": "LinkBuds S"
+    }
+  },
+  "rich-text#home__section-two-img-two-description": {
+    "props": {
+      "blockClass": "home__section-two-img-two-description",
+      "text": "Never off"
+    }
+  },
+
+  "flex-layout.row#desktop__home--section-two-slider-three": {
+    "children": ["flex-layout.col#desktop__home--section-two-col-slider-three"],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-three"
+    }
+  },
+  "flex-layout.col#desktop__home--section-two-col-slider-three": {
+    "children": [
+      "image#desktop__home--section-two-col-slider-three-img",
+      "flex-layout.row#desktop__home--section-two-slider-three-container-text"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-col-slider-three"
+    }
+  },
+  "image#desktop__home--section-two-col-slider-three-img": {
+    "props": {
+      "src": "assets/img/home--section-two-img3.jfif",
+      "blockClass": "desktop__home--section-two-col-slider-three-img"
+    }
+  },
+  "flex-layout.row#desktop__home--section-two-slider-three-container-text": {
+    "children": [
+      "flex-layout.col#desktop__home--section-two-slider-three-container-text-col"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-three-container-text"
+    }
+  },
+  "flex-layout.col#desktop__home--section-two-slider-three-container-text-col": {
+    "children": [
+      "rich-text#home__section-two-img-three-title",
+      "rich-text#home__section-two-img-three-description"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-two-container-text-col"
+    }
+  },
+  "rich-text#home__section-two-img-three-title": {
+    "props": {
+      "blockClass": "home__section-two-img-three-title",
+      "text": "SEL2470GM2"
+    }
+  },
+  "rich-text#home__section-two-img-three-description": {
+    "props": {
+      "blockClass": "home__section-two-img-three-description",
+      "text": "Zoom estándar FE 24-70 mm F2.8 GM ll"
+    }
+  }
+}

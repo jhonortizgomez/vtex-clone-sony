@@ -1,8 +1,13 @@
 .footerLayout--footer {
   background-color: black;
+  padding: 0 40px;
 }
+
+/* Social */
 .socialNetworksContainer--social-networks {
   width: auto;
   justify-content: flex-end;
   margin-right: 80px;
+  height: 100%;
+  align-items: center;
 }

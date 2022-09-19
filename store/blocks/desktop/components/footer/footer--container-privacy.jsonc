@@ -19,7 +19,10 @@
     }
   },
   "menu#footer-privacy": {
-    "children": ["menu-item#footer-privacy"]
+    "children": ["menu-item#footer-privacy"],
+    "props": {
+      "blockClass": "footer__container-privacy"
+    }
   },
   "menu-item#footer-privacy": {
     "props": {
@@ -45,7 +48,7 @@
         "type": "internal",
         "href": "/",
         "tagTitle": "2022 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS",
-        "text": "2022 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS"
+        "text": "2022 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS."
       },
       "blockClass": "footer-brand"
     }
@@ -63,11 +66,15 @@
     }
   },
   "flex-layout.row#footer__container-privacy-three": {
-    "children": ["rich-text#addres"]
+    "children": ["rich-text#addres"],
+    "props": {
+      "blockClass": "footer__container-privacy-three"
+    }
   },
   "rich-text#addres": {
     "props": {
-      "text": "Sony Colombia S.A | NIT 900.261429-2 | Km 2.5 Via Bogotá - Funza Parque Industrial San Carlos II, Bodega #5 Almaviva - Funza, Cundinamarca | Email: compras.online@am.sony.com | Teléfonos: Bogotá (358-1251), Nacional (01-8000-940011)"
+      "text": "Sony Colombia S.A | NIT 900.261429-2 | Km 2.5 Via Bogotá - Funza Parque Industrial San Carlos II, Bodega #5 Almaviva - Funza, Cundinamarca | Email: compras.online@am.sony.com | Teléfonos: Bogotá (358-1251), Nacional (01-8000-940011)",
+      "blockClass": "footer-addres"
     }
   }
 }

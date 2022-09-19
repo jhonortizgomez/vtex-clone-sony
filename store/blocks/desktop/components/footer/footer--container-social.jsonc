@@ -21,7 +21,10 @@
     }
   },
   "menu#products-and-solutions": {
-    "children": ["menu-item#products-and-solutions"]
+    "children": ["menu-item#products-and-solutions"],
+    "props": {
+      "blockClass": "footer__container-products-and-solutions"
+    }
   },
   "menu-item#products-and-solutions": {
     "props": {
@@ -39,7 +42,7 @@
   "menu#contact": {
     "children": ["menu-item#contact"],
     "props": {
-      "blockClass": "contact",
+      "blockClass": "footer__container-contact",
       "color": "white"
     }
   },
@@ -57,7 +60,10 @@
     }
   },
   "flex-layout.row#footer__container-social-icons": {
-    "children": ["rich-text#ubication", "social-networks"]
+    "children": ["rich-text#ubication", "social-networks"],
+    "props": {
+      "blockClass": "footer__container-social-icons"
+    }
   },
   "rich-text#ubication": {
     "props": {

@@ -1,9 +1,11 @@
 .flexRow--footer-menu {
-  padding: 40px 0;
-  margin: 0 40px;
+  padding: 40px 80px 30px;
 }
 .flexColChild--footer__menu-dealer {
   height: 20% !important;
+}
+.flexColChild--footer__menu-shopping {
+  width: 200px;
 }
 .flexColChild--footer__menu-community {
   height: 20% !important;
@@ -14,18 +16,21 @@
 
 /* Footer social */
 .flexCol--footer__container-social {
-  margin: 0 40px;
-  border-bottom: 1px solid white;
-  padding-bottom: 15px;
+  margin: 0 30px;
+  border-bottom: 0.1px solid grey;
+  padding: 30px 0;
 }
 .flexRowContent--footer__social-title {
-  padding-left: 60%;
+  padding-left: 75%;
 }
 
 /* privacy */
 .flexCol--footer__container-privacy {
-  padding: 30px 40px;
+  padding: 40px 80px 20px;
 }
 .flexRowContent--footer__container-privacy-two {
   justify-content: flex-end;
+}
+.flexRowContent--footer__container-privacy-one {
+  padding-right: 20%;
 }

@@ -8,7 +8,8 @@
   "rich-text#home__desktop--section-two-title": {
     "title": "Section two",
     "props": {
-      "text": "LO MÁS RECIENTE"
+      "text": "LO MÁS RECIENTE",
+      "blockClass": "home__desktop--section-two-title"
     }
   }
 }

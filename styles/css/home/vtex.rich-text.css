@@ -1,0 +1,60 @@
+.paragraph--section__one-text-title {
+  color: white;
+  font-size: 33px;
+  margin: 0;
+}
+.paragraph--section__one-text-description {
+  color: white;
+  font-size: 15.5px;
+}
+/* ----------------- section two */
+.paragraph--home__desktop--section-two-title {
+  font-weight: bold;
+  font-size: 23px;
+  color: rgba(0, 0, 0, 0.763);
+  margin-top: 10px;
+}
+.paragraph--home__section-two-img-one-title {
+  color: white;
+  margin: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+.paragraph--home__section-two-img-one-description {
+  color: white;
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.paragraph--home__section-two-img-one-description-two {
+  color: white;
+}
+
+.paragraph--home__section-two-img-two-title {
+  color: rgba(0, 0, 0, 0.74);
+  margin: 0;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.paragraph--home__section-two-img-two-description {
+  color: rgba(0, 0, 0, 0.74);
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.paragraph--home__section-two-img-three-title {
+  color: rgba(0, 0, 0, 0.74);
+  margin: 0;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.paragraph--home__section-two-img-three-description {
+  color: rgba(0, 0, 0, 0.74);
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 40px;
+}

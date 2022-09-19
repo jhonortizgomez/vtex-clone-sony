@@ -27,7 +27,8 @@
   },
   "rich-text#title-dealer": {
     "props": {
-      "text": "Busca un Distribuidor"
+      "text": "Busca un Distribuidor",
+      "blockClass": "title-dealer"
     }
   },
   "flex-layout.row#footer__container-menu-dealear__menu": {
@@ -59,11 +60,15 @@
     }
   },
   "flex-layout.row#footer__container-menu-shopping__title": {
-    "children": ["rich-text#title-shopping"]
+    "children": ["rich-text#title-shopping"],
+    "props": {
+      "blockClass": "footer__container-menu-shopping__title"
+    }
   },
   "rich-text#title-shopping": {
     "props": {
-      "text": "Compra Online"
+      "text": "Compra Online",
+      "blockClass": "title-shopping"
     }
   },
   "flex-layout.row#footer__container-menu-shopping__menu": {
@@ -182,8 +187,8 @@
       "itemProps": {
         "type": "internal",
         "href": "/",
-        "tagTitle": "Todo lo que debes saber sobre la Yelevisón Digital Terrestre ",
-        "text": "Todo lo que debes saber sobre la Yelevisón Digital Terrestre"
+        "tagTitle": "Todo lo que debes saber sobre la Televisón Digital Terrestre ",
+        "text": "Todo lo que debes saber sobre la Televisón Digital Terrestre"
       },
       "blockClass": "footer__menu-shopping-menu-item"
     }
@@ -198,11 +203,15 @@
     }
   },
   "flex-layout.row#footer__container-menu-community__title": {
-    "children": ["rich-text#title-community"]
+    "children": ["rich-text#title-community"],
+    "props": {
+      "blockClass": "footer__container-menu-community__title"
+    }
   },
   "rich-text#title-community": {
     "props": {
-      "text": "Comunidad"
+      "text": "Comunidad",
+      "blockClass": "title-community"
     }
   },
   "flex-layout.row#footer__container-menu-community__menu": {
@@ -267,11 +276,15 @@
     }
   },
   "flex-layout.row#footer__container-menu-news__title": {
-    "children": ["rich-text#title-news"]
+    "children": ["rich-text#title-news"],
+    "props": {
+      "blockClass": "footer__container-menu-news__title"
+    }
   },
   "rich-text#title-news": {
     "props": {
-      "text": "Información Corporativa"
+      "text": "Información Corporativa",
+      "blockClass": "title-news"
     }
   },
   "flex-layout.row#footer__container-menu-news__menu": {
