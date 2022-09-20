@@ -1,0 +1,29 @@
+{
+  "store.search#deparment": {
+    "blocks": ["search-result-layout#deparment"]
+  },
+  "search-result-layout#deparment": {
+    "blocks": [
+      "search-result-layout.desktop#deparment",
+      // "search-result-layout-mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#deparment": {
+    "children": ["flex-layout.row#deparment__breadcrumb"]
+  },
+  "flex-layout.row#deparment__breadcrumb": {
+    "children": ["flex-layout.col#deparment__breadcrumb"]
+  },
+  "flex-layout.col#deparment__breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+  // "search-result-layout.desktop#deparment": {
+  //   "children": ["rich-text#desktop-response-deparment"]
+  // },
+  "rich-text#desktop-response-deparment": {
+    "props": {
+      "text": "# Desktop search deparment"
+    }
+  }
+}
