@@ -1,0 +1,9 @@
+.newsletterForm--footer-newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.emailInputContainer {
+  width: 60%;
+}
