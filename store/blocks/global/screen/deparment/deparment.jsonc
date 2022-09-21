@@ -10,7 +10,10 @@
     ]
   },
   "search-result-layout.desktop#deparment": {
-    "children": ["flex-layout.row#deparment__breadcrumb"]
+    "children": [
+      "flex-layout.row#deparment__breadcrumb"
+      // "flex-layout.row#deparment__results"
+    ]
   },
   "flex-layout.row#deparment__breadcrumb": {
     "children": ["flex-layout.col#deparment__breadcrumb"]
@@ -18,12 +21,26 @@
   "flex-layout.col#deparment__breadcrumb": {
     "children": ["breadcrumb.search"]
   },
-  // "search-result-layout.desktop#deparment": {
-  //   "children": ["rich-text#desktop-response-deparment"]
+  // "flex-layout.row#deparment__results": {
+  //   "title": "deparment results",
+  //   "children": ["gallery-layout-switcher", "search-content#desktop"]
   // },
-  "rich-text#desktop-response-deparment": {
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#grid__two-columns",
+      "gallery-layout-option#grid__one-columns"
+    ]
+  },
+  "gallery-layout-option#grid__two-columns": {
     "props": {
-      "text": "# Desktop search deparment"
+      "name": "grid-two-columns",
+      "blockClass": "grid__selector--two-columns"
+    }
+  },
+  "gallery-layout-option#grid__one-columns": {
+    "props": {
+      "name": "grid-one-column",
+      "blockClass": "grid__selector--one-column"
     }
   }
 }

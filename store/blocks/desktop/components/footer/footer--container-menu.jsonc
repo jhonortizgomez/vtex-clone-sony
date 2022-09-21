@@ -35,7 +35,10 @@
     "children": ["menu#footer-dealer"]
   },
   "menu#footer-dealer": {
-    "children": ["menu-item#dealers"]
+    "children": ["menu-item#dealers", "newsletter-form#footer-newsletter"],
+    "props": {
+      "orientation": "vertical"
+    }
   },
   "menu-item#dealers": {
     "props": {
@@ -48,6 +51,17 @@
         "text": "Tiendas y Distribuidores"
       },
       "blockClass": "footer__menu-dealer-menu-item"
+    }
+  },
+  "newsletter-form#footer-newsletter": {
+    "children": ["newsletter-input-email", "newsletter-submit"],
+    "props": {
+      "blockClass": "footer-newsletter"
+    }
+  },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "Email"
     }
   },
   "flex-layout.col#footer__container-menu-shopping": {

@@ -2,7 +2,9 @@
   "drawer#header__desktop--menu": {
     "children": ["menu#header__desktop--menu"],
     "props": {
-      "slideDirection": "vertical"
+      "slideDirection": "vertical",
+      "blockClass": "header__desktop--menu",
+      "maxWidth": "auto"
     }
     // "blocks": ["drawer-trigger"]
   },
@@ -23,7 +25,8 @@
       "menu-item#department__websSony"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "header__desktop--menu-container"
     }
   },
   "menu-item#deparment__products": {

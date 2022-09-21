@@ -78,9 +78,39 @@
 
 /* -------------------------------- section three */
 .flexRow--home__section--three-title {
-  /* border: 1px solid black; */
+  padding-left: 30px;
   margin-top: 30px;
 }
-.flexColChild--section__three--left {
-  /* border: 1px solid black; */
+.flexRowContent--section-three--cards {
+  padding: 0 30px;
+}
+.flexRow--side__left--top {
+  background-color: #a46900;
+  padding-bottom: 70px;
+}
+.flexColChild--side__left--top {
+  padding: 0;
+}
+.flexColChild--side__left--card-product-one {
+  padding: 0;
+}
+.flexRowContent--card__product-one-image {
+  background-color: #f2f5f9;
+}
+.flexColChild--product__one-description-container {
+  padding: 0;
+}
+.flexColChild--side__left--card-product-two {
+  padding: 0;
+}
+.flexRowContent--card__product-two-image {
+  background-color: #f2f5f9;
+  height: 230px;
+}
+.flexColChild--product__two-description-container {
+  padding: 0;
+}
+.flexRowContent--card__product-three-image {
+  background-color: #f2f5f9;
+  height: 435px;
 }
