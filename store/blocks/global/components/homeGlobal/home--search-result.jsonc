@@ -4,33 +4,65 @@
       "querySchema": {
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
-      }
+      },
+      "blockClass": "home__search"
     },
     "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
+      "search-result-layout.desktop#home__search--desktop",
+      // "search-result-layout.mobile",
       "search-not-found-layout"
     ]
   },
   "search-result-layout.desktop#home__search--desktop": {
-    "children": ["flex-layout.row#home__result"]
+    "children": ["flex-layout.row#home__result"],
+    "props": {
+      "blockClass": "home__search--desktop"
+    }
   },
   "search-result-layout.mobile": {
     "children": ["rich-text#test"]
   },
   "flex-layout.row#home__result": {
-    "children": ["flex-layout.col#home__results--search"]
+    "children": ["flex-layout.col#home__results--search"],
+    "props": {
+      "blockClass": "home__result"
+    }
   },
   "flex-layout.col#home__results--search": {
-    "children": ["search-content#home__result--search"]
+    "children": ["list-context.product-list#home__results-products-list"],
+    "props": {
+      "blockClass": "home__results--search"
+    }
   },
-  "search-content#home__result--search": {
-    "blocks": ["gallery", "not-found"]
+  "list-context.product-list#home__results-products-list": {
+    "blocks": ["product-summary.shelf#products__list--shelf"],
+    "children": ["slider-layout#products__list--shelf"],
+    "props": {
+      "blockClass": "home__results-products-list"
+    }
   },
-  "gallery": {
-    "blocks": ["product-summary.shelf"]
+  "product-summary.shelf#products__list--shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "products__list--shelf"
+    }
   },
-
+  "slider-layout#products__list--shelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "blockClass": "products__list--shelf"
+    }
+  },
   "rich-text#test": {
     "props": {
       "text": "prueba"
