@@ -114,3 +114,9 @@
   background-color: #f2f5f9;
   height: 435px;
 }
+
+/* -------------------------------- section product list */
+.flexRow--home__section--product-list-title {
+  margin: 30px 0;
+  background-color: black;
+}

@@ -132,3 +132,14 @@
   margin-left: 5px;
   font-size: 15px;
 }
+
+/* ----------------- section product list */
+.container--home__product--list-title {
+  justify-content: center;
+}
+.paragraph--home__product--list-title {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 10px 0;
+}

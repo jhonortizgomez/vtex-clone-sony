@@ -23,3 +23,11 @@
 .paginationDot--desktop__home--section-two--isActive {
   background-color: black;
 }
+
+/* ----------------------- product list */
+.sliderLayoutContainer--products__list--shelf {
+  margin: 20px 0;
+}
+.sliderTrack--products__list--shelf {
+  align-items: center;
+}
