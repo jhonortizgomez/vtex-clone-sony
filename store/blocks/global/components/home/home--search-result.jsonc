@@ -29,12 +29,12 @@
     }
   },
   "flex-layout.col#home__results--search": {
-    "children": ["list-context.product-list#home__results-products-list"],
+    "children": ["list-context.product-list#home__results--products-list"],
     "props": {
       "blockClass": "home__results--search"
     }
   },
-  "list-context.product-list#home__results-products-list": {
+  "list-context.product-list#home__results--products-list": {
     "blocks": ["product-summary.shelf#products__list--shelf"],
     "children": ["slider-layout#products__list--shelf"],
     "props": {
@@ -46,8 +46,8 @@
       "product-summary-image",
       "product-summary-name",
       "product-summary-price",
-      "product-summary-sku-selector",
-      "product-summary-buy-button"
+      // "product-summary-sku-selector",
+      "add-to-cart-button"
     ],
     "props": {
       "blockClass": "products__list--shelf"
