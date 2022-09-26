@@ -51,7 +51,7 @@
   },
   "link#section__one-text-button": {
     "props": {
-      "href": "/",
+      "href": "/privacy-policy",
       "label": "Descubre los WH-1000XM5",
       "displayMode": "button",
       "blockClass": "section__one-text-button"

@@ -9,7 +9,6 @@
     },
     "blocks": [
       "search-result-layout.desktop#home__search--desktop",
-      // "search-result-layout.mobile",
       "search-not-found-layout"
     ]
   },

@@ -47,7 +47,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "https://store.sony.com.co/?cpint=gwt_header",
+        "href": "/construccion",
         "tagTitle": "store title",
         "text": "Tienda"
       }
@@ -59,7 +59,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "https://www.playstation.com/es-co/?",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "playStation title",
         "text": "PlayStation"
@@ -72,7 +72,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "https://www.sony-latin.com/es/electronics/support",
+        "href": "/construccion",
         "tagTitle": "assistance title",
         "text": "Asistencia"
       }

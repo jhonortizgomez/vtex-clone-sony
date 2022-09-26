@@ -1,6 +1,6 @@
 {
-  "store.search#deparment": {
-    "blocks": ["search-result-layout#deparment"],
+  "store.search#category": {
+    "blocks": ["search-result-layout#category"],
     "props": {
       "context": {
         "skusFilter": "ALL",
@@ -8,9 +8,9 @@
       }
     }
   },
-  "search-result-layout#deparment": {
+  "search-result-layout#category": {
     "blocks": [
-      "search-result-layout.desktop#deparment__desktop",
+      "search-result-layout.desktop#category__desktop",
       "search-not-found-layout"
     ]
   }

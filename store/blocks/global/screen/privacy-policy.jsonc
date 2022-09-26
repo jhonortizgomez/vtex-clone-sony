@@ -1,0 +1,23 @@
+{
+  "store.custom#privacy-policy": {
+    "blocks": ["flex-layout.row#privacy-policy"]
+  },
+  "flex-layout.row#privacy-policy": {
+    "children": ["flex-layout.col#privacy-policy"]
+  },
+  "flex-layout.col#privacy-policy": {
+    "children": [
+      "rich-text#prueba",
+      "rich-text#prueba",
+      "rich-text#prueba",
+      "rich-text#prueba",
+      "rich-text#prueba",
+      "rich-text#prueba"
+    ]
+  },
+  "rich-text#prueba": {
+    "props": {
+      "text": "texto"
+    }
+  }
+}
