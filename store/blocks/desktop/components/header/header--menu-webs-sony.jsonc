@@ -70,7 +70,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "https://www.sony.com.co/electronics/eco/desarrollo-sustentable",
+        "href": "/privacy-policy",
         "tagTitle": "Sony y el medio ambiente",
         "text": "Sony y el medio ambiente"
       }
@@ -82,7 +82,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "https://www.sonypictures.com.co/",
+        "href": "/privacy-policy",
         "tagTitle": "Sony Pictures",
         "text": "Sony Pictures"
       }
@@ -94,7 +94,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "https://www.sonymusiclatin.com/",
+        "href": "/privacy-policy",
         "tagTitle": "Sony Music",
         "text": "Sony Music"
       }

@@ -1,5 +1,5 @@
 {
-  "search-result-layout.desktop#deparment__desktop": {
+  "search-result-layout.desktop#category__desktop": {
     "children": [
       "flex-layout.row#deparment__breadcrumb",
       "flex-layout.row#deparment__results"
