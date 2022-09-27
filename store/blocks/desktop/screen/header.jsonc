@@ -16,7 +16,8 @@
       "drawer#header__desktop--menu"
     ],
     "props": {
-      "blockClass": "header__desktop"
+      "blockClass": "header__desktop",
+      "fullWidth": true
     }
   }
 }

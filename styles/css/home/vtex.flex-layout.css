@@ -31,7 +31,11 @@
 }
 /* ------------ section two */
 .flexRow--home__desktop--section-two-title {
-  padding-left: 30px;
+  padding: 0 30px;
+}
+.flexRowContent--home__desktop--section-two-title {
+  max-width: 1120px;
+  margin: 0 auto;
 }
 .flexCol--desktop__home--section-two-col-slider-one {
   position: relative;

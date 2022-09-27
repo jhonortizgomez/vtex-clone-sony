@@ -22,7 +22,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Micrófonos profesionales, trípodes y más",
         "text": "Micrófonos profesionales, trípodes y más"
       }
@@ -34,7 +34,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Lentes",
         "text": "Lentes"
       }
@@ -46,7 +46,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Cámaras compactas",
         "text": "Cámaras compactas"
       }
@@ -58,7 +58,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Videocámaras Handycam",
         "text": "Videocámaras Handycam"
       }
@@ -70,7 +70,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Action Cam",
         "text": "Action Cam"
       }
@@ -82,7 +82,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Cámaras de Cine",
         "text": "Cámaras de Cine"
       }
@@ -94,7 +94,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Accesorios para cámaras",
         "text": "Accesorios para cámaras"
       }

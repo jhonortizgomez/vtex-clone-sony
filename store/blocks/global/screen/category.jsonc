@@ -1,7 +1,9 @@
 {
   "store.search#category": {
+    "title": "Categorias",
     "blocks": ["search-result-layout#category"],
     "props": {
+      "blockClass": "category",
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "default"
@@ -9,9 +11,13 @@
     }
   },
   "search-result-layout#category": {
+    "title": "Diseño de las categorias",
     "blocks": [
       "search-result-layout.desktop#category__desktop",
       "search-not-found-layout"
-    ]
+    ],
+    "props": {
+      "blockClass": "layout__category"
+    }
   }
 }

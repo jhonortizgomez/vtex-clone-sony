@@ -1,7 +1,9 @@
 {
   "store.search#deparment": {
+    "title": "Departamentos",
     "blocks": ["search-result-layout#deparment"],
     "props": {
+      "blockClass": "Deparment",
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "default"
@@ -9,9 +11,13 @@
     }
   },
   "search-result-layout#deparment": {
+    "title": "Diseño del departamento",
     "blocks": [
       "search-result-layout.desktop#deparment__desktop",
       "search-not-found-layout"
-    ]
+    ],
+    "props": {
+      "blockClass": "layout__deparment"
+    }
   }
 }
