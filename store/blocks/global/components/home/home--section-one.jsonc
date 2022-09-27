@@ -1,0 +1,60 @@
+{
+  "flex-layout.row#desktop__home--section-one": {
+    "children": ["flex-layout.col#desktop__home--section-one-col"],
+    "props": {
+      "blockClass": "desktop__home--section-one"
+    }
+  },
+  "flex-layout.col#desktop__home--section-one-col": {
+    "children": [
+      "image#home__section-one-img-one",
+      "flex-layout.row#home__section-one-text"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-one-col"
+    }
+  },
+
+  "image#home__section-one-img-one": {
+    "props": {
+      "src": "assets/img/home--section-one.webp",
+      "blockClass": "home__section-one-img-one"
+    }
+  },
+  "flex-layout.row#home__section-one-text": {
+    "children": ["flex-layout.col#home__section-one-text-col"],
+    "props": {
+      "blockClass": "home__section-one-text"
+    }
+  },
+  "flex-layout.col#home__section-one-text-col": {
+    "children": [
+      "rich-text#section__one-text-title",
+      "rich-text#section__one-text-description",
+      "link#section__one-text-button"
+    ],
+    "props": {
+      "blockClass": "home__section-one-text-col"
+    }
+  },
+  "rich-text#section__one-text-title": {
+    "props": {
+      "blockClass": "section__one-text-title",
+      "text": "TU MUNDO. NADA MÁS."
+    }
+  },
+  "rich-text#section__one-text-description": {
+    "props": {
+      "blockClass": "section__one-text-description",
+      "text": "Los audífonos WH-1000XM5 redefinen el audio sin distractiones y la claridad en las llamadas gracias a dos procesadores que controlan ocho microfonos, un optimizador NC auntomático para optimizar de forma automática la función noise cancelling lider del sector según la colocación y el entorno, y una unidad de diafragma especial."
+    }
+  },
+  "link#section__one-text-button": {
+    "props": {
+      "href": "/terms-and-conditions",
+      "label": "Descubre los WH-1000XM5",
+      "displayMode": "button",
+      "blockClass": "section__one-text-button"
+    }
+  }
+}

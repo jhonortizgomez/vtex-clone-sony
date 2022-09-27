@@ -1,0 +1,103 @@
+{
+  "submenu.accordion#category__cameras": {
+    "children": ["menu#category__cameras"]
+  },
+  "menu#category__cameras": {
+    "children": [
+      "menu-item#item__professional-microphones-tripods",
+      "menu-item#item__glasses",
+      "menu-item#item__compact-cameras",
+      "menu-item#item__camcordes-handycam",
+      "menu-item#item__action-cam",
+      "menu-item#item__film-cameras",
+      "menu-item#item__camera-accesories"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#item__professional-microphones-tripods": {
+    "props": {
+      "id": "item-professionalMicrophones-tripods&More",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Micrófonos profesionales, trípodes y más",
+        "text": "Micrófonos profesionales, trípodes y más"
+      }
+    }
+  },
+  "menu-item#item__glasses": {
+    "props": {
+      "id": "item-glasses",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Lentes",
+        "text": "Lentes"
+      }
+    }
+  },
+  "menu-item#item__compact-cameras": {
+    "props": {
+      "id": "item-compactCameras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Cámaras compactas",
+        "text": "Cámaras compactas"
+      }
+    }
+  },
+  "menu-item#item__camcordes-handycam": {
+    "props": {
+      "id": "item-camcordesHandycam",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Videocámaras Handycam",
+        "text": "Videocámaras Handycam"
+      }
+    }
+  },
+  "menu-item#item__action-cam": {
+    "props": {
+      "id": "item-actionCam",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Action Cam",
+        "text": "Action Cam"
+      }
+    }
+  },
+  "menu-item#item__film-cameras": {
+    "props": {
+      "id": "item-filmCameras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Cámaras de Cine",
+        "text": "Cámaras de Cine"
+      }
+    }
+  },
+  "menu-item#item__camera-accesories": {
+    "props": {
+      "id": "item-cameraAccesories",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Accesorios para cámaras",
+        "text": "Accesorios para cámaras"
+      }
+    }
+  }
+}

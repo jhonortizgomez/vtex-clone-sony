@@ -1,0 +1,93 @@
+{
+  "drawer#header__desktop--menu": {
+    "children": ["menu#header__desktop--menu"],
+    "props": {
+      "slideDirection": "vertical",
+      "blockClass": "header__desktop--menu",
+      "maxWidth": "auto"
+    }
+    // "blocks": ["drawer-trigger"]
+  },
+  // "drawer-trigger": {
+  //   "children": ["rich-text#menu"]
+  // },
+  // "rich-text#menu": {
+  //   "props": {
+  //     "text": "Menu"
+  //   }
+  // },
+  "menu#header__desktop--menu": {
+    "children": [
+      "menu-item#deparment__products",
+      "menu-item#department__store",
+      "menu-item#department__playStation",
+      "menu-item#department__assistance",
+      "menu-item#department__websSony"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header__desktop--menu-container"
+    }
+  },
+  "menu-item#deparment__products": {
+    "props": {
+      "id": "deparment-products",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Products title",
+        "text": "Productos"
+      }
+    },
+    "blocks": ["submenu.accordion#deparment__products"]
+  },
+  "menu-item#department__store": {
+    "props": {
+      "id": "department-store",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "store title",
+        "text": "Tienda"
+      }
+    }
+  },
+  "menu-item#department__playStation": {
+    "props": {
+      "id": "department-playStation",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "playStation title",
+        "text": "PlayStation"
+      }
+    }
+  },
+  "menu-item#department__assistance": {
+    "props": {
+      "id": "department-assistance",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "assistance title",
+        "text": "Asistencia"
+      }
+    }
+  },
+  "menu-item#department__websSony": {
+    "props": {
+      "id": "deparment-websSony",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "websSony title",
+        "text": "Webs Sony"
+      }
+    },
+    "blocks": ["submenu.accordion#deparment__websSony"]
+  }
+}

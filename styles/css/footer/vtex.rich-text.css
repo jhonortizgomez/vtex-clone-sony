@@ -1,0 +1,42 @@
+/* Menu */
+.wrapper--title-dealer {
+  color: gray;
+}
+.wrapper--title-shopping {
+  color: gray;
+}
+.wrapper--title-community {
+  color: gray;
+}
+.wrapper--title-news {
+  color: gray;
+}
+/* Social */
+.paragraph--ubication {
+  color: white;
+  font-size: 12px;
+  padding: 8px 16px;
+  background-color: gray;
+  margin-left: 50px;
+}
+
+/* Privacy */
+.paragraph--footer-corporation {
+  margin: 0;
+  color: gray;
+  background-color: white;
+  font-size: 10px;
+  padding: 0 15px;
+  margin: 5px 20px 10px 0;
+}
+.container--footer-corporation {
+  justify-content: flex-end;
+}
+.paragraph--footer-addres {
+  color: gray;
+  font-size: 9px;
+}
+.link--footer-addres {
+  color: gray;
+  text-decoration: none;
+}

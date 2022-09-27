@@ -1,0 +1,38 @@
+{
+  "submenu.accordion#category__imagingPlatform": {
+    "children": ["menu#category__imagingPlatform"]
+  },
+  "menu#category__imagingPlatform": {
+    "children": [
+      "menu-item#item__cloudService",
+      "menu-item#item__cameraRemoteSDK"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#item__cloudService": {
+    "props": {
+      "id": "item-cloudService",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Servicio de nube",
+        "text": "Servicio de nube"
+      }
+    }
+  },
+  "menu-item#item__cameraRemoteSDK": {
+    "props": {
+      "id": "item-cameraRemoteSDK",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Camera Remote SDK",
+        "text": "Camera Remote SDK"
+      }
+    }
+  }
+}

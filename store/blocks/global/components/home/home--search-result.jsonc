@@ -1,0 +1,77 @@
+{
+  "search-result-layout.customQuery#home__search": {
+    "title": "search Result Home",
+    "props": {
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      },
+      "blockClass": "home__search"
+    },
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop": {
+    "title": "search result home para desktop",
+    "children": ["flex-layout.row#home__result"],
+    "props": {
+      "blockClass": "home__search--desktop"
+    }
+  },
+  "search-result-layout.mobile": {
+    "title": "search result home para mobile",
+    "children": ["rich-text#test"]
+  },
+  "flex-layout.row#home__result": {
+    "title": "Contenedor row search result home",
+    "children": ["flex-layout.col#home__results--search"],
+    "props": {
+      "blockClass": "home__result"
+    }
+  },
+  "flex-layout.col#home__results--search": {
+    "title": "Contenedor col search result home",
+    "children": ["list-context.product-list#home__results--products-list"],
+    "props": {
+      "blockClass": "home__results--search"
+    }
+  },
+  "list-context.product-list#home__results--products-list": {
+    "title": "list context del product list",
+    "blocks": ["product-summary.shelf#products__list--shelf"],
+    "children": ["slider-layout#products__list--shelf"],
+    "props": {
+      "blockClass": "home__results-products-list"
+    }
+  },
+  "product-summary.shelf#products__list--shelf": {
+    "title": "productos shelf",
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      // "product-summary-sku-selector",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "products__list--shelf"
+    }
+  },
+  "slider-layout#products__list--shelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "blockClass": "products__list--shelf"
+    }
+  },
+  "rich-text#test": {
+    "props": {
+      "text": "prueba"
+    }
+  }
+}

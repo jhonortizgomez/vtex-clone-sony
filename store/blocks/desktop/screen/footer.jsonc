@@ -1,0 +1,12 @@
+{
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer__container-menu",
+      "flex-layout.row#footer__container-social",
+      "flex-layout.row#footer__container-privacy"
+    ],
+    "props": {
+      "blockClass": "footer"
+    }
+  }
+}

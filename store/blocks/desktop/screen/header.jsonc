@@ -1,0 +1,23 @@
+{
+  "header-layout.desktop": {
+    "title": "Desktop header",
+    "children": ["header-row#header__desktop"]
+  },
+  "header-row#header__desktop": {
+    "title": "Header desktop",
+    "children": [
+      "logo#header__logo",
+      "header-spacer",
+      "login",
+      "icon#header__heart--icon",
+      "minicart.v2",
+      // "search-bar#header__search",
+      "icon-search",
+      "drawer#header__desktop--menu"
+    ],
+    "props": {
+      "blockClass": "header__desktop",
+      "fullWidth": true
+    }
+  }
+}

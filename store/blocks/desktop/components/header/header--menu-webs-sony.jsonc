@@ -1,0 +1,103 @@
+{
+  "submenu.accordion#deparment__websSony": {
+    "children": ["menu#department__websSony"]
+  },
+  "menu#department__websSony": {
+    "children": [
+      "menu-item#category__sonyGroupSite",
+      "menu-item#category__sonyDesign",
+      "menu-item#category__sonyProfessional",
+      "menu-item#category__playStation",
+      "menu-item#category__sonyEnvironment",
+      "menu-item#category__sonyPictures",
+      "menu-item#category__sonyMusic"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__sonyGroupSite": {
+    "props": {
+      "id": "category-sonyGroupSite",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Sony Group Site",
+        "text": "Sony Group Site"
+      }
+    }
+  },
+  "menu-item#category__sonyDesign": {
+    "props": {
+      "id": "category-sonyDesign",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Sony Design",
+        "text": "Sony Design"
+      }
+    }
+  },
+  "menu-item#category__sonyProfessional": {
+    "props": {
+      "id": "category-sonyProfessional",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Sony Professional",
+        "text": "Sony Professional"
+      }
+    }
+  },
+  "menu-item#category__playStation": {
+    "props": {
+      "id": "category-playStation",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Sony PlayStation",
+        "text": "Sony PlayStation"
+      }
+    }
+  },
+  "menu-item#category__sonyEnvironment": {
+    "props": {
+      "id": "category-sonyEnvironment",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Sony y el medio ambiente",
+        "text": "Sony y el medio ambiente"
+      }
+    }
+  },
+  "menu-item#category__sonyPictures": {
+    "props": {
+      "id": "category-sonyPictures",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Sony Pictures",
+        "text": "Sony Pictures"
+      }
+    }
+  },
+  "menu-item#category__sonyMusic": {
+    "props": {
+      "id": "category-sonyMusic",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Sony Music",
+        "text": "Sony Music"
+      }
+    }
+  }
+}
