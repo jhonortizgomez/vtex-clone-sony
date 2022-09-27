@@ -1,9 +1,16 @@
 {
   "header": {
     "title": "Header",
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": ["header-layout.desktop", "header-layout.mobile"],
+    "props": {
+      "blockClass": "header"
+    }
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "title": "Header Full",
+    "blocks": ["header-layout.desktop", "header-layout.mobile"],
+    "props": {
+      "blockClass": "header-full"
+    }
   }
 }

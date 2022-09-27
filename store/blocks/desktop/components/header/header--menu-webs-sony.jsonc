@@ -22,7 +22,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "https://www.sony.com/en/",
+        "href": "/terms-and-conditions",
         "tagTitle": "Sony Group Site",
         "text": "Sony Group Site"
       }
@@ -34,7 +34,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "https://www.sony.com/en/SonyInfo/design/?s_tc=sd_top_wtss&cpint=SONYSITES_SECONDARYVISUAL_WWWSONYDESIGN_6832",
+        "href": "/terms-and-conditions",
         "tagTitle": "Sony Design",
         "text": "Sony Design"
       }
@@ -46,7 +46,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "https://pro.sony/en_GB/?cmp=gwt-",
+        "href": "/terms-and-conditions",
         "tagTitle": "Sony Professional",
         "text": "Sony Professional"
       }
@@ -58,7 +58,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "https://www.playstation.com/es-mx/?smcid=gwo",
+        "href": "/terms-and-conditions",
         "tagTitle": "Sony PlayStation",
         "text": "Sony PlayStation"
       }
@@ -70,7 +70,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Sony y el medio ambiente",
         "text": "Sony y el medio ambiente"
       }
@@ -82,7 +82,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Sony Pictures",
         "text": "Sony Pictures"
       }
@@ -94,7 +94,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Sony Music",
         "text": "Sony Music"
       }

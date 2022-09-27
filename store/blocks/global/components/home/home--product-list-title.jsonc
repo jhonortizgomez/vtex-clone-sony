@@ -1,11 +1,13 @@
 {
   "flex-layout.row#home__section--product-list-title": {
+    "title": "Contenedor titulo de lista de productos",
     "children": ["rich-text#home__product--list-title"],
     "props": {
       "blockClass": "home__section--product-list-title"
     }
   },
   "rich-text#home__product--list-title": {
+    "title": "Titulo de lista de productos",
     "props": {
       "blockClass": "home__product--list-title",
       "text": "Productos Aliados "

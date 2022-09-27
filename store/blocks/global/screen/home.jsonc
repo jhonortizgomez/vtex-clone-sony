@@ -1,5 +1,6 @@
 {
   "store.home": {
+    "title": "Home",
     "blocks": [
       "flex-layout.row#desktop__home--section-one",
       "flex-layout.row#desktop__home--section-two-title",
@@ -9,6 +10,9 @@
       "flex-layout.row#desktop__home--section-three-cards",
       "flex-layout.row#home__section--product-list-title",
       "search-result-layout.customQuery#home__search"
-    ]
+    ],
+    "props": {
+      "blockClass": "home"
+    }
   }
 }

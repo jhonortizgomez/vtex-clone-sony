@@ -18,7 +18,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Televisores",
         "text": "Televisores"
       }
@@ -30,7 +30,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Home Theatre y barras de sonido",
         "text": "Home Theatre y barras de sonido"
       }
@@ -42,7 +42,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/privacy-policy",
+        "href": "/terms-and-conditions",
         "tagTitle": "Reproductores de Blue-ray Disc y DVD",
         "text": "Reproductores de Blue-ray Disc y DVD"
       }
