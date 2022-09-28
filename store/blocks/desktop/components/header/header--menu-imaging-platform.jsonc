@@ -17,7 +17,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/terms-and-conditions",
+        "href": "/construccion",
         "tagTitle": "Servicio de nube",
         "text": "Servicio de nube"
       }
@@ -29,7 +29,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "/terms-and-conditions",
+        "href": "/construccion",
         "tagTitle": "Camera Remote SDK",
         "text": "Camera Remote SDK"
       }

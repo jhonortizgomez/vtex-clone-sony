@@ -60,7 +60,7 @@
     "background": {
       "base": "#FFFFFF",
       "base--inverted": "#03044e",
-      "action-primary": "#0F3E99",
+      "action-primary": "#2d75c7",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#f2f4f5",
@@ -152,7 +152,7 @@
       "warning--faded": "#fff6e0"
     },
     "border": {
-      "action-primary": "#0F3E99",
+      "action-primary": "rgba(255, 255, 255, 0.431)",
       "action-secondary": "#eef3f7",
       "emphasis": "#f71963",
       "disabled": "#e3e4e6",
@@ -243,7 +243,7 @@
     }
   },
   "borderWidths": [0, 0.125, 0.25, 0.5, 1, 2],
-  "borderRadius": [0, 0.125, 0.25, 0.5, 1],
+  "borderRadius": [0, 0, 0, 0, 0],
   "widths": [1, 2, 4, 8, 16],
   "maxWidths": [1, 2, 4, 8, 16, 32, 48, 64, 96],
   "heights": [1, 2, 4, 8, 16],
@@ -265,84 +265,83 @@
     "measure": [30, 34, 20],
     "styles": {
       "heading-1": {
-        "fontFamily": "sst-Roman, sans-serif",
+        "fontFamily": "Noto Sans Medium, sans-serif",
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "sst-Roman, sans-serif",
+        "fontFamily": "Noto Sans Medium, sans-serif",
         "fontWeight": "700",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "sst-Roman, sans-serif",
+        "fontFamily": "Noto Sans Medium, sans-serif",
         "fontWeight": "700",
         "fontSize": "1.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "sst-Roman, sans-serif",
+        "fontFamily": "Noto Sans Medium, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "sst-Roman, sans-serif",
+        "fontFamily": "Noto Sans Medium, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-6": {
-        "fontFamily": "sst-Roman, sans-serif",
+        "fontFamily": "Noto Sans Medium, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "body": {
-        "fontFamily": "sst-Roman, sans-serif",
+        "fontFamily": "Noto Sans Medium, sans-serif",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "small": {
-        "fontFamily": "sst-Roman, sans-serif",
+        "fontFamily": "Noto Sans Medium, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.875rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "sst-Roman, sans-serif",
+        "fontFamily": "Noto Sans Medium, sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action": {
-        "fontFamily": "sst-Roman, sans-serif",
+        "fontFamily": "Noto Sans Medium, sans-serif",
         "fontWeight": "500",
-        "fontSize": "1rem",
-        "textTransform": "uppercase",
+        "fontSize": "13px",
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "sst-Roman, sans-serif",
+        "fontFamily": "Noto Sans Medium, sans-serif",
         "fontWeight": "500",
         "fontSize": "0.875rem",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },
       "action--large": {
-        "fontFamily": "sst-Roman, sans-serif",
+        "fontFamily": "Noto Sans Medium, sans-serif",
         "fontWeight": "500",
         "fontSize": "1.25rem",
         "textTransform": "uppercase",

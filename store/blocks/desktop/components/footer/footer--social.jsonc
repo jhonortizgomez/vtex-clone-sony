@@ -32,7 +32,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/terms-and-conditions",
         "tagTitle": "Productos & soluciones profesionales",
         "text": "Productos & soluciones profesionales"
       },
@@ -52,7 +52,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/terms-and-conditions",
         "tagTitle": "Contacto",
         "text": "Contacto"
       },

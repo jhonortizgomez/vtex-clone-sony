@@ -1,0 +1,14 @@
+.flexRowContent--minicart__product-list--container {
+  margin: 10px 0;
+}
+.flexCol--minicart__product-list--info {
+  padding: 0 10px;
+}
+.flexColChild--minicart__product-list--info {
+  display: flex;
+  align-items: center;
+}
+.flexCol--minicart__product-list--delete {
+  display: flex;
+  align-items: center;
+}
