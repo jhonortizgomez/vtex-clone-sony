@@ -1,3 +1,6 @@
+.footerLayoutSpacer {
+  background-color: black;
+}
 .footerLayout--footer {
   background-color: black;
   padding: 0 40px;

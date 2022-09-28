@@ -1,2 +1,6 @@
-:global(.vtex-store__template) {
+:global(.vtex-rich-text-0-x-container--standard-maxwidth),
+:global(.vtex-flex-layout-0-x-flexRowContent--standard-maxwidth),
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--standard-maxwidth) {
+  margin: auto;
+  max-width: 1120px;
 }
