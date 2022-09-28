@@ -1,5 +1,7 @@
 .flexRow--footer-menu {
   padding: 40px 80px 30px;
+  max-width: 1120px;
+  margin: 0 auto;
 }
 .flexColChild--footer__menu-dealer {
   height: 20% !important;
@@ -15,6 +17,10 @@
 }
 
 /* Footer social */
+.flexRow--footer-social {
+  max-width: 1120px;
+  margin: 0 auto;
+}
 .flexCol--footer__container-social {
   margin: 0 30px;
   border-bottom: 0.1px solid grey;
@@ -25,6 +31,10 @@
 }
 
 /* privacy */
+.flexRow--footer-privacy {
+  max-width: 1120px;
+  margin: 0 auto;
+}
 .flexCol--footer__container-privacy {
   padding: 40px 80px 20px;
 }

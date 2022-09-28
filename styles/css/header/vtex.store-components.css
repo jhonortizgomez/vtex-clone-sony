@@ -1,3 +1,6 @@
 .logoContainer--header__logo {
   padding: 0;
 }
+.searchBarContainer {
+  margin: 0 10px;
+}

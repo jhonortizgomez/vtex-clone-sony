@@ -1,3 +1,7 @@
+.sliderLayoutContainer--desktop__home--section-two {
+  max-width: 1120px;
+  margin: 0 auto;
+}
 .sliderTrack--desktop__home--section-two {
   width: 550% !important;
   margin: 0;
@@ -26,8 +30,15 @@
 
 /* ----------------------- product list */
 .sliderLayoutContainer--products__list--shelf {
-  margin: 20px 0;
+  margin: 40px auto;
+  max-width: 1120px;
 }
 .sliderTrack--products__list--shelf {
   align-items: center;
+}
+.paginationDotsContainer--products__list--shelf {
+  transform: translateY(30px);
+}
+.paginationDot--products__list--shelf--isActive {
+  background-color: black;
 }

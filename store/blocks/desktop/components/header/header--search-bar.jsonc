@@ -2,7 +2,10 @@
   "search-bar#header__search": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "openAutocompleteOnFocus": true
+      "openAutocompleteOnFocus": true,
+      "submitOnIconClick": true,
+      "maxWidth": "150px",
+      "iconClasses": "header__search-bar"
     }
   },
   "icon-search": {

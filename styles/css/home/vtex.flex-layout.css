@@ -11,15 +11,14 @@
   bottom: 0;
 }
 .flexRowContent--home__section-one-text {
-  height: auto;
-  padding-left: 6rem;
-  width: 33rem;
-  margin-top: 40px;
+  max-width: 1120px;
+  margin: 0 auto;
 }
 .flexCol--home__section-one-text-col {
   height: auto;
   background-color: rgba(0, 0, 0, 0.756);
   padding: 2rem;
+  margin: 3rem 41rem 0 0px;
 }
 .flexCol--home__section-one-text-col
   :global(.vtex-store-link-0-x-buttonLink--section__one-text-button) {
@@ -39,7 +38,7 @@
 }
 .flexCol--desktop__home--section-two-col-slider-one {
   position: relative;
-  height: 450px;
+  height: auto;
 }
 .flexRow--desktop__home--section-two-slider-one-container-text {
   position: absolute;
@@ -82,11 +81,16 @@
 
 /* -------------------------------- section three */
 .flexRow--home__section--three-title {
-  padding-left: 30px;
+  padding: 0 30px;
   margin-top: 30px;
 }
+.flexRowContent--home__section--three-title {
+  max-width: 1120px;
+  margin: 0 auto;
+}
 .flexRowContent--section-three--cards {
-  padding: 0 30px;
+  max-width: 1120px;
+  margin: 0 auto;
 }
 .flexRow--side__left--top {
   background-color: #a46900;
@@ -124,3 +128,10 @@
   margin: 30px 0;
   background-color: black;
 }
+/* :global(.vtex-button__label) {
+  background-color: #2d75c7;
+  border: 0.1px solid rgba(255, 255, 255, 0.431);
+  font-size: 10px;
+  letter-spacing: 1px;
+  border-radius: 0;
+} */
