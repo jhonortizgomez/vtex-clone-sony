@@ -1,0 +1,63 @@
+{
+  "responsive-layout.mobile#home__mobile--section-three": {
+    "children": ["flex-layout.row#home__mobile--section-three"],
+    "props": {
+      "blockClass": "home__mobile--section-three"
+    }
+  },
+  "flex-layout.row#home__mobile--section-three": {
+    "children": ["flex-layout.col#home__mobile--section-three"],
+    "props": {
+      "blockClass": "home__mobile--section-three"
+    }
+  },
+  "flex-layout.col#home__mobile--section-three": {
+    "children": [
+      "flex-layout.row#home__mobile--section-three-subtitle",
+      "slider-layout#home__mobile--section-three-slider"
+    ],
+    "props": {
+      "blockClass": "home__mobile--section-three"
+    }
+  },
+  "flex-layout.row#home__mobile--section-three-subtitle": {
+    "children": ["flex-layout.col#home__mobile--section-three-subtitle"],
+    "props": {
+      "blockClass": "home__mobile--section-three-subtitle"
+    }
+  },
+  "flex-layout.col#home__mobile--section-three-subtitle": {
+    "children": [
+      "rich-text#mobile__section--three-subtitle",
+      "rich-text#mobile__section--three-description"
+    ],
+    "props": {
+      "blockClass": "home__mobile--section-three-subtitle"
+    }
+  },
+  "rich-text#mobile__section--three-subtitle": {
+    "props": {
+      "text": "Tu música a donde vayas",
+      "blockClass": "mobile__section--three-subtitle"
+    }
+  },
+  "rich-text#mobile__section--three-description": {
+    "props": {
+      "text": "Con sonido potente",
+      "blockClass": "mobile__section--three-description"
+    }
+  },
+  "slider-layout#home__mobile--section-three-slider": {
+    "props": {
+      "itemsPerPage": {
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "centerModeSlidesGap": 7,
+      "blockClass": "home__mobile--section-three-slider"
+    },
+    "children": []
+  }
+}

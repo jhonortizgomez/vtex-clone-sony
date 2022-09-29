@@ -1,0 +1,15 @@
+{
+  "login#header__login--mobile": {
+    "title": "Login Mobile",
+    "props": {
+      "blockClass": "login--mobile",
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "My Sony"
+    }
+  }
+}

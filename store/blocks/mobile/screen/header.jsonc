@@ -1,0 +1,22 @@
+{
+  "header-layout.mobile": {
+    "title": "Mobile header",
+    "children": ["header-row#header__mobile"]
+  },
+  "header-row#header__mobile": {
+    "title": "Header mobile",
+    "children": [
+      "logo#header__logo--mobile",
+      "header-spacer",
+      "login#header__login--mobile",
+      "icon#header__icon-heart--mobile",
+      "minicart.v2#header__minicart--mobile",
+      "search-bar#header__search-bar--mobile",
+      // "icon-search",
+      "drawer#header__desktop--menu"
+    ],
+    "props": {
+      "blockClass": "header__mobile"
+    }
+  }
+}

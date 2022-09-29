@@ -16,20 +16,8 @@
 }
 
 /* --------------------------------------------------- section two */
-.imageElement--desktop__home--section-two-col-slider-one-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.imageElement--desktop__home--section-two-col-slider-two-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-.imageElement--desktop__home--section-two-col-slider-three-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
 
-/* --------------------------------------------------- section three */
+/* --------------------------------------------------- mobile */
+.imageElement--home__mobile--section-one-img {
+  height: 100%;
+}
