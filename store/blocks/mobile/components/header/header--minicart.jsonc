@@ -1,0 +1,16 @@
+{
+  "minicart.v2#header__minicart--mobile": {
+    "props": {
+      "blockClass": "minicart",
+      "MinicartIcon": "icon-cart#header__cart-icon--mobile",
+      "itemCountMode": "total",
+      "quantityDisplay": "always"
+    },
+    "children": ["icon-cart#header__cart-icon--mobile", "minicart-base-content"]
+  },
+  "icon-cart#header__cart-icon--mobile": {
+    "props": {
+      "size": 20
+    }
+  }
+}

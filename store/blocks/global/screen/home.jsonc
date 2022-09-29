@@ -2,12 +2,16 @@
   "store.home": {
     "title": "Home",
     "blocks": [
-      "flex-layout.row#desktop__home--section-one",
-      "flex-layout.row#desktop__home--section-two-title",
+      "responsive-layout.desktop#home__section-one--desktop",
+      "responsive-layout.mobile#home__section-one--mobile",
+      "responsive-layout.desktop#home__desktop--section-two-title",
+      "responsive-layout.mobile#home__mobile--section-two-title",
       "slider-layout#desktop__home--section-two",
       // "list-context.image-list#home__section-two--slider-list"
-      "flex-layout.row#desktop__home--section-three-title",
-      "flex-layout.row#desktop__home--section-three-cards",
+      "responsive-layout.desktop#home__desktop--section-three-title",
+      "responsive-layout.mobile#home__mobile--section-three-title",
+      "responsive-layout.desktop#home__desktop--section-three",
+      "responsive-layout.mobile#home__mobile--section-three",
       "flex-layout.row#home__section--product-list-title",
       "search-result-layout.customQuery#home__search"
     ],

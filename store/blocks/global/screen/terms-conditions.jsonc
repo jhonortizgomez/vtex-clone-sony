@@ -10,46 +10,46 @@
     "title": "Contenedor Row de Términos y Condiciones",
     "children": ["flex-layout.col#terms-and-conditions"],
     "props": {
-      "blockClass": "t&c__container--row"
+      "blockClass": "terms-conditions__container--row"
     }
   },
   "flex-layout.col#terms-and-conditions": {
     "title": "Contenedor Col de Términos y Condiciones",
     "children": [
-      "rich-text#t&c__title",
-      "rich-text#t&c__sony",
-      "rich-text#t&c__list",
-      "rich-text#t&c__trademarks"
+      "rich-text#terms-conditions__title",
+      "rich-text#terms-conditions__sony",
+      "rich-text#terms-conditions__list",
+      "rich-text#terms-conditions__trademarks"
     ],
     "props": {
-      "blockClass": "t&c__container--col"
+      "blockClass": "terms-conditions__container--col"
     }
   },
-  "rich-text#t&c__title": {
-    "title": "Titulo principal T&C",
+  "rich-text#terms-conditions__title": {
+    "title": "Titulo principal terms-conditions",
     "props": {
-      "blockClass": "t&c__title",
-      "text": "# 2015 Sony Latin America, Inc. Todos los Derechos Reservados"
+      "blockClass": "terms-conditions__title",
+      "text": "# © 2015 Sony Latin America, Inc. Todos los Derechos Reservados"
     }
   },
-  "rich-text#t&c__sony": {
-    "title": "Parrafo 1 T&C",
+  "rich-text#terms-conditions__sony": {
+    "title": "Parrafo 1 terms-conditions",
     "props": {
-      "blockClass": "t&c__sony",
+      "blockClass": "terms-conditions__sony",
       "text": "### Sony Latin America, Inc \n \n Sony Latin America, Inc. ('SOLA') mantiene esta página electrónica para su entretenimiento, información, educación, y como medio de comunicación. Favor de consultar esta red de información. Si está utilizando este sitio como un consumidor no-comercial, usted puede obtener material exhibido para su consumo personal y no comercial. Si usted es empleado/agente/ o miembro de algún negocio u organización y está visitando este sitio, usted puede utilizar el material exhibido aquí solamente para uso no comercial de su organización o negocio. Este permiso tiene como condición que usted respete todo reglamento sobre el material contenido y sus avisos propietarios al igual que su propiedad intelectual. Además, no se permitirá la distribución, transmisión (excepto dentro de su propio negocio), que modifique o reporte, ni utilice ningún material o información contenida para uso comercial o público, incluyendo texto, imágenes, sonido, video y multimedia sin obtener primero la autorización de SOLA por escrito. \n Su acceso y el uso de los sitios electrónicos de SOLA también están sujetos a los siguientes términos y condiciones ('Términos y Condiciones') y todas las leyes aplicables. Al navegar y tener acceso a este sitio, usted acepta, sin límites o calificación, los Términos y Condiciones."
     }
   },
-  "rich-text#t&c__list": {
-    "title": "Lista de T&C",
+  "rich-text#terms-conditions__list": {
+    "title": "Lista de terms-conditions",
     "props": {
-      "blockClass": "t&c__list",
+      "blockClass": "terms-conditions__list",
       "text": "### Términos y Condiciones  \n 1. Usted asume que todo material en esta página está protegido por las leyes de propiedad intelectual, a no ser que se indique lo contrario. Por lo tanto, no se podrá utilizar dicho material bajo estos Términos y Condiciones, a menos que sea especificado o como en su caso sea indicado en este sitio. \n \n 2.  El uso de este sitio es a su propio criterio. SOLA no ofrece garantías ni representaciones, y no acepta responsabilidad o culpabilidad por errores u omisiones en el contenido de este sitio. SOLA o ningún otro particular involucrado en la creación, producción, mantenimiento o lanzamiento de este sitio será responsable por daños directos, indirectos, contingentes o punitivos como resultado del acceso a este sitio electrónico, el uso del mismo, o su incapacidad de utilizar dicho sitio. Sin limitar su capacidad, toda la información en este sitio es provista a usted 'COMO ESTA ESPECIFICADO' sin ningún tipo de garantía, expresada o escrita, incluido pero sin límite a garantías de mercadeo. Ajustadas a un propósito en particular o sin infringir. Favor recordar que algunas jurisdicciones no le permitirán la exclusión de garantías implicadas. Algunas de las exclusiones anteriormente mencionadas no aplicarán. Verifique sus leyes locales o estatales con respecto a la exclusión de garantías implicadas. \n \n 3. Las características y especificaciones de los productos descritos o representados en este sitio están sujetos a cambio en cualquier momento sin previo aviso. Las medidas y pesos no métricos son aproximados. Todas las pantallas de monitores o televisores son medidas diagonalmente; todas las imágenes vistas en el monitor y contenidas en la base de datos, son fotos simuladas a menos que sea indicado lo contrario. \n \n 4. SOLA no asume responsabilidad, y/o no estará sujeta a reclamaciones por daños de cualquier tipo, virus que pueda infectar su computadora u otra propiedad debido al acceso, uso de, o visita a este sitio, la transferencia de datos, materiales, texto, imágenes, videos, multimedia o sonidos de la página a su CPU, módem, disco duro, u otros dispositivos. \n \n 5. SOLA no admite recibir ningún producto, mercadeo, publicidad u otras ideas que no estén contenidas bajo la protección de patentes de los Estados Unidos de América. Si usted nos envía comunicaciones o materiales al sitio electrónico de SOLA por medio de correo electrónico o por cualquier otro medio, incluyendo datos, preguntas o comentarios, sugerencias, o similares, todo tipo de comunicación será tratado como no confidencial y no propietario. Cualquier información que usted transmita o envíe a vuelta de correo, puede ser utilizada por Sony y/o sus afiliados por cualquier razón, incluyendo, pero sin limitación a, duplicación, revelación, transmisión o publicación. Además, SOLA podrá utilizar, sin ningún tipo de compensación para usted, las ideas, conceptos, conocimiento, o técnica contenida en la comunicación que usted envíe a la sede de SOLA desde el Internet para cualquier propósito, incluyendo, pero sin limitación al desarrollo, producción o mercadeo de productos utilizando dicha información. \n \n 6. Los materiales exhibidos en el sitio electrónico son propiedad de SOLA, o están utilizados con el permiso de SOLA. El uso de este material por ustedes, cualquier tercero, o cualquier persona autorizada por ustedes está prohibido, salvo que sea permitido específicamente por los Términos y Condiciones o salvo permiso específico ofrecido en otro lugar del sitio electrónico. Cualquier uso no autorizado de las imágenes puede constituir violación de las leyes de registro, leyes de marcas registradas, leyes de propiedad intelectual, las leyes de privacidad y publicidad al igual que estatutos civiles y criminales. \n \n 7.  Esta página hace referencia a productos y/o servicios que usualmente están disponibles en los países de América Latina y el Caribe, pero quizás no están disponibles en sus respectivos países. La referencia a cualquier producto en este Sitio Web no implica o garantiza que estos productos o servicios estén disponibles en su localidad. Por lo tanto, usted debe verificar con su representante de SOLA autorizado la disponibilidad de ciertos productos y servicios en su localidad. \n \n 8. SOLA no es responsable de los contenidos de ningún otro Sitio Web con conexión a nuestro sitio electrónico. Conectarse y visitar cualquier otra red de información o Sitio Web es completa y absolutamente a su propio riesgo. Aunque SOLA pueda brindarle el acceso por medio de este sitio a otros 'Sitios Web', la inclusión de estos enlaces es únicamente para su conveniencia. No debe ser interpretada como una aprobación del dueño del Sitio Web. SOLA no ofrece ninguna garantía, expresa o implícita respecto a la certeza, validez, constitucionalidad de cualquier material o información contenida en estas páginas y Sitios Web ajenos a nuestra red. \n \n 9. Aunque SOLA revise e inspeccione charlas, transmisiones, boletines de información, y otros medios similares, SOLA no tiene ninguna obligación a hacerlo y no asume ninguna responsabilidad o riesgo que resulte del contenido de cualquier comunicación, ni por ningún error, difamación, calumnia, obscenidad, blasfemia, o inexactitud contenida en dicha comunicación. Se prohíbe la transmisión de material ilegal, amenazas, difamación, calumnias, obscenidades, pornografía, blasfemias o cualquier material que pueda constituir o incentivar conductas que puedan ser consideradas como delitos, ofensa criminal o dar origen a una responsabilidad civil, o que de alguna forma viole la Ley. \n \n 10. La información publicada en este sitio web puede mostrar contenido técnico inexacto o errores tipográficos. La información contenida en este sitio web puede ser modificada o eliminada en cualquier momento sin previo aviso ni obligación alguna de notificación. Así mismo, la información que se publica en este sitio web puede contener referencias o referencias cruzadas a productos, servicios, incluyendo servicios proveídos por terceras partes, y a otros particulares relacionados con los productos y servicios de Sony que no se anuncian y/o que no están disponibles en su país. La exactitud de dicha información no se puede garantizar, especialmente considerando que esta información está sujeta a cambios, requisitos específicos o disponibilidad y dichas referencias no implican que Sony pretenda anunciar esos productos, servicios y particulares relacionados con estos últimos en su país. Comuníquese con su distribuidor y/o representante local para obtener todos los detalles concernientes a los productos, servicios y cualquier otro particular relacionado con los productos y servicios de Sony que pudieran estar disponibles para usted y para la realización de pedidos. \n \n 11. Toda la información está sujeta a cambios sin previo aviso. Para dudas e información adicional por favor consulte el manual de funcionamiento que se acompaña con la caja que contiene los productos Sony que usted haya adquirido. \n \n 12. SOLA puede revisar periódicamente los Términos y Condiciones y actualizar este escrito. Usted está obligado a acatar estos Términos y Condiciones, por lo que deberá visitar con frecuencia esta página, utilizando los enlaces Legal y Marca Registrada al final de las páginas del sitio electrónico de SOLA, para revisar los Términos y Condiciones actualizados. \n \n 13. Estos Términos y Condiciones serán promulgados e interpretados de acuerdo a las leyes de la Florida, Estados Unidos de América, sin referencia a sus conflictos con los mandos legales."
     }
   },
-  "rich-text#t&c__trademarks": {
-    "title": "Trademarks T&C",
+  "rich-text#terms-conditions__trademarks": {
+    "title": "Trademarks terms-conditions",
     "props": {
-      "blockClass": "t&c__trademarks",
+      "blockClass": "terms-conditions__trademarks",
       "text": "### Trademarks - Marcas Registradas \n\n La marca registrada 'SONY' y cualquier otro producto, servicio, submarca o logos de Sony usados, citados y/o referenciados en este Sitio Web son marcas registradas de Sony Corporation o de alguna de sus afiliadas. \n Cualquier otra marca registrada utilizada en esta página es propiedad de sus respectivos dueños. Otros productos y/o nombres de Compañías usados en este Sitio Electrónico pueden ser protegidos por sus respectivas marcas registradas o patentes. El contenido de este sitio no debe ser interpretado como permiso otorgado, implícito, o de alguna otra forma, licencia o derecho al uso de cualquier marca registrada exhibida en la página, sin el permiso por escrito de SOLA o de su respectivo dueño."
     }
   }

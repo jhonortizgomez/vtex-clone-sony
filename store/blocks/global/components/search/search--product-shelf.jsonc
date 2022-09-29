@@ -46,9 +46,19 @@
     }
   },
   "modal-layout#global__quick-view--modal": {
-    "children": ["flex-layout.row#quick-view__modal"],
+    "children": [
+      "modal-header#quick-view",
+      "flex-layout.row#quick-view__modal"
+    ],
     "props": {
       "blockClass": "global__quick-view--modal"
+    }
+  },
+  "modal-header#quick-view": {
+    "title": "Icon close quick view",
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 18
     }
   },
   "flex-layout.row#quick-view__modal": {

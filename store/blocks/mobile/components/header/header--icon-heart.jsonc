@@ -1,0 +1,10 @@
+{
+  "icon#header__icon-heart--mobile": {
+    "title": "Icono de Favoritos Mobile",
+    "props": {
+      "id": "mpa-heart",
+      "size": 20,
+      "activeClassName": "header__icon-heart--mobile"
+    }
+  }
+}

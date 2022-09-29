@@ -1,0 +1,11 @@
+{
+  "logo#header__logo--mobile": {
+    "title": "Logo",
+    "props": {
+      "blockClass": "header__logo--mobile",
+      "url": "assets/img/sony-logo.svg",
+      "width": 80,
+      "href": "/"
+    }
+  }
+}

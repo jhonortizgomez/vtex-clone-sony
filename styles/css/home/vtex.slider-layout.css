@@ -2,25 +2,6 @@
   max-width: 1120px;
   margin: 0 auto;
 }
-.sliderTrack--desktop__home--section-two {
-  width: 550% !important;
-  margin: 0;
-  /* 550 */
-}
-.slide--desktop__home--section-two {
-  width: 11.55% !important;
-  /* 11.66 */
-}
-/* .slide--desktop__home--section-two--firstVisible {
-  width: 15.66% !important;
-}
-.slide--desktop__home--section-two--lastVisible {
-  width: auto !important;
-} */
-.slideChildrenContainer--desktop__home--section-two {
-  justify-content: start;
-}
-
 .paginationDotsContainer--desktop__home--section-two {
   transform: translateY(30px);
 }
