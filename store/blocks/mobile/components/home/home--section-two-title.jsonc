@@ -1,0 +1,18 @@
+{
+  "responsive-layout.mobile#home__mobile--section-two-title": {
+    "children": ["flex-layout.row#mobile__home--section-two-title"]
+  },
+  "flex-layout.row#mobile__home--section-two-title": {
+    "children": ["rich-text#home__mobile--section-two-title"],
+    "props": {
+      "blockClass": "home__mobile--section-two-title"
+    }
+  },
+  "rich-text#home__mobile--section-two-title": {
+    "title": "Section two mobile",
+    "props": {
+      "text": "LO MÁS RECIENTE",
+      "blockClass": "home__mobile--section-two-title"
+    }
+  }
+}

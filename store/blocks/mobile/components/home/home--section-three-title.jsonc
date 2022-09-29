@@ -1,0 +1,17 @@
+{
+  "responsive-layout.mobile#home__mobile--section-three-title": {
+    "children": ["flex-layout.row#mobile__home--section-three-title"]
+  },
+  "flex-layout.row#mobile__home--section-three-title": {
+    "children": ["rich-text#home__mobile--section-three-title"],
+    "props": {
+      "blockClass": "mobile__home--section-three-title"
+    }
+  },
+  "rich-text#home__mobile--section-three-title": {
+    "props": {
+      "blockClass": "home__mobile--section-three-title",
+      "text": "NOVEDADES"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "search-bar#header__search-bar--mobile": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "submitOnIconClick": true,
+      "maxWidth": "150px",
+      "iconClasses": "header__search-bar--mobile"
+    }
+  }
+}

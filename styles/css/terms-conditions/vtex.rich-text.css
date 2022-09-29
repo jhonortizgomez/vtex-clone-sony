@@ -1,0 +1,33 @@
+.headingLevel1--terms-conditions__title {
+  font-size: 32px;
+  font-weight: lighter;
+  margin: 0 0 25px;
+}
+.headingLevel3--terms-conditions__sony {
+  margin: 0;
+  font-size: 15px;
+  color: #706c7a;
+}
+.paragraph--terms-conditions__sony {
+  font-size: 12px;
+  color: #706c7a;
+}
+.headingLevel3--terms-conditions__list {
+  margin: 0;
+  font-size: 15px;
+  color: #706c7a;
+}
+.listOrdered--terms-conditions__list {
+  padding: 0 20px;
+  font-size: 12px;
+  color: #706c7a;
+}
+.headingLevel3--terms-conditions__trademarks {
+  margin: 0;
+  font-size: 15px;
+  color: #706c7a;
+}
+.paragraph--terms-conditions__trademarks {
+  font-size: 12px;
+  color: #706c7a;
+}

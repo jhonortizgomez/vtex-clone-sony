@@ -1,15 +1,16 @@
 {
   "slider-layout#desktop__home--section-two": {
     "props": {
-      "blockClass": "desktop__home--section-two",
-      "infinite": true,
-      "fullWidth": false,
-      "centerMode": "to-the-left",
-      "centerModeSlidesGap": 30,
       "itemsPerPage": {
         "desktop": 2,
-        "mobile": 1
-      }
+        "mobile": 1,
+        "phone": 1
+      },
+      "blockClass": "desktop__home--section-two",
+      "infinite": false,
+      "fullWidth": true,
+      "centerMode": "center"
+      // "centerModeSlidesGap": 30,
     },
     "children": [
       "flex-layout.row#desktop__home--section-two-slider-one",

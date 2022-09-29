@@ -143,3 +143,38 @@
   font-size: 25px;
   margin: 10px 0;
 }
+
+/* ----------------------------------------------------- mobile */
+/* ----------------------- section one */
+.paragraph--home__mobile--section-one-title {
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+.paragraph--home__mobile--section-one-description {
+  color: white;
+  font-size: 13px;
+}
+
+/* ----------------------- section two */
+.paragraph--home__mobile--section-two-title {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.763);
+}
+
+/* ----------------------- section three */
+.paragraph--home__mobile--section-three-title {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.763);
+  font-size: 20px;
+  margin: 10px 0;
+}
+.paragraph--mobile__section--three-subtitle {
+  margin: 0;
+  font-weight: bold;
+  color: #2f353d;
+}
+.paragraph--mobile__section--three-description {
+  margin: 0;
+  font-size: 13px;
+}
