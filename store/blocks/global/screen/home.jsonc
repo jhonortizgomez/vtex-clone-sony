@@ -2,6 +2,7 @@
   "store.home": {
     "title": "Home",
     "blocks": [
+      "wsp-btn",
       "responsive-layout.desktop#home__section-one--desktop",
       "responsive-layout.mobile#home__section-one--mobile",
       "responsive-layout.desktop#home__desktop--section-two-title",
@@ -14,9 +15,13 @@
       "responsive-layout.mobile#home__mobile--section-three",
       "flex-layout.row#home__section--product-list-title",
       "search-result-layout.customQuery#home__search"
-    ],
+    ]
+  },
+  "wsp-btn": {
     "props": {
-      "blockClass": "home"
+      "logo": "assets/img/wsp-logo.png",
+      "phone": "77777",
+      "message": "VTEX U RLZ"
     }
   }
 }
