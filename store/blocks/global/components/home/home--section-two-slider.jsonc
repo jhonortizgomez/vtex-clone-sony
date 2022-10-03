@@ -3,13 +3,12 @@
     "props": {
       "itemsPerPage": {
         "desktop": 2,
-        "mobile": 1,
-        "phone": 1
+        "mobile": 1
       },
       "blockClass": "desktop__home--section-two",
       "infinite": false,
       "fullWidth": true,
-      "centerMode": "center"
+      "showNavigationArrows": "desktopOnly"
       // "centerModeSlidesGap": 30,
     },
     "children": [
