@@ -59,8 +59,8 @@
     },
     "children": [
       "flex-layout.row#home__mobile--section-three-product1",
-      "flex-layout.row#home__mobile--section-three-product1",
-      "flex-layout.row#home__mobile--section-three-product1"
+      "flex-layout.row#home__mobile--section-three-product2",
+      "flex-layout.row#home__mobile--section-three-product3"
     ]
   },
   "flex-layout.row#home__mobile--section-three-product1": {
@@ -130,6 +130,146 @@
   "rich-text#home__mobile--section-three-product1-price": {
     "props": {
       "text": "$ 449,899",
+      "blockClass": "home__mobile--section-three-product-price"
+    }
+  },
+  "flex-layout.row#home__mobile--section-three-product2": {
+    "children": ["flex-layout.col#home__mobile--section-three-product2"],
+    "props": {
+      "blockClass": "home__mobile--section-three-product"
+    }
+  },
+  "flex-layout.col#home__mobile--section-three-product2": {
+    "children": [
+      "flex-layout.row#home__mobile--section-three-product2-container-image",
+      "flex-layout.row#home__mobile--section-three-product2-description"
+    ],
+    "props": {
+      "blockClass": "home__mobile--section-three-product"
+    }
+  },
+  "flex-layout.row#home__mobile--section-three-product2-container-image": {
+    "children": ["image#home__mobile--section-three-product2-image"],
+    "props": {
+      "blockClass": "home__mobile--section-three-container-image"
+    }
+  },
+  "image#home__mobile--section-three-product2-image": {
+    "props": {
+      "src": "assets/img/product-one.webp",
+      "blockClass": "home__mobile--section-three-image"
+    }
+  },
+  "flex-layout.row#home__mobile--section-three-product2-description": {
+    "children": [
+      "flex-layout.col#home__mobile--section-three-product2-container-description"
+    ],
+    "props": {
+      "blockClass": "home__mobile-section-three-description"
+    }
+  },
+  "flex-layout.col#home__mobile--section-three-product2-container-description": {
+    "children": [
+      "rich-text#home__mobile--section-three-product2-description",
+      "rich-text#home__mobile--section-three-product2-brand",
+      "rich-text#home__mobile--section-three-product2-since",
+      "rich-text#home__mobile--section-three-product2-price"
+    ],
+    "props": {
+      "blockClass": "home__mobile--section-three-container-description"
+    }
+  },
+  "rich-text#home__mobile--section-three-product2-description": {
+    "props": {
+      "text": "Audífonos True Wireless WF-C500",
+      "blockClass": "home__mobile--section-three-product-description"
+    }
+  },
+  "rich-text#home__mobile--section-three-product2-brand": {
+    "props": {
+      "text": "WF-C500",
+      "blockClass": "home__mobile--section-three-product-brand"
+    }
+  },
+  "rich-text#home__mobile--section-three-product2-since": {
+    "props": {
+      "text": "Desde",
+      "blockClass": "home__mobile--section-three-product-since"
+    }
+  },
+  "rich-text#home__mobile--section-three-product2-price": {
+    "props": {
+      "text": "$ 549,900",
+      "blockClass": "home__mobile--section-three-product-price"
+    }
+  },
+  "flex-layout.row#home__mobile--section-three-product3": {
+    "children": ["flex-layout.col#home__mobile--section-three-product3"],
+    "props": {
+      "blockClass": "home__mobile--section-three-product"
+    }
+  },
+  "flex-layout.col#home__mobile--section-three-product3": {
+    "children": [
+      "flex-layout.row#home__mobile--section-three-product3-container-image",
+      "flex-layout.row#home__mobile--section-three-product3-description"
+    ],
+    "props": {
+      "blockClass": "home__mobile--section-three-product"
+    }
+  },
+  "flex-layout.row#home__mobile--section-three-product3-container-image": {
+    "children": ["image#home__mobile--section-three-product3-image"],
+    "props": {
+      "blockClass": "home__mobile--section-three-container-image"
+    }
+  },
+  "image#home__mobile--section-three-product3-image": {
+    "props": {
+      "src": "assets/img/product-two.webp",
+      "blockClass": "home__mobile--section-three-image"
+    }
+  },
+  "flex-layout.row#home__mobile--section-three-product3-description": {
+    "children": [
+      "flex-layout.col#home__mobile--section-three-product3-container-description"
+    ],
+    "props": {
+      "blockClass": "home__mobile-section-three-description"
+    }
+  },
+  "flex-layout.col#home__mobile--section-three-product3-container-description": {
+    "children": [
+      "rich-text#home__mobile--section-three-product3-description",
+      "rich-text#home__mobile--section-three-product3-brand",
+      "rich-text#home__mobile--section-three-product3-since",
+      "rich-text#home__mobile--section-three-product3-price"
+    ],
+    "props": {
+      "blockClass": "home__mobile--section-three-container-description"
+    }
+  },
+  "rich-text#home__mobile--section-three-product3-description": {
+    "props": {
+      "text": "Audífonos True Wireless WF-C500",
+      "blockClass": "home__mobile--section-three-product-description"
+    }
+  },
+  "rich-text#home__mobile--section-three-product3-brand": {
+    "props": {
+      "text": "WF-C500",
+      "blockClass": "home__mobile--section-three-product-brand"
+    }
+  },
+  "rich-text#home__mobile--section-three-product3-since": {
+    "props": {
+      "text": "Desde",
+      "blockClass": "home__mobile--section-three-product-since"
+    }
+  },
+  "rich-text#home__mobile--section-three-product3-price": {
+    "props": {
+      "text": "$ 549,900",
       "blockClass": "home__mobile--section-three-product-price"
     }
   }
