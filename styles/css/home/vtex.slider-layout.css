@@ -26,3 +26,12 @@
 
 /* ----------------------------------- mobile */
 /* -------------- section three */
+.slideChildrenContainer--home__mobile--section-three-slider {
+  justify-content: start;
+}
+.paginationDotsContainer--home__mobile--section-three-slider {
+  transform: translateY(25px);
+}
+.paginationDot--home__mobile--section-three-slider--isActive {
+  background-color: black;
+}

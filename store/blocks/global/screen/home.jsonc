@@ -15,7 +15,7 @@
       "responsive-layout.mobile#home__mobile--section-three",
       "flex-layout.row#home__section--product-list-title",
       "search-result-layout.customQuery#home__search",
-      "list-context.bullet-group"
+      "flex-layout.row#bullets"
     ]
   },
   "wsp-btn": {
@@ -25,11 +25,28 @@
       "message": "VTEX U RLZ"
     }
   },
+  "flex-layout.row#bullets": {
+    "children": ["list-context.bullet-group"]
+  },
   "list-context.bullet-group": {
     "title": "Mi contexto de lista de Bullets",
     "children": ["slider-layout#bullet-group"],
     "props": {
       "bullets": [
+        {
+          "image": "assets/img/computador.png",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/celulares.jpg",
+          "titleBullet": "celulares",
+          "link": {
+            "url": "/"
+          }
+        },
         {
           "image": "assets/img/computador.png",
           "titleBullet": "Computadores",
