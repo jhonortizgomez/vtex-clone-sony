@@ -15,7 +15,8 @@
       "responsive-layout.mobile#home__mobile--section-three",
       "flex-layout.row#home__section--product-list-title",
       "search-result-layout.customQuery#home__search",
-      "flex-layout.row#bullets"
+      "flex-layout.row#bullets",
+      "deparment-search"
     ]
   },
   "wsp-btn": {
