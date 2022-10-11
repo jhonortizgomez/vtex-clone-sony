@@ -1,0 +1,12 @@
+{
+  "store.custom#pdf-reader": {
+    "blocks": ["pdf-reader"]
+  },
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/docs/Carton91.pdf",
+      "width": 500,
+      "height": 800
+    }
+  }
+}
