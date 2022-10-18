@@ -1,0 +1,52 @@
+{
+  "flex-layout.row#mobile__home--section-two-slider-three": {
+    "children": ["flex-layout.col#mobile__home--section-two-col-slider-three"],
+    "props": {
+      "blockClass": "mobile__home--section-two-slider-three"
+    }
+  },
+  "flex-layout.col#mobile__home--section-two-col-slider-three": {
+    "children": [
+      "image#mobile__home--section-two-col-slider-three-img",
+      "flex-layout.row#mobile__home--section-two-slider-three-container-text"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section-two-col-slider-three"
+    }
+  },
+  "image#mobile__home--section-two-col-slider-three-img": {
+    "props": {
+      "src": "assets/img/home--section-two-img3.jfif",
+      "blockClass": "mobile__home--section-two-col-slider-three-img"
+    }
+  },
+  "flex-layout.row#mobile__home--section-two-slider-three-container-text": {
+    "children": [
+      "flex-layout.col#mobile__home--section-two-slider-three-container-text-col"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section-two-slider-three-container-text"
+    }
+  },
+  "flex-layout.col#mobile__home--section-two-slider-three-container-text-col": {
+    "children": [
+      "rich-text#home__section-two-img-three-title",
+      "rich-text#home__section-two-img-three-description"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section-two-slider-two-container-text-col"
+    }
+  },
+  "rich-text#home__section-two-img-three-title": {
+    "props": {
+      "blockClass": "home__section-two-img-three-title",
+      "text": "SEL2470GM2"
+    }
+  },
+  "rich-text#home__section-two-img-three-description": {
+    "props": {
+      "blockClass": "home__section-two-img-three-description",
+      "text": "Zoom estándar FE 24-70 mm F2.8 GM ll"
+    }
+  }
+}

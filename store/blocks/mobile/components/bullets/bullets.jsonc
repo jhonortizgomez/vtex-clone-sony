@@ -1,0 +1,89 @@
+{
+  "flex-layout.row#bullets": {
+    "children": ["list-context.bullet-group"]
+  },
+  "list-context.bullet-group": {
+    "title": "Mi contexto de lista de Bullets",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/product-three.webp",
+          "titleBullet": "Parlante",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/product-two.webp",
+          "titleBullet": "Parlante",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/product-one.webp",
+          "titleBullet": "Audifonos",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/product-three.webp",
+          "titleBullet": "Parlante",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/product-two.webp",
+          "titleBullet": "Parlante",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/product-one.webp",
+          "titleBullet": "Audifonos",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/product-three.webp",
+          "titleBullet": "Parlante",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/product-two.webp",
+          "titleBullet": "Parlante",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/product-one.webp",
+          "titleBullet": "Audifonos",
+          "link": {
+            "url": "/"
+          }
+        }
+      ],
+      "blockclass": "bullet-group"
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 4,
+        "mobile": 3
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockclass": "bullet-group"
+    }
+  }
+}

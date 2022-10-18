@@ -1,0 +1,33 @@
+{
+  "responsive-layout.mobile": {
+    "children": [
+      "flex-layout.row#mobile__home--section-one",
+      "flex-layout.row#mobile__home--section-two-title",
+      "slider-layout#mobile__home--section-two",
+      "flex-layout.row#mobile__home--section-three-title",
+      "flex-layout.row#home__mobile--section-three",
+      "flex-layout.row#home__section--product-list-title",
+      "search-result-layout.customQuery#home__search",
+      "flex-layout.row#home__mobile--section-categories-title",
+      "flex-layout.row#bullets",
+      "deparment-search",
+      "flex-layout.row#home__mobile--section-quick-order-title",
+      "quick-order"
+      // "wsp-btn"
+    ]
+  },
+  "flex-layout.row#home__mobile--section-quick-order-title":{
+    "children":[
+      "rich-text#home__mobile--section-quick-order-title"
+    ],
+    "props":{
+      "blockClass": "home__section--product-list-title"
+    }
+  },
+  "rich-text#home__mobile--section-quick-order-title":{
+    "props": {
+      "blockClass": "home__product--list-title",
+      "text": "Compra Rapida"
+    }
+  }
+}

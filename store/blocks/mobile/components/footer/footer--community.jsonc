@@ -1,0 +1,82 @@
+{
+  "disclosure-layout#footer-mobile__community": {
+    "children": [
+      "disclosure-trigger#footer-mobile__community",
+      "disclosure-content#footer-mobile__community"
+    ],
+    "props": {
+      "blockClass": "footer-mobile__disclosure"
+    }
+  },
+  "disclosure-trigger#footer-mobile__community": {
+    "children": [
+      "rich-text#footer-mobile__community",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer-mobile__disclosure-trigger"
+    }
+  },
+  "rich-text#footer-mobile__community": {
+    "props": {
+      "text": "Comunidad",
+      "blockClass": "footer-mobile__title-disclosure"
+    }
+  },
+  "disclosure-content#footer-mobile__community": {
+    "children": ["menu#footer-mobile__community"],
+    "props": {
+      "blockClass": "footer-mobile__disclosure-content"
+    }
+  },
+  "menu#footer-mobile__community": {
+    "children": [
+      "menu-item#footer-mobile__alpha-community",
+      "menu-item#footer-mobile__blog-playstation",
+      "menu-item#footer-mobile__help-with-my-product"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-mobile__disclosure-items"
+    }
+  },
+  "menu-item#footer-mobile__alpha-community": {
+    "props": {
+      "id": "alpha-community",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Comunidad Alpha",
+        "text": "Comunidad Alpha"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "menu-item#footer-mobile__blog-playstation": {
+    "props": {
+      "id": "blog-playstationr",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Blog PlayStation",
+        "text": "Blog PlayStation"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "menu-item#footer-mobile__help-with-my-product": {
+    "props": {
+      "id": "help-with-my-product",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Ayuda con Mi Producto",
+        "text": "Ayuda con Mi Producto"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  }
+}

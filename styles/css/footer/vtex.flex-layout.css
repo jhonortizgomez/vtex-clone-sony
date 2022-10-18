@@ -44,3 +44,23 @@
 .flexRowContent--footer__container-privacy-one {
   padding-right: 20%;
 }
+
+/* ----------------------------------------------------------- mobile */
+
+.flexColChild--footer-mobile__container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.flexRow--footer-mobile__ubication{
+  border-bottom: 1px solid gray;
+}
+.flexRow--footer-mobile__contact{
+  padding: 10px 0 20px;
+  border-bottom: 1px solid gray;
+}
+.flexColChild--footer-mobile__polices{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 10px;
+}

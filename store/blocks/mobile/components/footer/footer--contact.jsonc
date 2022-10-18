@@ -1,0 +1,84 @@
+{
+  "flex-layout.row#footer-mobile__contact": {
+    "children": ["flex-layout.col#footer-mobile__contact"],
+    "props": {
+      "blockClass": "footer-mobile__contact"
+    }
+  },
+  "flex-layout.col#footer-mobile__contact": {
+    "children": [
+      "flex-layout.row#footer-mobile__contact-top",
+      "flex-layout.row#footer-mobile__contact-buttom"
+    ],
+    "props": {
+      "blockClass": "footer-mobile__contact"
+    }
+  },
+  "flex-layout.row#footer-mobile__contact-top": {
+    "children": ["menu#footer-mobile__contact-top"],
+    "props": {
+      "blockClass": "footer-mobile__contact-top"
+    }
+  },
+  "menu#footer-mobile__contact-top": {
+    "children": [
+      "menu-item#footer-mobile__products-and-solutions",
+      "menu-item#footer-mobile__contact"
+    ],
+    "props": {
+      "blockClass": "footer-mobile__contact-top"
+    }
+  },
+  "menu-item#footer-mobile__products-and-solutions": {
+    "props": {
+      "id": "products-and-solutions",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Productos & soluciones profesionales",
+        "text": "Productos & soluciones profesionales"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "menu-item#footer-mobile__contact": {
+    "props": {
+      "id": "contact",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Contacto",
+        "text": "Contacto"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "flex-layout.row#footer-mobile__contact-buttom": {
+    "children": ["social-networks#footer-mobile__social-networks"]
+  },
+  "social-networks#footer-mobile__social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "/",
+          "name": "Facebook"
+        },
+        {
+          "url": "/",
+          "name": "twitter"
+        },
+        {
+          "url": "/",
+          "name": "youtube"
+        },
+        {
+          "url": "/",
+          "name": "instagram"
+        }
+      ],
+      "blockClass": "footer-mobile__social-networks"
+    }
+  }
+}

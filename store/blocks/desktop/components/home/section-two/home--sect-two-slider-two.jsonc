@@ -1,0 +1,52 @@
+{
+  "flex-layout.row#desktop__home--section-two-slider-two": {
+    "children": ["flex-layout.col#desktop__home--section-two-col-slider-two"],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-two"
+    }
+  },
+  "flex-layout.col#desktop__home--section-two-col-slider-two": {
+    "children": [
+      "image#desktop__home--section-two-col-slider-two-img",
+      "flex-layout.row#desktop__home--section-two-slider-two-container-text"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-col-slider-two"
+    }
+  },
+  "image#desktop__home--section-two-col-slider-two-img": {
+    "props": {
+      "src": "assets/img/home--section-two-img2.webp",
+      "blockClass": "desktop__home--section-two-col-slider-two-img"
+    }
+  },
+  "flex-layout.row#desktop__home--section-two-slider-two-container-text": {
+    "children": [
+      "flex-layout.col#desktop__home--section-two-slider-two-container-text-col"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-two-container-text"
+    }
+  },
+  "flex-layout.col#desktop__home--section-two-slider-two-container-text-col": {
+    "children": [
+      "rich-text#desktop__home--section-two-img-two-title",
+      "rich-text#desktop__home--section-two-img-two-description"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-two-container-text-col"
+    }
+  },
+  "rich-text#desktop__home--section-two-img-two-title": {
+    "props": {
+      "blockClass": "desktop__home--section-two-img-two-title",
+      "text": "LinkBuds S"
+    }
+  },
+  "rich-text#desktop__home--section-two-img-two-description": {
+    "props": {
+      "blockClass": "desktop__home--section-two-img-two-description",
+      "text": "Never off"
+    }
+  }
+}
