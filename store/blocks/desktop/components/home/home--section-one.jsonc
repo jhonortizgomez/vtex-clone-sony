@@ -1,7 +1,4 @@
 {
-  "responsive-layout.desktop#home__section-one--desktop": {
-    "children": ["flex-layout.row#desktop__home--section-one"]
-  },
   "flex-layout.row#desktop__home--section-one": {
     "children": ["flex-layout.col#desktop__home--section-one-col"],
     "props": {

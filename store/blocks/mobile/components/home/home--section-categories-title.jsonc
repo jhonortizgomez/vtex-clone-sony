@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#home__mobile--section-categories-title": {
+    "children": ["rich-text#home__mobile--section-categories"],
+    "props": {
+      "blockClass": "home__section--product-list-title"
+    }
+  },
+  "rich-text#home__mobile--section-categories": {
+    "props": {
+      "blockClass": "home__product--list-title",
+      "text": "Categorias"
+    }
+  }
+}

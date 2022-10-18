@@ -1,7 +1,4 @@
 {
-  "responsive-layout.desktop#home__desktop--section-two-title": {
-    "children": ["flex-layout.row#desktop__home--section-two-title"]
-  },
   "flex-layout.row#desktop__home--section-two-title": {
     "children": ["rich-text#home__desktop--section-two-title"],
     "props": {

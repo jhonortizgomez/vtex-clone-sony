@@ -1,6 +1,6 @@
 {
-  "store.home": {
-    "title": "Home",
+  "store.custom#home-page": {
+    "title": "Pagina Secundaria del Home",
     "blocks": ["responsive-layout.desktop", "responsive-layout.mobile"]
   }
 }

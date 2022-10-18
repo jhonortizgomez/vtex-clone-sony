@@ -1,10 +1,4 @@
 {
-  "responsive-layout.mobile#home__mobile--section-three": {
-    "children": ["flex-layout.row#home__mobile--section-three"],
-    "props": {
-      "blockClass": "home__mobile--section-three"
-    }
-  },
   "flex-layout.row#home__mobile--section-three": {
     "children": ["flex-layout.col#home__mobile--section-three"],
     "props": {

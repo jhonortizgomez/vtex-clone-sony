@@ -1,0 +1,23 @@
+.quickOrder__container{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.quickOrder__form_info{
+  display: flex;
+  justify-content: space-evenly;
+}
+.quickOrder__text{
+  width: 50%;
+}
+.quickOrder__form_submit{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.quickOrder__submit{
+  background-color: #2d75c7;
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+}

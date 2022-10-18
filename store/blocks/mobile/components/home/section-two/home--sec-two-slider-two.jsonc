@@ -1,0 +1,52 @@
+{
+  "flex-layout.row#mobile__home--section-two-slider-two": {
+    "children": ["flex-layout.col#mobile__home--section-two-col-slider-two"],
+    "props": {
+      "blockClass": "mobile__home--section-two-slider-two"
+    }
+  },
+  "flex-layout.col#mobile__home--section-two-col-slider-two": {
+    "children": [
+      "image#mobile__home--section-two-col-slider-two-img",
+      "flex-layout.row#mobile__home--section-two-slider-two-container-text"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section-two-col-slider-two"
+    }
+  },
+  "image#mobile__home--section-two-col-slider-two-img": {
+    "props": {
+      "src": "assets/img/home--section-two-img2.webp",
+      "blockClass": "mobile__home--section-two-col-slider-two-img"
+    }
+  },
+  "flex-layout.row#mobile__home--section-two-slider-two-container-text": {
+    "children": [
+      "flex-layout.col#mobile__home--section-two-slider-two-container-text-col"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section-two-slider-two-container-text"
+    }
+  },
+  "flex-layout.col#mobile__home--section-two-slider-two-container-text-col": {
+    "children": [
+      "rich-text#home__section-two-img-two-title",
+      "rich-text#home__section-two-img-two-description"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section-two-slider-two-container-text-col"
+    }
+  },
+  "rich-text#home__section-two-img-two-title": {
+    "props": {
+      "blockClass": "home__section-two-img-two-title",
+      "text": "LinkBuds S"
+    }
+  },
+  "rich-text#home__section-two-img-two-description": {
+    "props": {
+      "blockClass": "home__section-two-img-two-description",
+      "text": "Never off"
+    }
+  }
+}

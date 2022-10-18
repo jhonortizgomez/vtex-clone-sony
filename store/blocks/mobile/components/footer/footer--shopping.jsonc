@@ -1,0 +1,152 @@
+{
+  "disclosure-layout#footer-mobile__online-shopping": {
+    "children": [
+      "disclosure-trigger#footer-mobile__online-shopping",
+      "disclosure-content#footer-mobile__online-shopping-menu"
+    ],
+    "props": {
+      "blockClass": "footer-mobile__disclosure"
+    }
+  },
+  "disclosure-trigger#footer-mobile__online-shopping": {
+    "children": [
+      "rich-text#footer-mobile__search-online-shopping",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer-mobile__disclosure-trigger"
+    }
+  },
+  "rich-text#footer-mobile__search-online-shopping": {
+    "props": {
+      "text": "Compra Online",
+      "blockClass": "footer-mobile__title-disclosure"
+    }
+  },
+  "disclosure-content#footer-mobile__online-shopping-menu": {
+    "children": ["menu#footer-mobile__online-shopping"],
+    "props": {
+      "blockClass": "footer-mobile__disclosure-content"
+    }
+  },
+  "menu#footer-mobile__online-shopping": {
+    "children": [
+      "menu-item#footer-mobile__store-online",
+      "menu-item#footer-mobile__help-sony-store",
+      "menu-item#footer-mobile__frequent-questions",
+      "menu-item#footer-mobile__exchange-policies",
+      "menu-item#footer-mobile__warranty",
+      "menu-item#footer-mobile__superintendence",
+      "menu-item#footer-mobile__consumer",
+      "menu-item#footer-mobile__digital-tv"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-mobile__disclosure-items"
+    }
+  },
+  "menu-item#footer-mobile__store-online": {
+    "props": {
+      "id": "store-online",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/construccion",
+        "tagTitle": "Tienda en Línea",
+        "text": "Tienda en Línea"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "menu-item#footer-mobile__help-sony-store": {
+    "props": {
+      "id": "help-sony-store",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Ayuda Sony Store",
+        "text": "Ayuda Sony Store"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "menu-item#footer-mobile__frequent-questions": {
+    "props": {
+      "id": "frequent-questions",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/pdf",
+        "tagTitle": "Preguntas Frecuentes",
+        "text": "Preguntas Frecuentes"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "menu-item#footer-mobile__exchange-policies": {
+    "props": {
+      "id": "devolution",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Políticas de cambio y devoluciones",
+        "text": "Políticas de cambio y devoluciones"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "menu-item#footer-mobile__warranty": {
+    "props": {
+      "id": "warranty",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Mi garantía Sony",
+        "text": "Mi garantía Sony"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "menu-item#footer-mobile__superintendence": {
+    "props": {
+      "id": "superintendence",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Superintendencia de Industria y Comercio",
+        "text": "Superintendencia de Industria y Comercio"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "menu-item#footer-mobile__consumer": {
+    "props": {
+      "id": "consumer",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Estatuto del consumidor",
+        "text": "Estatuto del consumidor"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "menu-item#footer-mobile__digital-tv": {
+    "props": {
+      "id": "dealers",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Todo lo que debes saber sobre la Televisón Digital Terrestre ",
+        "text": "Todo lo que debes saber sobre la Televisón Digital Terrestre"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  }
+}

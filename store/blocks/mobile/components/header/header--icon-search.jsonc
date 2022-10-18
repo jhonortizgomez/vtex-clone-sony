@@ -1,0 +1,7 @@
+{
+  "icon-search#header__mobile--search":{
+    "props":{
+      "size": 20
+    }
+  }
+}

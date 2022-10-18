@@ -1,0 +1,82 @@
+{
+  "disclosure-layout#footer-mobile__news-and-info": {
+    "children": [
+      "disclosure-trigger#footer-mobile__news-and-info",
+      "disclosure-content#footer-mobile__news-and-info"
+    ],
+    "props": {
+      "blockClass": "footer-mobile__disclosure"
+    }
+  },
+  "disclosure-trigger#footer-mobile__news-and-info": {
+    "children": [
+      "rich-text#footer-mobile__news-and-info",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer-mobile__disclosure-trigger"
+    }
+  },
+  "rich-text#footer-mobile__news-and-info": {
+    "props": {
+      "text": "Noticias e Información",
+      "blockClass": "footer-mobile__title-disclosure"
+    }
+  },
+  "disclosure-content#footer-mobile__news-and-info": {
+    "children": ["menu#footer-mobile__news-and-info"],
+    "props": {
+      "blockClass": "footer-mobile__disclosure-content"
+    }
+  },
+  "menu#footer-mobile__news-and-info": {
+    "children": [
+      "menu-item#footer-mobile__coporate-info",
+      "menu-item#footer-mobile__journalism-center",
+      "menu-item#footer-mobile__sony-environment"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer-mobile__disclosure-items"
+    }
+  },
+  "menu-item#footer-mobile__coporate-info": {
+    "props": {
+      "id": "corporate-info",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Información Corporativa",
+        "text": "Información Corporativa"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "menu-item#footer-mobile__journalism-center": {
+    "props": {
+      "id": "journalism-center",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Centro de Prensa",
+        "text": "Centro de Prensa"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  },
+  "menu-item#footer-mobile__sony-environment": {
+    "props": {
+      "id": "store-online",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "tagTitle": "Sony y el Medio Ambiente",
+        "text": "Sony y el Medio Ambiente"
+      },
+      "blockClass": "footer-mobile__menu-item"
+    }
+  }
+}
