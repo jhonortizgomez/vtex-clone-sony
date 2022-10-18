@@ -1,0 +1,162 @@
+{
+  "flex-layout.col#section__three--side-left": {
+    "children": [
+      "flex-layout.row#side__left--top",
+      "flex-layout.row#side__left--bottom"
+    ],
+    "props": {
+      "blockClass": "section__three--left",
+      "preventVerticalStretch": true,
+      "rowGap": 7
+    }
+  },
+  "flex-layout.row#side__left--top": {
+    "children": ["flex-layout.col#side__left--top"],
+    "props": {
+      "blockClass": "side__left--top"
+    }
+  },
+  "flex-layout.col#side__left--top": {
+    "children": [
+      "rich-text#left__top-title",
+      "rich-text#left__top-description"
+    ],
+    "props": {
+      "blockClass": "side__left--top"
+    }
+  },
+  "rich-text#left__top-title": {
+    "props": {
+      "text": "Tu música a donde vayas",
+      "blockClass": "left__top-title"
+    }
+  },
+  "rich-text#left__top-description": {
+    "props": {
+      "text": "Con sonido potente",
+      "blockClass": "left__top-description"
+    }
+  },
+  "flex-layout.row#side__left--bottom": {
+    "children": [
+      "flex-layout.col#side__left--card-product-one",
+      "flex-layout.col#side__left--card-product-two"
+    ],
+    "props": {
+      "blockClass": "side__left--bottom",
+      "colGap": 7
+    }
+  },
+  "flex-layout.col#side__left--card-product-one": {
+    "children": [
+      "flex-layout.row#card__product-one-image",
+      "flex-layout.row#card__product-one-description"
+    ],
+    "props": {
+      "blockClass": "side__left--card-product-one",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#card__product-one-image": {
+    "children": ["image#product-one"],
+    "props": {
+      "blockClass": "card__product-one-image"
+    }
+  },
+  "image#product-one": {
+    "props": {
+      "src": "assets/img/product-one.webp",
+      "blockClass": "product-one"
+    }
+  },
+  "flex-layout.row#card__product-one-description": {
+    "children": ["flex-layout.col#product__one-description-container"],
+    "props": {
+      "blockClass": "card__product-one-description"
+    }
+  },
+  "flex-layout.col#product__one-description-container": {
+    "children": [
+      "rich-text#title__product-one",
+      "rich-text#reference__product-one",
+      "rich-text#price__product-one"
+    ],
+    "props": {
+      "blockClass": "product__one-description-container"
+    }
+  },
+  "rich-text#title__product-one": {
+    "props": {
+      "blockClass": "title__product-one",
+      "text": "Audifonos True Wireless WF-C500"
+    }
+  },
+  "rich-text#reference__product-one": {
+    "props": {
+      "blockClass": "reference__product-one",
+      "text": "WF-C500"
+    }
+  },
+  "rich-text#price__product-one": {
+    "props": {
+      "blockClass": "price__product-one",
+      "text": "$ 549,900"
+    }
+  },
+  "flex-layout.col#side__left--card-product-two": {
+    "children": [
+      "flex-layout.row#card__product-two-image",
+      "flex-layout.row#card__product-two-description"
+    ],
+    "props": {
+      "blockClass": "side__left--card-product-two",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#card__product-two-image": {
+    "children": ["image#product-two"],
+    "props": {
+      "blockClass": "card__product-two-image"
+    }
+  },
+  "image#product-two": {
+    "props": {
+      "src": "assets/img/product-two.webp",
+      "blockClass": "product-two"
+    }
+  },
+  "flex-layout.row#card__product-two-description": {
+    "children": ["flex-layout.col#product__two-description-container"],
+    "props": {
+      "blockClass": "card__product-two-description"
+    }
+  },
+  "flex-layout.col#product__two-description-container": {
+    "children": [
+      "rich-text#title__product-two",
+      "rich-text#reference__product-two",
+      "rich-text#price__product-two"
+    ],
+    "props": {
+      "blockClass": "product__two-description-container"
+    }
+  },
+  "rich-text#title__product-two": {
+    "props": {
+      "blockClass": "title__product-two",
+      "text": "Parlante inalámbrico portátil XG500 de la serie X"
+    }
+  },
+  "rich-text#reference__product-two": {
+    "props": {
+      "blockClass": "reference__product-two",
+      "text": "SRS-XG500"
+    }
+  },
+  "rich-text#price__product-two": {
+    "props": {
+      "blockClass": "price__product-two",
+      "text": "$ 1,799,900"
+    }
+  }
+}

@@ -1,7 +1,4 @@
 {
-  "responsive-layout.mobile#home__section-one--mobile": {
-    "children": ["flex-layout.row#mobile__home--section-one"]
-  },
   "flex-layout.row#mobile__home--section-one": {
     "children": ["flex-layout.col#mobile__home--section-one-col"],
     "props": {

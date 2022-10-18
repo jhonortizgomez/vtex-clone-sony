@@ -1,5 +1,9 @@
+.bullet_desktop__container{
+  width: 90% !important;
+  margin: 5% 0
+}
 .bullet__item--title {
-  color: magenta;
+  color: black;
   font-weight: 700;
   font-size: 11px;
 }

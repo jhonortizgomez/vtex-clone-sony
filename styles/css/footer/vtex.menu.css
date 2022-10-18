@@ -81,3 +81,22 @@
   font-size: 11px;
   font-weight: lighter;
 }
+/* -------------------------- mobile  */
+.styledLink--footer-mobile__menu-item{
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.menuContainer--footer-mobile__contact-top{
+  justify-content: center;
+}
+
+.styledLinkContent--footer-mobile__menu-item-polices{
+  color: white;
+  font-size: 12px;
+}
+.styledLinkContent--footer-mobile__menu-item-polices{
+  display: flex;
+  justify-content: center;
+}

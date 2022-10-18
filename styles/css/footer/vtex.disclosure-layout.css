@@ -1,0 +1,15 @@
+/* ------------------------------- mobile */
+.trigger--footer-mobile__disclosure-trigger{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trigger--footer-mobile__disclosure-trigger{
+  background-color: black;
+  border: 0;
+  border-bottom: 1px solid gray ;
+  width: 100%;
+}
+.content--footer-mobile__disclosure-content--visible{
+  margin-bottom: 20px;
+}

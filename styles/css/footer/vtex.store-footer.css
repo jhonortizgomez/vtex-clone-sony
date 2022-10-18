@@ -4,6 +4,7 @@
 .footerLayout--footer {
   background-color: black;
   padding: 0 40px;
+  margin-top: 30px;
 }
 
 /* Social */
@@ -13,4 +14,12 @@
   margin-right: 80px;
   height: 100%;
   align-items: center;
+}
+
+/* ---------------------------------- mobile */
+.footerLayoutSpacer--footer-mobile {
+  margin-top: 40px;
+}
+.socialNetworksContainer--footer-mobile__social-networks{
+  justify-content: center;
 }

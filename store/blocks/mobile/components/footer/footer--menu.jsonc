@@ -1,0 +1,26 @@
+{
+  "flex-layout.row#footer-mobile__menu": {
+    "children": ["flex-layout.col#footer-mobile__menu"],
+    "props":{
+      "blockClass": "footer-mobile__menu"
+    }
+  },
+  "flex-layout.col#footer-mobile__menu": {
+    "children": ["disclosure-layout-group#footer-mobile__menu-group"],
+    "props":{
+      "blockClass": "footer-mobile__menu"
+    }
+  },
+  "disclosure-layout-group#footer-mobile__menu-group": {
+    "children": [
+      "disclosure-layout#footer-mobile__search-distributors",
+      "disclosure-layout#footer-mobile__online-shopping",
+      "disclosure-layout#footer-mobile__community",
+      "disclosure-layout#footer-mobile__news-and-info"
+    ],
+    "props": {
+      "maxVisible": "many",
+      "blockClass": "footer-mobile__containers-disclousures"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "slider-layout#mobile__home--section-two": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "mobile": 1
+      },
+      "blockClass": "mobile__home--section-two",
+      "infinite": false,
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly"
+      // "centerModeSlidesGap": 30,
+    },
+    "children": [
+      "flex-layout.row#mobile__home--section-two-slider-one",
+      "flex-layout.row#mobile__home--section-two-slider-two",
+      "flex-layout.row#mobile__home--section-two-slider-three"
+    ]
+  }
+}

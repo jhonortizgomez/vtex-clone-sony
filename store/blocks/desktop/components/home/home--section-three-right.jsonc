@@ -1,0 +1,57 @@
+{
+  "flex-layout.col#section__three--side-right": {
+    "children": [
+      "flex-layout.row#card__product-three-image",
+      "flex-layout.row#card__product-three-description"
+    ],
+    "props": {
+      "blockClass": "section__three--side-right"
+    }
+  },
+  "flex-layout.row#card__product-three-image": {
+    "children": ["image#product-three"],
+    "props": {
+      "blockClass": "card__product-three-image"
+    }
+  },
+  "image#product-three": {
+    "props": {
+      "src": "assets/img/product-three.webp",
+      "blockClass": "product-three"
+    }
+  },
+  "flex-layout.row#card__product-three-description": {
+    "children": ["flex-layout.col#product__three-description-container"],
+    "props": {
+      "blockClass": "card__product-three-description"
+    }
+  },
+  "flex-layout.col#product__three-description-container": {
+    "children": [
+      "rich-text#title__product-three",
+      "rich-text#reference__product-three",
+      "rich-text#price__product-three"
+    ],
+    "props": {
+      "blockClass": "product__three-description-container"
+    }
+  },
+  "rich-text#title__product-three": {
+    "props": {
+      "blockClass": "title__product-three",
+      "text": "Parlante inalámbrico portátil EXTRA BASS XB23"
+    }
+  },
+  "rich-text#reference__product-three": {
+    "props": {
+      "blockClass": "reference__product-three",
+      "text": "SRS-XB23"
+    }
+  },
+  "rich-text#price__product-three": {
+    "props": {
+      "blockClass": "price__product-three",
+      "text": "$ 449,899"
+    }
+  }
+}

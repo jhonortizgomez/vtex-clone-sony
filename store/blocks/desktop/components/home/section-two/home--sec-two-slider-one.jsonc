@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#desktop__home--section-two-slider-one": {
+    "children": ["flex-layout.col#desktop__home--section-two-col-slider-one"],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-one"
+    }
+  },
+  "flex-layout.col#desktop__home--section-two-col-slider-one": {
+    "children": [
+      "image#desktop__home--section-two-col-slider-one-img",
+      "flex-layout.row#desktop__home--section-two-slider-one-container-text"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-col-slider-one"
+    }
+  },
+  "image#desktop__home--section-two-col-slider-one-img": {
+    "props": {
+      "src": "assets/img/home--section-two-img1.jfif",
+      "blockClass": "desktop__home--section-two-col-slider-one-img"
+    }
+  },
+  "flex-layout.row#desktop__home--section-two-slider-one-container-text": {
+    "children": [
+      "flex-layout.col#desktop__home--section-two-slider-one-container-text-col"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-one-container-text"
+    }
+  },
+  "flex-layout.col#desktop__home--section-two-slider-one-container-text-col": {
+    "children": [
+      "rich-text#home__section-two-img-one-title",
+      "rich-text#home__section-two-img-one-description",
+      "rich-text#home__section-two-img-one-description-two"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section-two-slider-one-container-text-col"
+    }
+  },
+  "rich-text#desktop__home--section-two-img-one-title": {
+    "props": {
+      "blockClass": "home__section-two-img-one-title",
+      "text": "Serie X, una nueva gama de parlantes"
+    }
+  },
+  "rich-text#desktop__home--section-two-img-one-description": {
+    "props": {
+      "blockClass": "home__section-two-img-one-description",
+      "text": "LIVE LIFE LOUD"
+    }
+  },
+  "rich-text#desktop__home--section-two-img-one-description-two": {
+    "props": {
+      "blockClass": "home__section-two-img-one-description-two",
+      "text": "Fiestas que recordarás para siempre"
+    }
+  }
+}

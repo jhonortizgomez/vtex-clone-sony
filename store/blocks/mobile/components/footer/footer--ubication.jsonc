@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#footer-mobile__ubication": {
+    "children": ["rich-text#footer-mobile__ubication"],
+    "props": {
+      "blockClass": "footer-mobile__ubication"
+    }
+  },
+  "rich-text#footer-mobile__ubication": {
+    "props": {
+      "text": "Colombia",
+      "blockClass": "footer-mobile__ubication"
+    }
+  }
+}
