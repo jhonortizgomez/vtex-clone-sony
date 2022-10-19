@@ -1,10 +1,9 @@
 {
-  "drawer#header__desktop--menu": {
+  "drawer#header__desktop--drawer": {
     "children": ["menu#header__desktop--menu"],
     "props": {
       "slideDirection": "vertical",
-      "blockClass": "header__desktop--menu",
-      "maxWidth": "auto"
+      "blockClass": "header__desktop--drawer"
     }
     // "blocks": ["drawer-trigger"]
   },
@@ -18,18 +17,18 @@
   // },
   "menu#header__desktop--menu": {
     "children": [
-      "menu-item#deparment__products",
-      "menu-item#department__store",
-      "menu-item#department__playStation",
-      "menu-item#department__assistance",
-      "menu-item#department__websSony"
+      "menu-item#header__desktop--department-products",
+      "menu-item#header__desktop--department-store",
+      "menu-item#header__desktop--department-playStation",
+      "menu-item#header__desktop--department-assistance",
+      "menu-item#header__desktop--department-websSony"
     ],
     "props": {
       "orientation": "vertical",
-      "blockClass": "header__desktop--menu-container"
+      "blockClass": "header__desktop--deparments"
     }
   },
-  "menu-item#deparment__products": {
+  "menu-item#header__desktop--department-products": {
     "props": {
       "id": "deparment-products",
       "type": "custom",
@@ -41,7 +40,7 @@
     },
     "blocks": ["submenu.accordion#deparment__products"]
   },
-  "menu-item#department__store": {
+  "menu-item#header__desktop--department-store": {
     "props": {
       "id": "department-store",
       "type": "custom",
@@ -53,7 +52,7 @@
       }
     }
   },
-  "menu-item#department__playStation": {
+  "menu-item#header__desktop--department-playStation": {
     "props": {
       "id": "department-playStation",
       "type": "custom",
@@ -66,7 +65,7 @@
       }
     }
   },
-  "menu-item#department__assistance": {
+  "menu-item#header__desktop--department-assistance": {
     "props": {
       "id": "department-assistance",
       "type": "custom",
@@ -78,7 +77,7 @@
       }
     }
   },
-  "menu-item#department__websSony": {
+  "menu-item#header__desktop--department-websSony": {
     "props": {
       "id": "deparment-websSony",
       "type": "custom",
