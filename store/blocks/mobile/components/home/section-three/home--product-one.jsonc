@@ -1,0 +1,72 @@
+{
+  "flex-layout.row#home__mobile--section-three-product1": {
+    "children": ["flex-layout.col#home__mobile--section-three-product1"],
+    "props": {
+      "blockClass": "home__mobile--section-three-product"
+    }
+  },
+  "flex-layout.col#home__mobile--section-three-product1": {
+    "children": [
+      "flex-layout.row#home__mobile--section-three-product1-container-image",
+      "flex-layout.row#home__mobile--section-three-product1-description"
+    ],
+    "props": {
+      "blockClass": "home__mobile--section-three-product"
+    }
+  },
+  "flex-layout.row#home__mobile--section-three-product1-container-image": {
+    "children": ["image#home__mobile--section-three-product1-image"],
+    "props": {
+      "blockClass": "home__mobile--section-three-container-image"
+    }
+  },
+  "image#home__mobile--section-three-product1-image": {
+    "props": {
+      "src": "assets/img/product-three.webp",
+      "blockClass": "home__mobile--section-three-image"
+    }
+  },
+  "flex-layout.row#home__mobile--section-three-product1-description": {
+    "children": [
+      "flex-layout.col#home__mobile--section-three-product1-container-description"
+    ],
+    "props": {
+      "blockClass": "home__mobile-section-three-description"
+    }
+  },
+  "flex-layout.col#home__mobile--section-three-product1-container-description": {
+    "children": [
+      "rich-text#home__mobile--section-three-product1-description",
+      "rich-text#home__mobile--section-three-product1-brand",
+      "rich-text#home__mobile--section-three-product1-since",
+      "rich-text#home__mobile--section-three-product1-price"
+    ],
+    "props": {
+      "blockClass": "home__mobile--section-three-container-description"
+    }
+  },
+  "rich-text#home__mobile--section-three-product1-description": {
+    "props": {
+      "text": "Parlante inalámbrico portátil EXTRA BASS XB23",
+      "blockClass": "home__mobile--section-three-product-description"
+    }
+  },
+  "rich-text#home__mobile--section-three-product1-brand": {
+    "props": {
+      "text": "SRS-XB23",
+      "blockClass": "home__mobile--section-three-product-brand"
+    }
+  },
+  "rich-text#home__mobile--section-three-product1-since": {
+    "props": {
+      "text": "Desde",
+      "blockClass": "home__mobile--section-three-product-since"
+    }
+  },
+  "rich-text#home__mobile--section-three-product1-price": {
+    "props": {
+      "text": "$ 449,899",
+      "blockClass": "home__mobile--section-three-product-price"
+    }
+  }
+}

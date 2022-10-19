@@ -13,7 +13,7 @@
       "minicart.v2",
       "search-bar#header__search",
       // "icon-search",
-      "drawer#header__desktop--menu"
+      "drawer#header__desktop--drawer"
     ],
     "props": {
       "blockClass": "header__desktop",
