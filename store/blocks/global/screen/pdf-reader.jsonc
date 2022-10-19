@@ -1,5 +1,12 @@
 {
   "store.custom#pdf-reader": {
-    "blocks": ["pdf-reader", "custom-grid"]
+    "blocks": ["responsive-layout.mobile#pdf"]
+  },
+  "responsive-layout.mobile#pdf": {
+    "children": [
+      "pdf-reader#pdf__mobile",
+      "flex-layout.row#home__section--product-list-title",
+      "flex-layout.row#mobile--custom-layout"
+    ]
   }
 }
