@@ -1,17 +1,24 @@
 {
-  "submenu.accordion#category__imagingPlatform": {
-    "children": ["menu#category__imagingPlatform"]
+  "submenu.accordion#header__desktop--category-imagingPlatform": {
+    "title": "Menu Acordión Imaging Platform",
+    "children": ["menu#category__imagingPlatform"],
+    "props":{
+      "blockClass": "header__desktop--categories"
+    }
   },
   "menu#category__imagingPlatform": {
+    "title": "Menu Imaging Platform",
     "children": [
       "menu-item#item__cloudService",
       "menu-item#item__cameraRemoteSDK"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "header__desktop--menu-categories"
     }
   },
   "menu-item#item__cloudService": {
+    "title": "Header Desktop Imaging Platform",
     "props": {
       "id": "item-cloudService",
       "type": "custom",
@@ -20,10 +27,12 @@
         "href": "/construccion",
         "tagTitle": "Servicio de nube",
         "text": "Servicio de nube"
-      }
+      },
+       "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#item__cameraRemoteSDK": {
+    "title": "Producto Camara Remota SDK",
     "props": {
       "id": "item-cameraRemoteSDK",
       "type": "custom",
@@ -32,7 +41,8 @@
         "href": "/construccion",
         "tagTitle": "Camera Remote SDK",
         "text": "Camera Remote SDK"
-      }
+      },
+       "blockClass": "header__desktop--menu-item"
     }
   }
 }

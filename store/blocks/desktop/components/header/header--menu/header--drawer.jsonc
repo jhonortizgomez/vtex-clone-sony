@@ -1,5 +1,6 @@
 {
   "drawer#header__desktop--drawer": {
+    "title": "Drawer Desktop Header",
     "children": ["menu#header__desktop--menu"],
     "props": {
       "slideDirection": "vertical",
@@ -16,6 +17,7 @@
   //   }
   // },
   "menu#header__desktop--menu": {
+    "title": "Menu Desktop Header",
     "children": [
       "menu-item#header__desktop--department-products",
       "menu-item#header__desktop--department-store",
@@ -29,6 +31,7 @@
     }
   },
   "menu-item#header__desktop--department-products": {
+    "title": "Departamento de Productos",
     "props": {
       "id": "deparment-products",
       "type": "custom",
@@ -36,11 +39,13 @@
         "type": "external",
         "tagTitle": "Products title",
         "text": "Productos"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     },
-    "blocks": ["submenu.accordion#deparment__products"]
+    "blocks": ["submenu.accordion#header__desktop--categories-products"]
   },
   "menu-item#header__desktop--department-store": {
+    "title": "Tienda Sony",
     "props": {
       "id": "department-store",
       "type": "custom",
@@ -49,10 +54,12 @@
         "href": "/construccion",
         "tagTitle": "store title",
         "text": "Tienda"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#header__desktop--department-playStation": {
+    "title": "Departamento de PlayStation",
     "props": {
       "id": "department-playStation",
       "type": "custom",
@@ -62,10 +69,12 @@
         "noFollow": true,
         "tagTitle": "playStation title",
         "text": "PlayStation"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#header__desktop--department-assistance": {
+    "title": "Departamento de Productos",
     "props": {
       "id": "department-assistance",
       "type": "custom",
@@ -74,10 +83,12 @@
         "href": "/construccion",
         "tagTitle": "assistance title",
         "text": "Asistencia"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#header__desktop--department-websSony": {
+    "title": "Departamento de Web Sony",
     "props": {
       "id": "deparment-websSony",
       "type": "custom",
@@ -85,8 +96,9 @@
         "type": "external",
         "tagTitle": "websSony title",
         "text": "Webs Sony"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     },
-    "blocks": ["submenu.accordion#deparment__websSony"]
+    "blocks": ["submenu.accordion#header__desktop--department-websSony"]
   }
 }

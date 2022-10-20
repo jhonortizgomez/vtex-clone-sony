@@ -1,23 +1,31 @@
 {
-  "submenu.accordion#category__multimedia-storage-cables": {
-    "children": ["menu#category__multimedia-storage-cables"]
-  },
-  "menu#category__multimedia-storage-cables": {
-    "children": ["menu-item#item__multimedia-storage-cables"],
-    "props": {
-      "orientation": "vertical"
+  "submenu.accordion#header__desktop--category-multimedia": {
+    "title": "Categoria Multimedia",
+    "children": ["menu#header__desktop--category-multimedia"],
+    "props":{
+      "blockClass": "header__desktop--categories"
     }
   },
-  "menu-item#item__multimedia-storage-cables": {
+  "menu#header__desktop--category-multimedia": {
+    "title": "Menu Multimedia",
+    "children": ["menu-item#item__multimedia"],
     "props": {
-      "id": "item-multimedia-storage-cables",
+      "orientation": "vertical",
+      "blockClass": "header__desktop--category-multimedia"
+    }
+  },
+  "menu-item#item__multimedia": {
+    "title": "Tarjetas de Memorias",
+    "props": {
+      "id": "item-multimedia",
       "type": "custom",
       "itemProps": {
         "type": "external",
         "href": "/construccion",
         "tagTitle": "Tarjetas de memoria, almacenamiento y cables",
         "text": "Tarjetas de memoria, almacenamiento y cables"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   }
 }

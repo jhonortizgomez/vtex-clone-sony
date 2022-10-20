@@ -1,0 +1,27 @@
+.menuContainerNav--header__desktop--deparments{
+  width: 100%;
+  background-color: white;
+}
+.menuItem--header__desktop--menu-item--isClosed{
+  border-bottom: .5px solid #808080a1;
+  padding: 7px 0;
+}
+.menuItem--header__desktop--menu-item--isOpen{
+  border-bottom: .5px solid #808080a1;
+  transform: translate3d(0px, 5px, 10px);
+  background-color: white;
+}
+.submenuWrapper--header__desktop--categories--isOpen{
+  border-top: .5px solid black;
+  padding: 7px 0;
+  width: 100%;
+}
+.submenu--header__desktop--categories{
+  display: block;
+}
+.submenuAccordion--header__desktop--categories{
+  padding: 0;
+}
+.menuContainerNav--header__desktop--menu-categories{
+  width: 100%;
+}

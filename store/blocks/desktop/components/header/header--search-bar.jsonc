@@ -1,5 +1,6 @@
 {
   "search-bar#header__search": {
+    "title": "search bar",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true,
