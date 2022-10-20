@@ -1,11 +1,13 @@
 {
   "flex-layout.row#desktop__home--section-one": {
+    "title": "Fila Sección 1 Home",
     "children": ["flex-layout.col#desktop__home--section-one-col"],
     "props": {
       "blockClass": "desktop__home--section-one"
     }
   },
   "flex-layout.col#desktop__home--section-one-col": {
+    "title": "Columna Sección 1 Home",
     "children": [
       "image#home__section-one-img-one",
       "flex-layout.row#home__section-one-text"
@@ -16,18 +18,21 @@
   },
 
   "image#home__section-one-img-one": {
+    "title": "Imagen de la Sección 1",
     "props": {
       "src": "assets/img/home--section-one.webp",
       "blockClass": "home__section-one-img-one"
     }
   },
   "flex-layout.row#home__section-one-text": {
+    "title": "Fila para el contenido de la seccipin 1",
     "children": ["flex-layout.col#home__section-one-text-col"],
     "props": {
       "blockClass": "home__section-one-text"
     }
   },
   "flex-layout.col#home__section-one-text-col": {
+    "title": "Columna para el contenido de la sección 1",
     "children": [
       "rich-text#section__one-text-title",
       "rich-text#section__one-text-description",
@@ -38,18 +43,21 @@
     }
   },
   "rich-text#section__one-text-title": {
+    "title": "Texto del Titulo del contenido",
     "props": {
       "blockClass": "section__one-text-title",
       "text": "TU MUNDO. NADA MÁS."
     }
   },
   "rich-text#section__one-text-description": {
+    "title": "Texto de la Descripción del contenido",
     "props": {
       "blockClass": "section__one-text-description",
       "text": "Los audífonos WH-1000XM5 redefinen el audio sin distractiones y la claridad en las llamadas gracias a dos procesadores que controlan ocho microfonos, un optimizador NC auntomático para optimizar de forma automática la función noise cancelling lider del sector según la colocación y el entorno, y una unidad de diafragma especial."
     }
   },
   "link#section__one-text-button": {
+    "title": "Botton de call to action section 1",
     "props": {
       "href": "/construccion",
       "label": "Descubre los WH-1000XM5",

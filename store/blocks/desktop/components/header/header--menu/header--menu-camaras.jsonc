@@ -1,8 +1,13 @@
 {
-  "submenu.accordion#category__cameras": {
-    "children": ["menu#category__cameras"]
+  "submenu.accordion#header__desktop--category-cameras": {
+    "title": "Categoria de Camaras",
+    "children": ["menu#category__cameras"],
+    "props":{
+      "blockClass": "header__desktop--categories"
+    }
   },
   "menu#category__cameras": {
+    "title": "Menu de Camaras",
     "children": [
       "menu-item#item__professional-microphones-tripods",
       "menu-item#item__glasses",
@@ -13,10 +18,12 @@
       "menu-item#item__camera-accesories"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "header__desktop--menu-categories"
     }
   },
   "menu-item#item__professional-microphones-tripods": {
+    "title": "Micrófonos profesionales, trípodes y más",
     "props": {
       "id": "item-professionalMicrophones-tripods&More",
       "type": "custom",
@@ -25,10 +32,12 @@
         "href": "/construccion",
         "tagTitle": "Micrófonos profesionales, trípodes y más",
         "text": "Micrófonos profesionales, trípodes y más"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#item__glasses": {
+    "title": "Lentes",
     "props": {
       "id": "item-glasses",
       "type": "custom",
@@ -37,10 +46,12 @@
         "href": "/construccion",
         "tagTitle": "Lentes",
         "text": "Lentes"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#item__compact-cameras": {
+    "title": "Cámaras compactas",
     "props": {
       "id": "item-compactCameras",
       "type": "custom",
@@ -49,10 +60,12 @@
         "href": "/construccion",
         "tagTitle": "Cámaras compactas",
         "text": "Cámaras compactas"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#item__camcordes-handycam": {
+    "title": "Videocámaras Handycam",
     "props": {
       "id": "item-camcordesHandycam",
       "type": "custom",
@@ -61,10 +74,12 @@
         "href": "/construccion",
         "tagTitle": "Videocámaras Handycam",
         "text": "Videocámaras Handycam"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#item__action-cam": {
+    "title": "Action Cam",
     "props": {
       "id": "item-actionCam",
       "type": "custom",
@@ -73,10 +88,12 @@
         "href": "/construccion",
         "tagTitle": "Action Cam",
         "text": "Action Cam"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#item__film-cameras": {
+    "title": "Cámaras de Cine",
     "props": {
       "id": "item-filmCameras",
       "type": "custom",
@@ -85,10 +102,12 @@
         "href": "/construccion",
         "tagTitle": "Cámaras de Cine",
         "text": "Cámaras de Cine"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#item__camera-accesories": {
+    "title": "Accesorios para cámaras",
     "props": {
       "id": "item-cameraAccesories",
       "type": "custom",
@@ -97,7 +116,8 @@
         "href": "/construccion",
         "tagTitle": "Accesorios para cámaras",
         "text": "Accesorios para cámaras"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   }
 }

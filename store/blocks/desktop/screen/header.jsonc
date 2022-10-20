@@ -1,6 +1,6 @@
 {
   "header-layout.desktop": {
-    "title": "Desktop header",
+    "title": "Header desktop",
     "children": ["header-row#header__desktop"]
   },
   "header-row#header__desktop": {
