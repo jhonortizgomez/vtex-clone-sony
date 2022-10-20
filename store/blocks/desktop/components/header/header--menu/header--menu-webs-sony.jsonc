@@ -1,8 +1,13 @@
 {
-  "submenu.accordion#deparment__websSony": {
-    "children": ["menu#department__websSony"]
+  "submenu.accordion#header__desktop--department-websSony": {
+    "title": "Departamento Web Sony",
+    "children": ["menu#header__desktop--department-websSony"],
+    "props":{
+      "blockClass": "header__desktop--categories"
+    }
   },
-  "menu#department__websSony": {
+  "menu#header__desktop--department-websSony": {
+    "title": "Menu Web Sony",
     "children": [
       "menu-item#category__sonyGroupSite",
       "menu-item#category__sonyDesign",
@@ -13,10 +18,12 @@
       "menu-item#category__sonyMusic"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "header__desktop--menu-categories"
     }
   },
   "menu-item#category__sonyGroupSite": {
+    "title": "Sony Group Site",
     "props": {
       "id": "category-sonyGroupSite",
       "type": "custom",
@@ -25,10 +32,12 @@
         "href": "/construccion",
         "tagTitle": "Sony Group Site",
         "text": "Sony Group Site"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#category__sonyDesign": {
+    "title": "Sony Design",
     "props": {
       "id": "category-sonyDesign",
       "type": "custom",
@@ -37,10 +46,12 @@
         "href": "/construccion",
         "tagTitle": "Sony Design",
         "text": "Sony Design"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#category__sonyProfessional": {
+    "title": "Sony Professional",
     "props": {
       "id": "category-sonyProfessional",
       "type": "custom",
@@ -49,10 +60,12 @@
         "href": "/construccion",
         "tagTitle": "Sony Professional",
         "text": "Sony Professional"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#category__playStation": {
+    "title": "Sony PlayStation",
     "props": {
       "id": "category-playStation",
       "type": "custom",
@@ -61,10 +74,12 @@
         "href": "/construccion",
         "tagTitle": "Sony PlayStation",
         "text": "Sony PlayStation"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#category__sonyEnvironment": {
+    "title": "Sony y el medio ambiente",
     "props": {
       "id": "category-sonyEnvironment",
       "type": "custom",
@@ -73,10 +88,12 @@
         "href": "/construccion",
         "tagTitle": "Sony y el medio ambiente",
         "text": "Sony y el medio ambiente"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#category__sonyPictures": {
+    "title": "Sony Pictures",
     "props": {
       "id": "category-sonyPictures",
       "type": "custom",
@@ -85,10 +102,12 @@
         "href": "/construccion",
         "tagTitle": "Sony Pictures",
         "text": "Sony Pictures"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   },
   "menu-item#category__sonyMusic": {
+    "title": "Sony Music",
     "props": {
       "id": "category-sonyMusic",
       "type": "custom",
@@ -97,7 +116,8 @@
         "href": "/construccion",
         "tagTitle": "Sony Music",
         "text": "Sony Music"
-      }
+      },
+      "blockClass": "header__desktop--menu-item"
     }
   }
 }

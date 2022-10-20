@@ -1,5 +1,6 @@
 {
   "slider-layout#desktop__home--section-two": {
+    "title": "Slider Sección 2 del Home",
     "props": {
       "itemsPerPage": {
         "desktop": 2

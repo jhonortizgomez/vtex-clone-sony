@@ -1,11 +1,13 @@
 .closed--header__desktop--drawer{
-  height: fit-content;
   transform: translate3d(100%, 50px, 0px) !important
 }
 .opened--header__desktop--drawer {
   width: auto !important;
-  height: fit-content;
-  transform: translate3d(-13%, 50px, 0px) !important
+  transform: translate3d(-13%, 50px, 0px) !important;
+  background: transparent;
+}
+.drawerContent--header__desktop--drawer{
+  height: 100%;
 }
 .closeIconContainer--header__desktop--drawer{
   display: none;
