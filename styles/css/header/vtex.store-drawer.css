@@ -12,3 +12,18 @@
 .closeIconContainer--header__desktop--drawer{
   display: none;
 }
+
+
+
+
+/* ------------------------------------------------ mobile */
+.closeIconContainer--header__mobile--drawer{
+  display: none;
+}
+.closed--header__mobile--drawer{
+  transform: translate3d(100%, 50px, 0px) !important
+}
+.opened--header__mobile--drawer {
+  transform: translate3d(0, 50px, 0px) !important;
+  background: transparent;
+}

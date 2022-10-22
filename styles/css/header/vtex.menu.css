@@ -25,3 +25,44 @@
 .menuContainerNav--header__desktop--menu-categories{
   width: 100%;
 }
+.accordionIcon--header__desktop--menu-item{
+  color: transparent;
+}
+
+.accordionIcon--header__desktop--menu-item--isClosed{
+  background: url(assets/img/flecha.png);
+  width: 1rem;
+  height: 1rem;
+}
+
+/* -------------------------------------------------------- mobile */
+.menuContainerNav--header__mobile--deparments{
+  width: 100%;
+  background-color: black;
+}
+.menuItem--header__mobile--menu-item--isClosed{
+  border-bottom: .5px solid #808080a1;
+  padding: 7px 0;
+}
+.menuItem--header__mobile--menu-item--isOpen{
+  border-bottom: .5px solid #808080a1;
+  transform: translate3d(0px, 5px, 10px);
+  background-color: black;
+}
+.submenuWrapper--header__mobile--categories--isOpen{
+  border-top: .5px solid black;
+  padding: 7px 0;
+  width: 100%;
+}
+.submenu--header__mobile--categories{
+  display: block;
+}
+.submenuAccordion--header__mobile--categories{
+  padding: 0;
+}
+.menuContainerNav--header__mobile--menu-categories{
+  width: 100%;
+}
+.styledLinkContent--header__mobile--menu-item{
+  color: white;
+}

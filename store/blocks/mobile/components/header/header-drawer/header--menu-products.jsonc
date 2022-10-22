@@ -1,0 +1,155 @@
+{
+  "submenu.accordion#header__mobile--categories-products": {
+    "title": "Categorias de Productos",
+    "children": ["menu#header__mobile--department-products"],
+    "props": {
+      "blockClass": "header__mobile--categories"
+    }
+  },
+  "menu#header__mobile--department-products": {
+    "title": "Categorias de Productos",
+    "children": [
+      "menu-item#mobile__category--televisions-theaterAtHome",
+      "menu-item#mobile__category--audio",
+      "menu-item#mobile__category--gameAccesories",
+      "menu-item#mobile__category--cameras",
+      "menu-item#mobile__category--imagingPlatform",
+      "menu-item#mobile__category--carAudio-soundSystemsCar-aquaticEnvironments",
+      "menu-item#mobile__category--multimedia-storage-cables",
+      "menu-item#mobile__category--allProducts",
+      "menu-item#mobile__category--professionalProductsAndSolutions"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header__mobile--menu-categories"
+    }
+  },
+  "menu-item#mobile__category--televisions-theaterAtHome": {
+    "title": "Categoria Televisión y Teatro En Casa",
+    "props": {
+      "id": "category-televisions-theaterAtHome",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Televisiones y teatros en casa",
+        "text": "Televisiones y teatros en casa"
+      },
+      "blockClass": "header__mobile--menu-item"
+    },
+    "blocks": ["submenu.accordion#header__mobile--category-tv-theaterAtHome"]
+  },
+  "menu-item#mobile__category--audio": {
+    "title": "Categoria Audio",
+    "props": {
+      "id": "category-audio",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Audio",
+        "text": "Audio"
+      },
+      "blockClass": "header__mobile--menu-item"
+    },
+    "blocks": ["submenu.accordion#header__mobile--category-audio"]
+  },
+  "menu-item#mobile__category--gameAccesories": {
+    "title": "Categoria Accesorios de juegos",
+    "props": {
+      "id": "category-gameAccesories",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Accesorios de juegos",
+        "text": "Accesorios de juegos"
+      },
+      "blockClass": "header__mobile--menu-item"
+    },
+    "blocks": ["submenu.accordion#header__mobile--category-gameAccesories"]
+  },
+  "menu-item#mobile__category--cameras": {
+    "title": "Categoria Cámaras",
+    "props": {
+      "id": "category-cameras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Cámaras",
+        "text": "Cámaras"
+      },
+      "blockClass": "header__mobile--menu-item"
+    },
+    "blocks": ["submenu.accordion#header__mobile--category-cameras"]
+  },
+  "menu-item#mobile__category--imagingPlatform": {
+    "title": "Categoria Imaging Platform",
+    "props": {
+      "id": "category-imagingPlatform",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Imaging Platform",
+        "text": "Imaging Platform"
+      },
+      "blockClass": "header__mobile--menu-item"
+    },
+    "blocks": ["submenu.accordion#header__mobile--category-imagingPlatform"]
+  },
+  "menu-item#mobile__category--carAudio-soundSystemsCar-aquaticEnvironments": {
+    "title": "Categoria Car Audio",
+    "props": {
+      "id": "category-carAudio-soundSystemsCar-aquaticEnvironments",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Car audio | Equipos de sonido para carros y entornos acuátios",
+        "text": "Car audio | Equipos de sonido para carros y entornos acuátios"
+      },
+      "blockClass": "header__mobile--menu-item"
+    },
+    "blocks": [
+      "submenu.accordion#header__mobile--category-carAudio"
+    ]
+  },
+  "menu-item#mobile__category--multimedia-storage-cables": {
+    "title": "Categoria Multimedia",
+    "props": {
+      "id": "category-multimedia-storage-cables",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Multimedia, almacenamiento y cables",
+        "text": "Multimedia, almacenamiento y cables"
+      },
+      "blockClass": "header__mobile--menu-item"
+    },
+    "blocks": ["submenu.accordion#header__mobile--category-multimedia"]
+  },
+  "menu-item#mobile__category--allProducts": {
+    "title": "Categoria Todos Los Productos",
+    "props": {
+      "id": "category-allProducts",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sony.com.co/all-products",
+        "tagTitle": "Todos los productos",
+        "text": "Todos los productos"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__category--professionalProductsAndSolutions": {
+    "title": "Categoria Productos y Soluciones Profesionales",
+    "props": {
+      "id": "category-professionalProductsAndSolutions",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://pro.sony/en_GB/change-country-region-language?originalUrl=%2F%3Fcmp%3Dgwt-&cmp=gwt-",
+        "tagTitle": "Productos y soluciones profesionales",
+        "text": "Productos y soluciones profesionales"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "submenu.accordion#header__mobile--category-cameras": {
+    "title": "Categoria de Camaras",
+    "children": ["menu#mobile__category--cameras"],
+    "props":{
+      "blockClass": "header__mobile--categories"
+    }
+  },
+  "menu#mobile__category--cameras": {
+    "title": "Menu de Camaras",
+    "children": [
+      "menu-item#mobile__item--professional-microphones-tripods",
+      "menu-item#mobile__item--glasses",
+      "menu-item#mobile__item--compact-cameras",
+      "menu-item#mobile__item--camcordes-handycam",
+      "menu-item#mobile__item--action-cam",
+      "menu-item#mobile__item--film-cameras",
+      "menu-item#mobile__item--camera-accesories"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header__mobile--menu-categories"
+    }
+  },
+  "menu-item#mobile__item--professional-microphones-tripods": {
+    "title": "Micrófonos profesionales, trípodes y más",
+    "props": {
+      "id": "item-professionalMicrophones-tripods&More",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Micrófonos profesionales, trípodes y más",
+        "text": "Micrófonos profesionales, trípodes y más"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--glasses": {
+    "title": "Lentes",
+    "props": {
+      "id": "item-glasses",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Lentes",
+        "text": "Lentes"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--compact-cameras": {
+    "title": "Cámaras compactas",
+    "props": {
+      "id": "item-compactCameras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Cámaras compactas",
+        "text": "Cámaras compactas"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--camcordes-handycam": {
+    "title": "Videocámaras Handycam",
+    "props": {
+      "id": "item-camcordesHandycam",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Videocámaras Handycam",
+        "text": "Videocámaras Handycam"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--action-cam": {
+    "title": "Action Cam",
+    "props": {
+      "id": "item-actionCam",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Action Cam",
+        "text": "Action Cam"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--film-cameras": {
+    "title": "Cámaras de Cine",
+    "props": {
+      "id": "item-filmCameras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Cámaras de Cine",
+        "text": "Cámaras de Cine"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--camera-accesories": {
+    "title": "Accesorios para cámaras",
+    "props": {
+      "id": "item-cameraAccesories",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Accesorios para cámaras",
+        "text": "Accesorios para cámaras"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  }
+}

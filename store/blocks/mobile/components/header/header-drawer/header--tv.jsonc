@@ -1,0 +1,63 @@
+{
+  "submenu.accordion#header__mobile--category-tv-theaterAtHome": {
+    "title": "Categoria Tv y Teatro en Casa",
+    "children": ["menu#mobile__category--televisions-theaterAtHome"],
+    "props":{
+      "blockClass": "header__mobile--categories"
+    }
+  },
+  "menu#mobile__category--televisions-theaterAtHome": {
+    "title": "Menu Tv y Teatro en Casa",
+    "children": [
+      "menu-item#mobile__item--Televisions",
+      "menu-item#mobile__item--HomeTheare-soundBars",
+      "menu-item#mobile__item--blueRayDisc-dvdPlayers"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header__mobile--menu-categories"
+    }
+  },
+  "menu-item#mobile__item--Televisions": {
+    "title": "Televisores",
+    "props": {
+      "id": "item-Televisions",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Televisores",
+        "text": "Televisores"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--HomeTheare-soundBars": {
+    "title": "Home Theatre y barras de sonido",
+    "props": {
+      "id": "item-HomeTheare-soundBars",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Home Theatre y barras de sonido",
+        "text": "Home Theatre y barras de sonido"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--blueRayDisc-dvdPlayers": {
+    "title": "Home Theatre y barras de sonido",
+    "props": {
+      "id": "item-blueRayDisc-dvdPlayers",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Reproductores de Blue-ray Disc y DVD",
+        "text": "Reproductores de Blue-ray Disc y DVD"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  }
+}

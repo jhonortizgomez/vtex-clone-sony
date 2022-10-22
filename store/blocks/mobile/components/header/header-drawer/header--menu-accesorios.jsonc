@@ -1,0 +1,30 @@
+{
+  "submenu.accordion#header__mobile--category-gameAccesories": {
+    "title": "Productos de Accesorios de juegos",
+    "children": ["menu#mobile__category--gameAccesories"],
+    "props":{
+      "blockClass": "header__mobile--categories"
+    }
+  },
+  "menu#mobile__category--gameAccesories": {
+    "title": "Menu de Accesorios de juegos",
+    "children": ["menu-item#mobile__item--gameAccesories"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile__item--gameAccesories": {
+    "title": "Producto Accesorios de juegos",
+    "props": {
+      "id": "item-gameAccesories",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Accesorios de juegos",
+        "text": "Accesorios de juegos"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  }
+}
