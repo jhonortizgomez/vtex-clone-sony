@@ -7,6 +7,7 @@
     }
   },
   "tab-layout#product__tabs": {
+    "title": "Contenedor de info adicional",
     "children": [
       "tab-list#product__tabs--list",
       "tab-content#product__tabs--content"
@@ -16,6 +17,7 @@
     }
   },
   "tab-list#product__tabs--list": {
+    "title": "Lista info adicional",
     "children": [
       "tab-list.item#tabs__list--reviews-and-ratings",
       "tab-list.item#tabs__list--product-specification",
@@ -26,6 +28,7 @@
     }
   },
   "tab-list.item#tabs__list--reviews-and-ratings": {
+    "title": "Revisiones y calificaciones",
     "props": {
       "tabId": "reviews-and-ratings",
       "label": "Revisiones y calificaciones",
@@ -34,14 +37,16 @@
     }
   },
   "tab-list.item#tabs__list--product-specification": {
+    "title": "Especificaciones de productos",
     "props": {
       "tabId": "product-specification",
-      "label": "Especificaciones de product",
+      "label": "Especificaciones de productos",
       "defaultActiveTab": false,
       "blockClass": "tabs__list--product-specification"
     }
   },
   "tab-list.item#tabs__list--questions": {
+    "title": "Preguntas y respuestas",
     "props": {
       "tabId": "questions",
       "label": "Preguntas y respuestas",
@@ -50,6 +55,7 @@
     }
   },
   "tab-content#product__tabs--content": {
+    "title": "Contenedor de tabs items",
     "children": [
       "tab-content.item#tabs__list--reviews-and-ratings",
       "tab-content.item#tabs__list--product-specification",
@@ -60,6 +66,7 @@
     }
   },
   "tab-content.item#tabs__list--reviews-and-ratings": {
+    "title": "Tab Item Revisiones y calificaciones ",
     "props": {
       "tabId": "reviews-and-ratings",
       "blockClass": "reviews-and-ratings"
@@ -67,6 +74,7 @@
     "children": ["product-reviews"]
   },
   "tab-content.item#tabs__list--product-specification": {
+    "title": "Tab Item Especificaciones de productos",
     "props": {
       "tabId": "product-specification",
       "blockClass": "product-specification"
@@ -74,6 +82,7 @@
     "children": ["product-specifications"]
   },
   "tab-content.item#tabs__list--questions": {
+    "title": "Tab Item Preguntas y respuestas",
     "props": {
       "tabId": "questions",
       "blockClass": "questions"

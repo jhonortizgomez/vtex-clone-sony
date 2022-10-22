@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__container-menu": {
+    "title": "Footer desktop menu",
     "children": [
       "flex-layout.col#footer__container-menu-dealer",
       "flex-layout.col#footer__container-menu-shopping",
@@ -11,6 +12,7 @@
     }
   },
   "flex-layout.col#footer__container-menu-dealer": {
+    "title": "Contenedor Footer desktop menu",
     "children": [
       "flex-layout.row#footer__container-menu-dealear__title",
       "flex-layout.row#footer__container-menu-dealear__menu"
@@ -20,27 +22,32 @@
     }
   },
   "flex-layout.row#footer__container-menu-dealear__title": {
+    "title": "Titulo de menu distribuciones",
     "children": ["rich-text#title-dealer"],
     "props": {
       "blockClass": "footer__menu-dealer-title"
     }
   },
   "rich-text#title-dealer": {
+    "title": "Texto del titulo del menu distribuciones",
     "props": {
       "text": "Busca un Distribuidor",
       "blockClass": "title-dealer"
     }
   },
   "flex-layout.row#footer__container-menu-dealear__menu": {
+    "title": "Texto del titulo del menu distribuciones",
     "children": ["menu#footer-dealer"]
   },
   "menu#footer-dealer": {
+    "title": "menu distribuciones",
     "children": ["menu-item#dealers", "newsletter-form#footer-newsletter"],
     "props": {
       "orientation": "vertical"
     }
   },
   "menu-item#dealers": {
+    "title": "Tiendas y Distribuidores",
     "props": {
       "id": "dealers",
       "type": "custom",
@@ -54,17 +61,20 @@
     }
   },
   "newsletter-form#footer-newsletter": {
+    "title": "Texto del titulo del menu distribuciones",
     "children": ["newsletter-input-email", "newsletter-submit"],
     "props": {
       "blockClass": "footer-newsletter"
     }
   },
   "newsletter-input-email": {
+    "title": "Input Newslatter",
     "props": {
       "placeholderText": "Email"
     }
   },
   "flex-layout.col#footer__container-menu-shopping": {
+    "title": "Input Newslatter",
     "children": [
       "flex-layout.row#footer__container-menu-shopping__title",
       "flex-layout.row#footer__container-menu-shopping__menu"

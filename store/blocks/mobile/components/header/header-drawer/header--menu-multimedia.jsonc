@@ -1,0 +1,31 @@
+{
+  "submenu.accordion#header__mobile--category-multimedia": {
+    "title": "Categoria Multimedia",
+    "children": ["menu#header__mobile--category-multimedia"],
+    "props":{
+      "blockClass": "header__mobile--categories"
+    }
+  },
+  "menu#header__mobile--category-multimedia": {
+    "title": "Menu Multimedia",
+    "children": ["menu-item#mobile__item--multimedia"],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header__mobile--category-multimedia"
+    }
+  },
+  "menu-item#mobile__item--multimedia": {
+    "title": "Tarjetas de Memorias",
+    "props": {
+      "id": "item-multimedia",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Tarjetas de memoria, almacenamiento y cables",
+        "text": "Tarjetas de memoria, almacenamiento y cables"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  }
+}

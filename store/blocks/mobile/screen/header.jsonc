@@ -13,7 +13,7 @@
       "minicart.v2#header__minicart--mobile",
       // "search-bar#header__search-bar--mobile",
       "icon-search#header__mobile--search",
-      "drawer#header__desktop--drawer"
+      "drawer#header__mobile--drawer"
     ],
     "props": {
       "blockClass": "header__mobile"

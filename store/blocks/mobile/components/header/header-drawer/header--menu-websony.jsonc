@@ -1,0 +1,123 @@
+{
+  "submenu.accordion#header__mobile--department-websSony": {
+    "title": "Departamento Web Sony",
+    "children": ["menu#header__mobile--department-websSony"],
+    "props":{
+      "blockClass": "header__mobile--categories"
+    }
+  },
+  "menu#header__mobile--department-websSony": {
+    "title": "Menu Web Sony",
+    "children": [
+      "menu-item#mobile__category--sonyGroupSite",
+      "menu-item#mobile__category--sonyDesign",
+      "menu-item#mobile__category--sonyProfessional",
+      "menu-item#mobile__category--playStation",
+      "menu-item#mobile__category--sonyEnvironment",
+      "menu-item#mobile__category--sonyPictures",
+      "menu-item#mobile__category--sonyMusic"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header__mobile--menu-categories"
+    }
+  },
+  "menu-item#mobile__category--sonyGroupSite": {
+    "title": "Sony Group Site",
+    "props": {
+      "id": "category-sonyGroupSite",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Sony Group Site",
+        "text": "Sony Group Site"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__category--sonyDesign": {
+    "title": "Sony Design",
+    "props": {
+      "id": "category-sonyDesign",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Sony Design",
+        "text": "Sony Design"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__category--sonyProfessional": {
+    "title": "Sony Professional",
+    "props": {
+      "id": "category-sonyProfessional",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Sony Professional",
+        "text": "Sony Professional"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__category--playStation": {
+    "title": "Sony PlayStation",
+    "props": {
+      "id": "category-playStation",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Sony PlayStation",
+        "text": "Sony PlayStation"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__category--sonyEnvironment": {
+    "title": "Sony y el medio ambiente",
+    "props": {
+      "id": "category-sonyEnvironment",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Sony y el medio ambiente",
+        "text": "Sony y el medio ambiente"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__category--sonyPictures": {
+    "title": "Sony Pictures",
+    "props": {
+      "id": "category-sonyPictures",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Sony Pictures",
+        "text": "Sony Pictures"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__category--sonyMusic": {
+    "title": "Sony Music",
+    "props": {
+      "id": "category-sonyMusic",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Sony Music",
+        "text": "Sony Music"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  }
+}

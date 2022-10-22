@@ -60,6 +60,7 @@
     }
   },
   "slider-layout#products__list--shelf": {
+    "title": "Slider de los productos shelf",
     "props": {
       "itemsPerPage": {
         "desktop": 3,
@@ -70,6 +71,7 @@
     }
   },
   "rich-text#test": {
+    "title": "Texto de prueba",
     "props": {
       "text": "prueba"
     }

@@ -45,22 +45,25 @@
     }
   },
   "rich-text#product__promo-info": {
+    "title": "texto adicional de producto",
     "props": {
-      "title": "texto adicional de producto",
       "text": " ",
       "blockClass": "product__promo-info"
     }
   },
   "modal-trigger#add-to-cart-button": {
+    "title": "modal de agregar al carrito",
     "children": ["modal-layout#add-to-cart-info"],
     "props": {
       "customPixelEventName": "addToCart"
     }
   },
   "modal-layout#add-to-cart-info": {
+    "title": "informacion del carrito",
     "children": ["modal-header#add-to-cart-info", "add-to-cart-info"]
   },
   "modal-header#add-to-cart-info": {
+    "title": "icono de cerrar modal",
     "props": {
       "showCloseButton": true,
       "iconCloseSize": 24

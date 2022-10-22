@@ -1,0 +1,32 @@
+{
+  "submenu.accordion#header__mobile--category-carAudio": {
+    "title": "Categoria de Car Audio",
+    "children": ["menu#mobile__category--carAudio"],
+    "props":{
+      "blockClass": "header__mobile--categories"
+    }
+  },
+  "menu#mobile__category--carAudio": {
+    "title": "Menu de Car Audio",
+    "children": [
+      "menu-item#mobile__item--carAudio"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile__item--carAudio": {
+    "title": "Car Audio",
+    "props": {
+      "id": "item-carAudio",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Car audio | Equipos de sonido para carros y entornos acuáticos",
+        "text": "Car audio | Equipos de sonido para carros y entornos acuáticos"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  }
+}
