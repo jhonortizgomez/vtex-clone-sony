@@ -1,5 +1,6 @@
 .element {
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.382);
+  box-shadow: inset black 0px 1px 7px 0px;
   padding: 10px 10px;
 }
 .nameContainer--product__summary--name {

@@ -1,8 +1,10 @@
 {
   "store.custom#pdf-reader": {
+    "title": "Pagina PDF",
     "blocks": ["responsive-layout.mobile#pdf"]
   },
   "responsive-layout.mobile#pdf": {
+    "title": "Pagina PDF Mobile",
     "children": [
       "pdf-reader#pdf__mobile",
       "flex-layout.row#home__section--product-list-title",

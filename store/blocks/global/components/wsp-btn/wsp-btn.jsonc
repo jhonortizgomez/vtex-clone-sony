@@ -1,5 +1,6 @@
 {
   "wsp-btn": {
+    "title": "Componente Whatsapp",
     "props": {
       "logo": "assets/img/wsp-logo.png",
       "phone": "573244134762",

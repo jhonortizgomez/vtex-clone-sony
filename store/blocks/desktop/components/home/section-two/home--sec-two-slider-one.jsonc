@@ -1,11 +1,13 @@
 {
   "flex-layout.row#desktop__home--section-two-slider-one": {
+    "title": "Contenedor Sección dos",
     "children": ["flex-layout.col#desktop__home--section-two-col-slider-one"],
     "props": {
       "blockClass": "desktop__home--section-two-slider-one"
     }
   },
   "flex-layout.col#desktop__home--section-two-col-slider-one": {
+    "title": "Contenedor Sección dos",
     "children": [
       "image#desktop__home--section-two-col-slider-one-img",
       "flex-layout.row#desktop__home--section-two-slider-one-container-text"
@@ -15,12 +17,14 @@
     }
   },
   "image#desktop__home--section-two-col-slider-one-img": {
+    "title": "Imagen del slider 1",
     "props": {
       "src": "assets/img/home--section-two-img1.jfif",
       "blockClass": "desktop__home--section-two-col-slider-one-img"
     }
   },
   "flex-layout.row#desktop__home--section-two-slider-one-container-text": {
+    "title": "contenedor de texto del slider 1",
     "children": [
       "flex-layout.col#desktop__home--section-two-slider-one-container-text-col"
     ],
@@ -29,6 +33,7 @@
     }
   },
   "flex-layout.col#desktop__home--section-two-slider-one-container-text-col": {
+    "title": "contenedor de texto del slider 1",
     "children": [
       "rich-text#home__section-two-img-one-title",
       "rich-text#home__section-two-img-one-description",
@@ -39,18 +44,21 @@
     }
   },
   "rich-text#desktop__home--section-two-img-one-title": {
+    "title": "Titulo del slider 1",
     "props": {
       "blockClass": "home__section-two-img-one-title",
       "text": "Serie X, una nueva gama de parlantes"
     }
   },
   "rich-text#desktop__home--section-two-img-one-description": {
+    "title": "Descripcion del slider 1",
     "props": {
       "blockClass": "home__section-two-img-one-description",
       "text": "LIVE LIFE LOUD"
     }
   },
   "rich-text#desktop__home--section-two-img-one-description-two": {
+    "title": "Descripcion 2 del slider 1",
     "props": {
       "blockClass": "home__section-two-img-one-description-two",
       "text": "Fiestas que recordarás para siempre"

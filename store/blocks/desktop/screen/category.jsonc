@@ -1,5 +1,6 @@
 {
   "search-result-layout.desktop#category__desktop": {
+    "title": "contenedor de resultado de busqueda",
     "children": [
       "flex-layout.row#deparment__breadcrumb",
       "flex-layout.row#deparment__results"

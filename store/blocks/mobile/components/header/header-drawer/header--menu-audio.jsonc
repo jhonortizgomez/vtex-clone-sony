@@ -1,0 +1,168 @@
+{
+  "submenu.accordion#header__mobile--category-audio": {
+    "title": "Categoria de Audio",
+    "children": ["menu#mobile__category--audio"],
+    "props":{
+      "blockClass": "header__mobile--categories"
+    }
+  },
+  "menu#mobile__category--audio": {
+    "title": "Menu de Audio",
+    "children": [
+      "menu-item#mobile__item--deadphones",
+      "menu-item#mobile__item--portableAudioPlayer",
+      "menu-item#mobile__item--highResolutionAudio",
+      "menu-item#mobile__item--wirelessSpeakers",
+      "menu-item#mobile__item--360audio",
+      "menu-item#mobile__item--soundEquipment-MiniComponents",
+      "menu-item#mobile__item--audioComponents",
+      "menu-item#mobile__item--digitalVoiceRecorders",
+      "menu-item#mobile__item--boomBoxMusicPlayers",
+      "menu-item#mobile__item--homeTheatre-soundBox"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header__mobile--menu-categories"
+    }
+  },
+  "menu-item#mobile__item--deadphones": {
+    "title": "Audifonos",
+    "props": {
+      "id": "item-deadphones",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Audífonos",
+        "text": "Audífonos"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--portableAudioPlayer": {
+    "title": "Reproductor de Audio Portatil",
+    "props": {
+      "id": "item-portableAudioPlayer",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Reproductor de audio portátil",
+        "text": "Reproductor de audio portátil"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--highResolutionAudio": {
+    "title": "Audio De Alta Resolución",
+    "props": {
+      "id": "item-highResolutionAudio",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Audio de Alta Resolución",
+        "text": "Audio de Alta Resolución"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--wirelessSpeakers": {
+    "title": "Parlantes inalámbricos",
+    "props": {
+      "id": "item-wirelessSpeakers",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Parlantes inalámbricos",
+        "text": "Parlantes inalámbricos"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--360audio": {
+    "title": "360 Audio",
+    "props": {
+      "id": "item-360audio",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "360 Audio",
+        "text": "360 Audio"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--soundEquipment-MiniComponents": {
+    "title": "Equipos de sonido y minicomponentes",
+    "props": {
+      "id": "item-soundEquipment-MiniComponents",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Equipos de sonido y minicomponentes",
+        "text": "Equipos de sonido y minicomponentes"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--audioComponents": {
+    "title": "Componentes de audio",
+    "props": {
+      "id": "item-audioComponents",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Componentes de audio",
+        "text": "Componentes de audio"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--digitalVoiceRecorders": {
+    "title": "Grabadoras de voz digitales",
+    "props": {
+      "id": "item-digitalVoiceRecorders",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Grabadoras de voz digitales",
+        "text": "Grabadoras de voz digitales"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--boomBoxMusicPlayers": {
+    "title": "Reproductores de Música Boom Box",
+    "props": {
+      "id": "item-boomBoxMusicPlayers",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Reproductores de Música Boom Box",
+        "text": "Reproductores de Música Boom Box"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#mobile__item--homeTheatre-soundBox": {
+    "title": "Home Theatre y sound bars",
+    "props": {
+      "id": "item-homeTheatre-soundBox",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "Home Theatre y sound bars",
+        "text": "Home Theatre y sound bars"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 {
   "flex-layout.row#deparment__results": {
+    "title": "contendeo del departamento",
     "children": [
       "flex-layout.col#deparment__results--filter",
       "flex-layout.col#deparment__results--content"
@@ -9,6 +10,7 @@
     }
   },
   "flex-layout.col#deparment__results--filter": {
+    "title": "contenedor del filtro",
     "children": ["filter-navigator.v3"],
     "props": {
       "blockClass": "deparment__result--filter",
@@ -17,6 +19,7 @@
   },
 
   "flex-layout.col#deparment__results--content": {
+    "title": "contenedor de los resultados de productos",
     "children": ["search-content#results__content--products"],
     "props": {
       "blockClass": "deparment__results--products",
@@ -24,12 +27,14 @@
     }
   },
   "search-content#results__content--products": {
+    "title": "Resultados de productos",
     "blocks": ["gallery#deparment", "not-found"],
     "props": {
       "blockClass": "deparment__products--content"
     }
   },
   "gallery#deparment": {
+    "title": "departtamento",
     "props": {
       "layouts": [
         {

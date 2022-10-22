@@ -1,0 +1,105 @@
+{
+  "drawer#header__mobile--drawer": {
+    "title": "Drawer mobile Header",
+    "children": ["menu#header__mobile--menu"],
+    "props": {
+      "slideDirection": "vertical",
+      "isFullWidth": true,
+      "blockClass": "header__mobile--drawer"
+    }
+    // "blocks": ["drawer-trigger"]
+  },
+  // "drawer-trigger": {
+  //   "children": ["rich-text#menu"]
+  // },
+  // "rich-text#menu": {
+  //   "props": {
+  //     "text": "Menu"
+  //   }
+  // },
+  "menu#header__mobile--menu": {
+    "title": "Menu mobile Header",
+    "children": [
+      "menu-item#header__mobile--department-products",
+      "menu-item#header__mobile--department-store",
+      "menu-item#header__mobile--department-playStation",
+      "menu-item#header__mobile--department-assistance",
+      "menu-item#header__mobile--department-websSony"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "header__mobile--deparments"
+    }
+  },
+  "menu-item#header__mobile--department-products": {
+    "title": "Departamento de Productos",
+    "props": {
+      "id": "deparment-products",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "Products title",
+        "text": "Productos"
+      },
+      "blockClass": "header__mobile--menu-item"
+    },
+    "blocks": ["submenu.accordion#header__mobile--categories-products"]
+  },
+  "menu-item#header__mobile--department-store": {
+    "title": "Tienda Sony",
+    "props": {
+      "id": "department-store",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "store title",
+        "text": "Tienda"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#header__mobile--department-playStation": {
+    "title": "Departamento de PlayStation",
+    "props": {
+      "id": "department-playStation",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "noFollow": true,
+        "tagTitle": "playStation title",
+        "text": "PlayStation"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#header__mobile--department-assistance": {
+    "title": "Departamento de Productos",
+    "props": {
+      "id": "department-assistance",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/construccion",
+        "tagTitle": "assistance title",
+        "text": "Asistencia"
+      },
+      "blockClass": "header__mobile--menu-item"
+    }
+  },
+  "menu-item#header__mobile--department-websSony": {
+    "title": "Departamento de Web Sony",
+    "props": {
+      "id": "deparment-websSony",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "tagTitle": "websSony title",
+        "text": "Webs Sony"
+      },
+      "blockClass": "header__mobile--menu-item"
+    },
+    "blocks": ["submenu.accordion#header__mobile--department-websSony"]
+  }
+}

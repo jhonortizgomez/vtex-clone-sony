@@ -1,5 +1,6 @@
 {
   "store.search": {
+    "title": "Search",
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -9,18 +10,23 @@
     }
   },
   "store.search#subcategory": {
+    "title": "Subcategoria",
     "blocks": ["search-result-layout"]
   },
   "store.search#brand": {
+    "title": "Marca",
     "blocks": ["search-result-layout"]
   },
   "search-result-layout": {
+    "title": "Result Layout",
     "blocks": ["search-result-layout.desktop", "search-not-found-layout"]
   },
   "search-result-layout.desktop": {
+    "title": "contenedor del resultado de busqueda desktop",
     "children": ["rich-text#desktop-response"]
   },
   "rich-text#desktop-response": {
+    "title": "Texto del resultado de la busqueda",
     "props": {
       "text": "# Desktop search"
     }

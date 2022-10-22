@@ -1,5 +1,6 @@
 {
   "product-summary.shelf": {
+    "title": "Productos",
     "children": [
       "add-to-list-btn",
       "product-summary-image",
@@ -13,23 +14,27 @@
     ]
   },
   "product-summary-name": {
+    "title": "Nombre del producto",
     "props": {
       "tag": "h3",
       "blockClass": "product__summary--name"
     }
   },
   "product-summary-sku-selector": {
+    "title": "selector del producto",
     "props": {
       "hideImpossibleCombinations": false
       // "displayMode": "select"
     }
   },
   "add-to-cart-button": {
+    "title": "boton de agregar al carrito",
     "props": {
       "blockClass": "button-add-to-cart"
     }
   },
   "modal-trigger#global__quick-view": {
+    "title": "modal de vista rapida",
     "children": [
       "rich-text#global__quick-view--trigger",
       "modal-layout#global__quick-view--modal"
@@ -39,6 +44,7 @@
     }
   },
   "rich-text#global__quick-view--trigger": {
+    "title": "Texto de vista rapida",
     "props": {
       "text": "vista rapida",
       "blockClass": "quick-view__trigger",
@@ -46,6 +52,7 @@
     }
   },
   "modal-layout#global__quick-view--modal": {
+    "title": "Modal de vista rapida",
     "children": [
       "modal-header#quick-view",
       "flex-layout.row#quick-view__modal"
@@ -62,6 +69,7 @@
     }
   },
   "flex-layout.row#quick-view__modal": {
+    "title": "Contenedor Modal de vista rapida",
     "children": [
       "flex-layout.col#quick-view__modal--image",
       "flex-layout.col#quick-view__modal--info"
@@ -72,12 +80,14 @@
     }
   },
   "flex-layout.col#quick-view__modal--image": {
+    "title": "Contenedor imagen",
     "children": ["product-images"],
     "props": {
       "blockClass": "quick-view__modal--image"
     }
   },
   "flex-layout.col#quick-view__modal--info": {
+    "title": "Contenedor Información",
     "children": [
       "add-to-list-btn",
       "product-summary-name",

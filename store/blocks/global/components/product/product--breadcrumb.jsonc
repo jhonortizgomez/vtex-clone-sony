@@ -4,6 +4,7 @@
     "children": ["flex-layout.col#product__breadcrumb"]
   },
   "flex-layout.col#product__breadcrumb": {
+    "title": "Columna de Miga de pan del producto",
     "children": ["breadcrumb"]
   }
 }

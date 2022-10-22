@@ -1,20 +1,24 @@
 {
   "pdf-reader#pdf__mobile": {
+    "title": "Componente pdf-reader",
     "props": {
       "pdfUrl": "assets/docs/Carton91.pdf"
     }
   },
   "flex-layout.row#mobile--custom-layout":{
+    "title": "Contenedor fila del custom grid",
     "children": [
       "flex-layout.col#mobile--custom-layout"
     ]
   },
   "flex-layout.col#mobile--custom-layout":{
+    "title": "Contenedor col del custom grid",
     "children":[
       "custom-grid"
     ]
   },
   "custom-grid": {
+    "title": "Componente Custom Grid ",
     "children": [
       "flex-layout.row#side__left--top",
       "flex-layout.row#home__mobile--section-three-product1",
