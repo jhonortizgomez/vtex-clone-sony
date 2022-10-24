@@ -12,6 +12,9 @@
   color: gray;
 }
 /* Social */
+.container--footer-mobile__ubication{
+  padding: 0 1rem;
+}
 .paragraph--ubication {
   color: white;
   font-size: 12px;

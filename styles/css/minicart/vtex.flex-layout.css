@@ -1,5 +1,7 @@
 .flexRowContent--minicart__product-list--container {
-  margin: 10px 0;
+  padding: 1rem 0;
+  display: flex;
+  border-bottom: 1px solid #808080ac;
 }
 .flexCol--minicart__product-list--info {
   padding: 0 10px;

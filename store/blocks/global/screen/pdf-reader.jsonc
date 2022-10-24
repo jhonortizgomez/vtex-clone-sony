@@ -1,12 +1,20 @@
 {
   "store.custom#pdf-reader": {
     "title": "Pagina PDF",
-    "blocks": ["responsive-layout.mobile#pdf"]
+    "blocks": ["responsive-layout.mobile#pdf", "responsive-layout.desktop#pdf"]
   },
   "responsive-layout.mobile#pdf": {
     "title": "Pagina PDF Mobile",
     "children": [
-      "pdf-reader#pdf__mobile",
+      "pdf-reader",
+      "flex-layout.row#home__section--product-list-title",
+      "flex-layout.row#mobile--custom-layout"
+    ]
+  },
+  "responsive-layout.desktop#pdf":{
+    "title": "Pagina PDF Desktop",
+    "children": [
+      "pdf-reader",
       "flex-layout.row#home__section--product-list-title",
       "flex-layout.row#mobile--custom-layout"
     ]
