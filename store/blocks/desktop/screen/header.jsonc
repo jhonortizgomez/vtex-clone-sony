@@ -9,7 +9,7 @@
       "logo#header__logo--desktop",
       "header-spacer",
       "login",
-      "icon#header__heart--icon",
+      "link#wishlist",
       "minicart.v2",
       "search-bar#header__search",
       // "icon-search",
@@ -18,6 +18,14 @@
     "props": {
       "blockClass": "header__desktop",
       "fullWidth": true
+    }
+  },
+  "link#wishlist":{
+    "children": [
+      "icon#header__heart--icon"
+    ],
+    "props":{
+      "href": "https://sony--itgloberspartnercl.myvtex.com/wishlist"
     }
   }
 }

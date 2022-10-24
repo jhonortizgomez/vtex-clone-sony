@@ -1,5 +1,6 @@
 {
   "icon-search#header__mobile--search":{
+    "title": "icono mobile search",
     "props":{
       "size": 20
     }

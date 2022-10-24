@@ -1,5 +1,6 @@
 {
   "disclosure-layout#footer-mobile__online-shopping": {
+    "title": "disclosure compras",
     "children": [
       "disclosure-trigger#footer-mobile__online-shopping",
       "disclosure-content#footer-mobile__online-shopping-menu"
@@ -9,6 +10,7 @@
     }
   },
   "disclosure-trigger#footer-mobile__online-shopping": {
+    "title": "disclosure trigger compras",
     "children": [
       "rich-text#footer-mobile__search-online-shopping",
       "disclosure-state-indicator"
@@ -18,18 +20,21 @@
     }
   },
   "rich-text#footer-mobile__search-online-shopping": {
+    "title": "texto compras",
     "props": {
       "text": "Compra Online",
       "blockClass": "footer-mobile__title-disclosure"
     }
   },
   "disclosure-content#footer-mobile__online-shopping-menu": {
+    "title": "disclosure contenido compras",
     "children": ["menu#footer-mobile__online-shopping"],
     "props": {
       "blockClass": "footer-mobile__disclosure-content"
     }
   },
   "menu#footer-mobile__online-shopping": {
+    "title": "menu compras",
     "children": [
       "menu-item#footer-mobile__store-online",
       "menu-item#footer-mobile__help-sony-store",
@@ -46,6 +51,7 @@
     }
   },
   "menu-item#footer-mobile__store-online": {
+    "title": "item Tienda en Línea",
     "props": {
       "id": "store-online",
       "type": "custom",
@@ -59,6 +65,7 @@
     }
   },
   "menu-item#footer-mobile__help-sony-store": {
+    "title": "item Ayuda Sony Store",
     "props": {
       "id": "help-sony-store",
       "type": "custom",
@@ -72,6 +79,7 @@
     }
   },
   "menu-item#footer-mobile__frequent-questions": {
+    "title": "item Preguntas Frecuentes",
     "props": {
       "id": "frequent-questions",
       "type": "custom",
@@ -85,6 +93,7 @@
     }
   },
   "menu-item#footer-mobile__exchange-policies": {
+    "title": "item Políticas de cambio y devoluciones",
     "props": {
       "id": "devolution",
       "type": "custom",
@@ -98,6 +107,7 @@
     }
   },
   "menu-item#footer-mobile__warranty": {
+    "title": "item garantia",
     "props": {
       "id": "warranty",
       "type": "custom",
@@ -111,6 +121,7 @@
     }
   },
   "menu-item#footer-mobile__superintendence": {
+    "title": "item superitendencia",
     "props": {
       "id": "superintendence",
       "type": "custom",
@@ -124,6 +135,7 @@
     }
   },
   "menu-item#footer-mobile__consumer": {
+    "title": "item estatuto del consumidor",
     "props": {
       "id": "consumer",
       "type": "custom",
@@ -137,6 +149,7 @@
     }
   },
   "menu-item#footer-mobile__digital-tv": {
+    "title": "item tv digital",
     "props": {
       "id": "dealers",
       "type": "custom",

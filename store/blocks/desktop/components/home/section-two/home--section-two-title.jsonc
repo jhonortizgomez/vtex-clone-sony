@@ -1,5 +1,6 @@
 {
   "flex-layout.row#desktop__home--section-two-title": {
+    "title": "titulo seccion 2",
     "children": ["rich-text#home__desktop--section-two-title"],
     "props": {
       "blockClass": "home__desktop--section-two-title"

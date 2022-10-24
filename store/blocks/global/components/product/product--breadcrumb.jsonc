@@ -8,6 +8,7 @@
     "children": ["breadcrumb"]
   },
   "breadcrumb":{
+    "title": "Migaja de pan",
     "props": {
       "showOnMobile": true,
       "homeIconSize": 20,

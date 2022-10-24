@@ -1,11 +1,13 @@
 {
   "flex-layout.row#desktop__home--section-two-slider-three": {
+    "title": "Slider 3",
     "children": ["flex-layout.col#desktop__home--section-two-col-slider-three"],
     "props": {
       "blockClass": "desktop__home--section-two-slider-three"
     }
   },
   "flex-layout.col#desktop__home--section-two-col-slider-three": {
+    "title": "Slider 3",
     "children": [
       "image#desktop__home--section-two-col-slider-three-img",
       "flex-layout.row#desktop__home--section-two-slider-three-container-text"
@@ -15,12 +17,14 @@
     }
   },
   "image#desktop__home--section-two-col-slider-three-img": {
+    "title": "Imagen Slider 3",
     "props": {
       "src": "assets/img/home--section-two-img3.jfif",
       "blockClass": "desktop__home--section-two-col-slider-three-img"
     }
   },
   "flex-layout.row#desktop__home--section-two-slider-three-container-text": {
+    "title": "texto del slider 3",
     "children": [
       "flex-layout.col#desktop__home--section-two-slider-three-container-text-col"
     ],
@@ -29,6 +33,7 @@
     }
   },
   "flex-layout.col#desktop__home--section-two-slider-three-container-text-col": {
+    "title": "texto del slider 3",
     "children": [
       "rich-text#home__section-two-img-three-title",
       "rich-text#home__section-two-img-three-description"
@@ -38,12 +43,14 @@
     }
   },
   "rich-text#desktop--section-two-img-three-title": {
+    "title": "titulo slider 3",
     "props": {
       "blockClass": "desktop--section-two-img-three-title",
       "text": "SEL2470GM2"
     }
   },
   "rich-text#desktop--section-two-img-three-description": {
+    "title": "descripcion del slider 3",
     "props": {
       "blockClass": "desktop--section-two-img-three-description",
       "text": "Zoom estándar FE 24-70 mm F2.8 GM ll"

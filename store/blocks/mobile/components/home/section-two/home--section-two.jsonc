@@ -1,5 +1,6 @@
 {
   "slider-layout#mobile__home--section-two": {
+    "title": "Slider de la seccion dos mobile",
     "props": {
       "itemsPerPage": {
         "desktop": 2,

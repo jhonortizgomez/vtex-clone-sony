@@ -1,6 +1,6 @@
 {
   "logo#header__logo--mobile": {
-    "title": "Logo",
+    "title": "Logo mobile",
     "props": {
       "blockClass": "header__logo--mobile",
       "url": "assets/img/sony-logo.svg",

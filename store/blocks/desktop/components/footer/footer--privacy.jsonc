@@ -1,11 +1,13 @@
 {
   "flex-layout.row#footer__container-privacy": {
+    "title": "container privacy",
     "children": ["flex-layout.col#footer__container-privacy"],
     "props": {
       "blockClass": "footer-privacy"
     }
   },
   "flex-layout.col#footer__container-privacy": {
+    "title": "container privacy",
     "children": [
       "flex-layout.row#footer__container-privacy-one",
       "flex-layout.row#footer__container-privacy-two",
@@ -16,18 +18,21 @@
     }
   },
   "flex-layout.row#footer__container-privacy-one": {
+    "title": "container menu privacy",
     "children": ["menu#footer-privacy", "menu#footer-brand"],
     "props": {
       "blockClass": "footer__container-privacy-one"
     }
   },
   "menu#footer-privacy": {
+    "title": "menu privacy",
     "children": ["menu-item#footer-privacy"],
     "props": {
       "blockClass": "footer__container-privacy"
     }
   },
   "menu-item#footer-privacy": {
+    "title": "item privacy",
     "props": {
       "id": "footer-privacy",
       "type": "custom",
@@ -41,9 +46,11 @@
     }
   },
   "menu#footer-brand": {
+    "title": "menu brand",
     "children": ["menu-item#footer-brand"]
   },
   "menu-item#footer-brand": {
+    "title": "item brand",
     "props": {
       "id": "footer-brand",
       "type": "custom",
@@ -57,24 +64,28 @@
     }
   },
   "flex-layout.row#footer__container-privacy-two": {
+    "title": "container privacy middle",
     "children": ["rich-text#footer-corporation"],
     "props": {
       "blockClass": "footer__container-privacy-two"
     }
   },
   "rich-text#footer-corporation": {
+    "title": "texto corporación",
     "props": {
       "text": "Sony Group Portal Site",
       "blockClass": "footer-corporation"
     }
   },
   "flex-layout.row#footer__container-privacy-three": {
+    "title": "contenedor privacidad abajo",
     "children": ["rich-text#addres"],
     "props": {
       "blockClass": "footer__container-privacy-three"
     }
   },
   "rich-text#addres": {
+    "title": "Texto de contacto",
     "props": {
       "text": "Sony Colombia S.A | NIT 900.261429-2 | Km 2.5 Via Bogotá - Funza Parque Industrial San Carlos II, Bodega #5 Almaviva - Funza, Cundinamarca | Email: compras.online@am.sony.com | Teléfonos: Bogotá (358-1251), Nacional (01-8000-940011)",
       "blockClass": "footer-addres"

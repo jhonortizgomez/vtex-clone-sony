@@ -1,11 +1,13 @@
 {
   "flex-layout.row#desktop__home--section-two-slider-two": {
+    "title": "slider 2",
     "children": ["flex-layout.col#desktop__home--section-two-col-slider-two"],
     "props": {
       "blockClass": "desktop__home--section-two-slider-two"
     }
   },
   "flex-layout.col#desktop__home--section-two-col-slider-two": {
+    "title": "slider 2",
     "children": [
       "image#desktop__home--section-two-col-slider-two-img",
       "flex-layout.row#desktop__home--section-two-slider-two-container-text"
@@ -15,12 +17,14 @@
     }
   },
   "image#desktop__home--section-two-col-slider-two-img": {
+    "title": "imagen slider 2",
     "props": {
       "src": "assets/img/home--section-two-img2.webp",
       "blockClass": "desktop__home--section-two-col-slider-two-img"
     }
   },
   "flex-layout.row#desktop__home--section-two-slider-two-container-text": {
+    "title": "textos slider 2",
     "children": [
       "flex-layout.col#desktop__home--section-two-slider-two-container-text-col"
     ],
@@ -29,6 +33,7 @@
     }
   },
   "flex-layout.col#desktop__home--section-two-slider-two-container-text-col": {
+    "title": "textos slider 2",
     "children": [
       "rich-text#desktop__home--section-two-img-two-title",
       "rich-text#desktop__home--section-two-img-two-description"
@@ -38,12 +43,14 @@
     }
   },
   "rich-text#desktop__home--section-two-img-two-title": {
+    "title": "titulo slider 2",
     "props": {
       "blockClass": "desktop__home--section-two-img-two-title",
       "text": "LinkBuds S"
     }
   },
   "rich-text#desktop__home--section-two-img-two-description": {
+    "title": "descripcion slider 2",
     "props": {
       "blockClass": "desktop__home--section-two-img-two-description",
       "text": "Never off"
