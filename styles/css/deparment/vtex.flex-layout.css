@@ -5,3 +5,10 @@
 .flexRow--quick-view__modal {
   padding: 10px;
 }
+
+@media (max-width: 1024px) {
+  .flexRowContent--deparment__results--container{
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -35,6 +35,13 @@
 }
 
 /* ----------------------- categories */
+.bullet__item--link{
+  text-decoration: none;
+}
+.bullet__item--title{
+  color: black;
+  text-align: center;
+}
 .paginationDotsContainer {
   transform: translateY(30px);
 }

@@ -6,5 +6,12 @@
   "flex-layout.col#product__breadcrumb": {
     "title": "Columna de Miga de pan del producto",
     "children": ["breadcrumb"]
+  },
+  "breadcrumb":{
+    "props": {
+      "showOnMobile": true,
+      "homeIconSize": 20,
+      "caretIconSize": "8"
+    }
   }
 }
