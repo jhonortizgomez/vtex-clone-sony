@@ -1,5 +1,6 @@
 {
   "flex-layout.col#section__three--side-left": {
+    "title": "Contenedor izquierdo seccion tres",
     "children": [
       "flex-layout.row#side__left--top",
       "flex-layout.row#side__left--bottom"
@@ -11,12 +12,14 @@
     }
   },
   "flex-layout.row#side__left--top": {
+    "title": "Contenedor superior izquierdo",
     "children": ["flex-layout.col#side__left--top"],
     "props": {
       "blockClass": "side__left--top"
     }
   },
   "flex-layout.col#side__left--top": {
+    "title": "Contenedor superior izquierdo",
     "children": [
       "rich-text#left__top-title",
       "rich-text#left__top-description"
@@ -26,18 +29,21 @@
     }
   },
   "rich-text#left__top-title": {
+    "title": "Titulo contenedor superior izquierdo",
     "props": {
       "text": "Tu música a donde vayas",
       "blockClass": "left__top-title"
     }
   },
   "rich-text#left__top-description": {
+    "title": "descripcion contenedor superior izquierdo",
     "props": {
       "text": "Con sonido potente",
       "blockClass": "left__top-description"
     }
   },
   "flex-layout.row#side__left--bottom": {
+    "title": "contenedor izquierdo de productos",
     "children": [
       "flex-layout.col#side__left--card-product-one",
       "flex-layout.col#side__left--card-product-two"
@@ -48,6 +54,7 @@
     }
   },
   "flex-layout.col#side__left--card-product-one": {
+    "title": "contenedor del producto",
     "children": [
       "flex-layout.row#card__product-one-image",
       "flex-layout.row#card__product-one-description"
@@ -58,24 +65,28 @@
     }
   },
   "flex-layout.row#card__product-one-image": {
+    "title": "contenedor de imagen del producto",
     "children": ["image#product-one"],
     "props": {
       "blockClass": "card__product-one-image"
     }
   },
   "image#product-one": {
+    "title": "imagen del producto",
     "props": {
       "src": "assets/img/product-one.webp",
       "blockClass": "product-one"
     }
   },
   "flex-layout.row#card__product-one-description": {
+    "title": "contenedor de la descripción del producto",
     "children": ["flex-layout.col#product__one-description-container"],
     "props": {
       "blockClass": "card__product-one-description"
     }
   },
   "flex-layout.col#product__one-description-container": {
+    "title": "contenedor de la descripción del producto",
     "children": [
       "rich-text#title__product-one",
       "rich-text#reference__product-one",
@@ -86,24 +97,28 @@
     }
   },
   "rich-text#title__product-one": {
+    "title": "Titulo del producto",
     "props": {
       "blockClass": "title__product-one",
       "text": "Audifonos True Wireless WF-C500"
     }
   },
   "rich-text#reference__product-one": {
+    "title": "Ref del producto",
     "props": {
       "blockClass": "reference__product-one",
       "text": "WF-C500"
     }
   },
   "rich-text#price__product-one": {
+    "title": "precio del producto",
     "props": {
       "blockClass": "price__product-one",
       "text": "$ 549,900"
     }
   },
   "flex-layout.col#side__left--card-product-two": {
+    "title": "contenedor del producto",
     "children": [
       "flex-layout.row#card__product-two-image",
       "flex-layout.row#card__product-two-description"
@@ -114,24 +129,28 @@
     }
   },
   "flex-layout.row#card__product-two-image": {
+    "title": "contenedor de la imagen del producto",
     "children": ["image#product-two"],
     "props": {
       "blockClass": "card__product-two-image"
     }
   },
   "image#product-two": {
+    "title": "imagen del producto",
     "props": {
       "src": "assets/img/product-two.webp",
       "blockClass": "product-two"
     }
   },
   "flex-layout.row#card__product-two-description": {
+    "title": "contenedor de la descripcion del producto",
     "children": ["flex-layout.col#product__two-description-container"],
     "props": {
       "blockClass": "card__product-two-description"
     }
   },
   "flex-layout.col#product__two-description-container": {
+    "title": "contenedor de la descripcion del producto",
     "children": [
       "rich-text#title__product-two",
       "rich-text#reference__product-two",
@@ -142,18 +161,21 @@
     }
   },
   "rich-text#title__product-two": {
+    "title": "titulo del producto",
     "props": {
       "blockClass": "title__product-two",
       "text": "Parlante inalámbrico portátil XG500 de la serie X"
     }
   },
   "rich-text#reference__product-two": {
+    "title": "ref del producto",
     "props": {
       "blockClass": "reference__product-two",
       "text": "SRS-XG500"
     }
   },
   "rich-text#price__product-two": {
+    "title": "precio del producto",
     "props": {
       "blockClass": "price__product-two",
       "text": "$ 1,799,900"

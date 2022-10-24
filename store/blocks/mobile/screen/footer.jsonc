@@ -1,17 +1,20 @@
 {
   "footer-layout.mobile": {
+    "title": "footer mobile",
     "children": ["flex-layout.row#footer-mobile"],
     "props": {
       "blockClass": "footer-mobile"
     }
   },
   "flex-layout.row#footer-mobile": {
+    "title": "contenedor footer mobile",
     "children": ["flex-layout.col#footer-mobile"],
     "props": {
       "blockClass": "footer-mobile__container"
     }
   },
   "flex-layout.col#footer-mobile": {
+    "title": "contenedor footer mobile",
     "children": [
       "flex-layout.row#footer-mobile__menu",
       "flex-layout.row#footer-mobile__ubication",

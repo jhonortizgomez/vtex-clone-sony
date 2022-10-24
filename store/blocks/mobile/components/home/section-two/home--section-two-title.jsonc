@@ -1,12 +1,13 @@
 {
   "flex-layout.row#mobile__home--section-two-title": {
+    "title": "contendor del titulo de la seccion dos",
     "children": ["rich-text#home__mobile--section-two-title"],
     "props": {
       "blockClass": "home__mobile--section-two-title"
     }
   },
   "rich-text#home__mobile--section-two-title": {
-    "title": "Section two mobile",
+    "title": "Titulo de la seccion dos mobile",
     "props": {
       "text": "LO MÁS RECIENTE",
       "blockClass": "home__mobile--section-two-title"

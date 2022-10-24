@@ -1,11 +1,13 @@
 {
   "flex-layout.row#desktop__home--section-three-title": {
+    "title": "titulo de la seccion 3",
     "children": ["rich-text#home__section--three-title"],
     "props": {
       "blockClass": "home__section--three-title"
     }
   },
   "rich-text#home__section--three-title": {
+    "title": "Texto del titulo",
     "props": {
       "blockClass": "section__three-title",
       "text": "NOVEDADES"

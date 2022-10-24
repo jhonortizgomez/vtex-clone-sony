@@ -1,5 +1,6 @@
 {
   "disclosure-layout#footer-mobile__news-and-info": {
+    "title": "dislousure noticias",
     "children": [
       "disclosure-trigger#footer-mobile__news-and-info",
       "disclosure-content#footer-mobile__news-and-info"
@@ -9,6 +10,7 @@
     }
   },
   "disclosure-trigger#footer-mobile__news-and-info": {
+    "title": "dislousure trigger noticias",
     "children": [
       "rich-text#footer-mobile__news-and-info",
       "disclosure-state-indicator"
@@ -18,18 +20,21 @@
     }
   },
   "rich-text#footer-mobile__news-and-info": {
+    "title": "texto noticias",
     "props": {
       "text": "Noticias e Información",
       "blockClass": "footer-mobile__title-disclosure"
     }
   },
   "disclosure-content#footer-mobile__news-and-info": {
+    "title": "dislousure contenido noticias",
     "children": ["menu#footer-mobile__news-and-info"],
     "props": {
       "blockClass": "footer-mobile__disclosure-content"
     }
   },
   "menu#footer-mobile__news-and-info": {
+    "title": "menu noticas",
     "children": [
       "menu-item#footer-mobile__coporate-info",
       "menu-item#footer-mobile__journalism-center",
@@ -41,6 +46,7 @@
     }
   },
   "menu-item#footer-mobile__coporate-info": {
+    "title": "item Información Corporativa",
     "props": {
       "id": "corporate-info",
       "type": "custom",
@@ -54,6 +60,7 @@
     }
   },
   "menu-item#footer-mobile__journalism-center": {
+    "title": "item Centro de Prensa",
     "props": {
       "id": "journalism-center",
       "type": "custom",
@@ -67,6 +74,7 @@
     }
   },
   "menu-item#footer-mobile__sony-environment": {
+    "title": "item Sony y el Medio Ambiente",
     "props": {
       "id": "store-online",
       "type": "custom",
