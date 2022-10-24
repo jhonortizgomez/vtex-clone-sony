@@ -1,11 +1,13 @@
 {
   "flex-layout.row#home__mobile--section-three-product3": {
+    "title": "producto",
     "children": ["flex-layout.col#home__mobile--section-three-product3"],
     "props": {
       "blockClass": "home__mobile--section-three-product"
     }
   },
   "flex-layout.col#home__mobile--section-three-product3": {
+    "title": "producto",
     "children": [
       "flex-layout.row#home__mobile--section-three-product3-container-image",
       "flex-layout.row#home__mobile--section-three-product3-description"
@@ -15,18 +17,21 @@
     }
   },
   "flex-layout.row#home__mobile--section-three-product3-container-image": {
+    "title": "contenedor imagen de producto",
     "children": ["image#home__mobile--section-three-product3-image"],
     "props": {
       "blockClass": "home__mobile--section-three-container-image"
     }
   },
   "image#home__mobile--section-three-product3-image": {
+    "title": "imagen de producto",
     "props": {
       "src": "assets/img/product-two.webp",
       "blockClass": "home__mobile--section-three-image"
     }
   },
   "flex-layout.row#home__mobile--section-three-product3-description": {
+    "title": "contenedor texto de producto",
     "children": [
       "flex-layout.col#home__mobile--section-three-product3-container-description"
     ],
@@ -35,6 +40,7 @@
     }
   },
   "flex-layout.col#home__mobile--section-three-product3-container-description": {
+    "title": "contenedor texto de producto",
     "children": [
       "rich-text#home__mobile--section-three-product3-description",
       "rich-text#home__mobile--section-three-product3-brand",
@@ -46,24 +52,28 @@
     }
   },
   "rich-text#home__mobile--section-three-product3-description": {
+    "title": "texto descripcion del producto",
     "props": {
       "text": "Audífonos True Wireless WF-C500",
       "blockClass": "home__mobile--section-three-product-description"
     }
   },
   "rich-text#home__mobile--section-three-product3-brand": {
+    "title": "texto marca del producto",
     "props": {
       "text": "WF-C500",
       "blockClass": "home__mobile--section-three-product-brand"
     }
   },
   "rich-text#home__mobile--section-three-product3-since": {
+    "title": "texto desde del producto",
     "props": {
       "text": "Desde",
       "blockClass": "home__mobile--section-three-product-since"
     }
   },
   "rich-text#home__mobile--section-three-product3-price": {
+    "title": "texto precio del producto",
     "props": {
       "text": "$ 549,900",
       "blockClass": "home__mobile--section-three-product-price"

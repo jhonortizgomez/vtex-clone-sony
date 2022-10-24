@@ -1,5 +1,6 @@
 {
   "responsive-layout.mobile": {
+    "title": "home mobile",
     "children": [
       "flex-layout.row#mobile__home--section-one",
       "flex-layout.row#mobile__home--section-two-title",
@@ -17,6 +18,7 @@
     ]
   },
   "flex-layout.row#home__mobile--section-quick-order-title":{
+    "title": "contendor titulo quick order",
     "children":[
       "rich-text#home__mobile--section-quick-order-title"
     ],
@@ -25,6 +27,7 @@
     }
   },
   "rich-text#home__mobile--section-quick-order-title":{
+    "title": "titulo quick order",
     "props": {
       "blockClass": "home__product--list-title",
       "text": "Compra Rapida"

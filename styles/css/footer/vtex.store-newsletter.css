@@ -7,3 +7,10 @@
 .emailInputContainer {
   width: 60%;
 }
+
+
+/* ---------------------------------------------------- mobile */
+.newsletterForm--footer-mobile__disclosure-item{
+  display: flex;
+  justify-content: center;
+}

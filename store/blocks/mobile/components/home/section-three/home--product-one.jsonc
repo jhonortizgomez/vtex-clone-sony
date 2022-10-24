@@ -1,11 +1,13 @@
 {
   "flex-layout.row#home__mobile--section-three-product1": {
+    "title": "producto",
     "children": ["flex-layout.col#home__mobile--section-three-product1"],
     "props": {
       "blockClass": "home__mobile--section-three-product"
     }
   },
   "flex-layout.col#home__mobile--section-three-product1": {
+    "title": "producto",
     "children": [
       "flex-layout.row#home__mobile--section-three-product1-container-image",
       "flex-layout.row#home__mobile--section-three-product1-description"
@@ -15,18 +17,21 @@
     }
   },
   "flex-layout.row#home__mobile--section-three-product1-container-image": {
+    "title": "contenedor imagen de producto",
     "children": ["image#home__mobile--section-three-product1-image"],
     "props": {
       "blockClass": "home__mobile--section-three-container-image"
     }
   },
   "image#home__mobile--section-three-product1-image": {
+    "title": "imagen de producto",
     "props": {
       "src": "assets/img/product-three.webp",
       "blockClass": "home__mobile--section-three-image"
     }
   },
   "flex-layout.row#home__mobile--section-three-product1-description": {
+    "title": "contenedor descripcion de producto",
     "children": [
       "flex-layout.col#home__mobile--section-three-product1-container-description"
     ],
@@ -35,6 +40,7 @@
     }
   },
   "flex-layout.col#home__mobile--section-three-product1-container-description": {
+    "title": "contenedor descripcion de producto",
     "children": [
       "rich-text#home__mobile--section-three-product1-description",
       "rich-text#home__mobile--section-three-product1-brand",
@@ -46,24 +52,28 @@
     }
   },
   "rich-text#home__mobile--section-three-product1-description": {
+    "title": "texto descripcion de producto",
     "props": {
       "text": "Parlante inalámbrico portátil EXTRA BASS XB23",
       "blockClass": "home__mobile--section-three-product-description"
     }
   },
   "rich-text#home__mobile--section-three-product1-brand": {
+    "title": "texto marca de producto",
     "props": {
       "text": "SRS-XB23",
       "blockClass": "home__mobile--section-three-product-brand"
     }
   },
   "rich-text#home__mobile--section-three-product1-since": {
+    "title": "texto desde de producto",
     "props": {
       "text": "Desde",
       "blockClass": "home__mobile--section-three-product-since"
     }
   },
   "rich-text#home__mobile--section-three-product1-price": {
+    "title": "texto precio de producto",
     "props": {
       "text": "$ 449,899",
       "blockClass": "home__mobile--section-three-product-price"

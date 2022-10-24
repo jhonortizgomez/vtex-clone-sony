@@ -1,5 +1,6 @@
 {
   "disclosure-layout#footer-mobile__search-distributors": {
+    "title": "disclosure distribuidores",
     "children": [
       "disclosure-trigger#footer-mobile__search-distributor",
       "disclosure-content#footer-mobile__search-distributor"
@@ -9,6 +10,7 @@
     }
   },
   "disclosure-trigger#footer-mobile__search-distributor": {
+    "title": "disclosure trigger distribuidores",
     "children": [
       "rich-text#footer-mobile__search-distributor",
       "disclosure-state-indicator"
@@ -18,18 +20,21 @@
     }
   },
   "disclosure-content#footer-mobile__search-distributor": {
+    "title": "disclosure contenido distribuidores",
     "children": ["menu#footer-mobile__dealers"],
     "props": {
       "blockClass": "footer-mobile__disclosure-content"
     }
   },
   "rich-text#footer-mobile__search-distributor": {
+    "title": "texto distribuidores",
     "props": {
       "text": "Busca un distribuidor",
       "blockClass": "footer-mobile__title-disclosure"
     }
   },
   "menu#footer-mobile__dealers": {
+    "title": "menu distribuidores",
     "children": [
       "newsletter-form#footer-mobile__newsletter",
       "menu-item#footer-mobile__stores-and-dealers"
@@ -40,12 +45,14 @@
     }
   },
   "newsletter-form#footer-mobile__newsletter": {
+    "title": "newsletter",
     "children": ["newsletter-input-email", "newsletter-submit"],
     "props": {
       "blockClass": "footer-mobile__disclosure-item"
     }
   },
   "menu-item#footer-mobile__stores-and-dealers": {
+    "title": "item Tiendas y Distribuidores",
     "props": {
       "id": "dealers",
       "type": "custom",
@@ -59,18 +66,21 @@
     }
   },
   "disclosure-state-indicator": {
+    "title": "iconos del disclosure",
     "props": {
       "Show": "icon#angle--down",
       "Hide": "icon#angle--up"
     }
   },
   "icon#angle--down": {
+    "title": "icono dislousure cerrado",
     "props": {
       "size": 15,
       "id": "mpa-angle--down"
     }
   },
   "icon#angle--up": {
+    "title": "icono dislousure abierto",
     "props": {
       "size": 15,
       "id": "mpa-angle--up"

@@ -1,5 +1,6 @@
 {
   "minicart.v2#header__minicart--mobile": {
+    "title": "mini carro del mobile",
     "props": {
       "blockClass": "minicart",
       "MinicartIcon": "icon-cart#header__cart-icon--mobile",
@@ -9,6 +10,7 @@
     "children": ["icon-cart#header__cart-icon--mobile", "minicart-base-content"]
   },
   "icon-cart#header__cart-icon--mobile": {
+    "title": "icono del minicarro mobile",
     "props": {
       "size": 20
     }

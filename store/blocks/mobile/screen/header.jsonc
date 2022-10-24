@@ -9,7 +9,7 @@
       "logo#header__logo--mobile",
       "header-spacer",
       "login#header__login--mobile",
-      "icon#header__icon-heart--mobile",
+      "link#wishlist__mobile",
       "minicart.v2#header__minicart--mobile",
       // "search-bar#header__search-bar--mobile",
       "icon-search#header__mobile--search",
@@ -17,6 +17,14 @@
     ],
     "props": {
       "blockClass": "header__mobile"
+    }
+  },
+  "link#wishlist__mobile":{
+    "children": [
+      "icon#header__icon-heart--mobile"
+    ],
+    "props":{
+      "href": "https://sony--itgloberspartnercl.myvtex.com/wishlist"
     }
   }
 }

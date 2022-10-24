@@ -1,11 +1,13 @@
 {
   "flex-layout.row#mobile__home--section-two-slider-two": {
+    "title": "slider del producto",
     "children": ["flex-layout.col#mobile__home--section-two-col-slider-two"],
     "props": {
       "blockClass": "mobile__home--section-two-slider-two"
     }
   },
   "flex-layout.col#mobile__home--section-two-col-slider-two": {
+    "title": "slider del producto",
     "children": [
       "image#mobile__home--section-two-col-slider-two-img",
       "flex-layout.row#mobile__home--section-two-slider-two-container-text"
@@ -15,12 +17,14 @@
     }
   },
   "image#mobile__home--section-two-col-slider-two-img": {
+    "title": "imagen del slider",
     "props": {
       "src": "assets/img/home--section-two-img2.webp",
       "blockClass": "mobile__home--section-two-col-slider-two-img"
     }
   },
   "flex-layout.row#mobile__home--section-two-slider-two-container-text": {
+    "title": "textos del slider",
     "children": [
       "flex-layout.col#mobile__home--section-two-slider-two-container-text-col"
     ],
@@ -29,6 +33,7 @@
     }
   },
   "flex-layout.col#mobile__home--section-two-slider-two-container-text-col": {
+    "title": "textos del slider",
     "children": [
       "rich-text#home__section-two-img-two-title",
       "rich-text#home__section-two-img-two-description"
@@ -38,12 +43,14 @@
     }
   },
   "rich-text#home__section-two-img-two-title": {
+    "title": "titulo del slider",
     "props": {
       "blockClass": "home__section-two-img-two-title",
       "text": "LinkBuds S"
     }
   },
   "rich-text#home__section-two-img-two-description": {
+    "title": "descripcion del slider",
     "props": {
       "blockClass": "home__section-two-img-two-description",
       "text": "Never off"

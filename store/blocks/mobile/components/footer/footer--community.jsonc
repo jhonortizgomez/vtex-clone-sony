@@ -1,5 +1,6 @@
 {
   "disclosure-layout#footer-mobile__community": {
+    "title": "Disclousure de comunidad",
     "children": [
       "disclosure-trigger#footer-mobile__community",
       "disclosure-content#footer-mobile__community"
@@ -9,6 +10,7 @@
     }
   },
   "disclosure-trigger#footer-mobile__community": {
+    "title": "Disclousure trigger de comunidad",
     "children": [
       "rich-text#footer-mobile__community",
       "disclosure-state-indicator"
@@ -18,18 +20,21 @@
     }
   },
   "rich-text#footer-mobile__community": {
+    "title": "Texto de comunidad",
     "props": {
       "text": "Comunidad",
       "blockClass": "footer-mobile__title-disclosure"
     }
   },
   "disclosure-content#footer-mobile__community": {
+    "title": "contendido del disclousure de comunidad",
     "children": ["menu#footer-mobile__community"],
     "props": {
       "blockClass": "footer-mobile__disclosure-content"
     }
   },
   "menu#footer-mobile__community": {
+    "title": "Menu de comunidad",
     "children": [
       "menu-item#footer-mobile__alpha-community",
       "menu-item#footer-mobile__blog-playstation",
@@ -41,6 +46,7 @@
     }
   },
   "menu-item#footer-mobile__alpha-community": {
+    "title": "item Comunidad Alpha",
     "props": {
       "id": "alpha-community",
       "type": "custom",
@@ -54,6 +60,7 @@
     }
   },
   "menu-item#footer-mobile__blog-playstation": {
+    "title": "item Blog PlayStation",
     "props": {
       "id": "blog-playstationr",
       "type": "custom",
@@ -67,6 +74,7 @@
     }
   },
   "menu-item#footer-mobile__help-with-my-product": {
+    "title": "item Ayuda con Mi Producto",
     "props": {
       "id": "help-with-my-product",
       "type": "custom",

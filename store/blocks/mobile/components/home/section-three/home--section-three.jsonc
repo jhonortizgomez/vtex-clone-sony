@@ -1,11 +1,13 @@
 {
   "flex-layout.row#home__mobile--section-three": {
+    "title": "contendor seccion tres",
     "children": ["flex-layout.col#home__mobile--section-three"],
     "props": {
       "blockClass": "home__mobile--section-three"
     }
   },
   "flex-layout.col#home__mobile--section-three": {
+    "title": "contendor seccion tres",
     "children": [
       "flex-layout.row#home__mobile--section-three-subtitle",
       "slider-layout#home__mobile--section-three-slider"
@@ -15,12 +17,14 @@
     }
   },
   "flex-layout.row#home__mobile--section-three-subtitle": {
+    "title": "contendor seccion tres subtitulo",
     "children": ["flex-layout.col#home__mobile--section-three-subtitle"],
     "props": {
       "blockClass": "home__mobile--section-three-subtitle"
     }
   },
   "flex-layout.col#home__mobile--section-three-subtitle": {
+    "title": "contendor seccion tres subtitulo",
     "children": [
       "rich-text#mobile__section--three-subtitle",
       "rich-text#mobile__section--three-description"
@@ -30,18 +34,21 @@
     }
   },
   "rich-text#mobile__section--three-subtitle": {
+    "title": "texto subtitulo",
     "props": {
       "text": "Tu música a donde vayas",
       "blockClass": "mobile__section--three-subtitle"
     }
   },
   "rich-text#mobile__section--three-description": {
+    "title": "texto descripcion",
     "props": {
       "text": "Con sonido potente",
       "blockClass": "mobile__section--three-description"
     }
   },
   "slider-layout#home__mobile--section-three-slider": {
+    "title": "slider de seccion tres mobile",
     "props": {
       "itemsPerPage": {
         "tablet": 2,

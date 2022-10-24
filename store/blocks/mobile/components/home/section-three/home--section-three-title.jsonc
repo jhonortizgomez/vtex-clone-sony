@@ -1,11 +1,13 @@
 {
   "flex-layout.row#mobile__home--section-three-title": {
+    "title": "titulo de la seccion tres",
     "children": ["rich-text#home__mobile--section-three-title"],
     "props": {
       "blockClass": "mobile__home--section-three-title"
     }
   },
   "rich-text#home__mobile--section-three-title": {
+    "title": "text titulo de la seccion ",
     "props": {
       "blockClass": "home__mobile--section-three-title",
       "text": "NOVEDADES"

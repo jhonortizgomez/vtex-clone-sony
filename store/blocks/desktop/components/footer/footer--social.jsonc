@@ -1,11 +1,13 @@
 {
   "flex-layout.row#footer__container-social": {
+    "title": "contenedor de social",
     "children": ["flex-layout.col#footer__container-social"],
     "props": {
       "blockClass": "footer-social"
     }
   },
   "flex-layout.col#footer__container-social": {
+    "title": "contenedor de social",
     "children": [
       "flex-layout.row#footer__container-social-menu-items",
       "flex-layout.row#footer__container-social-icons"
@@ -15,18 +17,21 @@
     }
   },
   "flex-layout.row#footer__container-social-menu-items": {
+    "title": "contenedor menu de social",
     "children": ["menu#products-and-solutions", "menu#contact"],
     "props": {
       "blockClass": "footer__social-title"
     }
   },
   "menu#products-and-solutions": {
+    "title": "menu de productos y soluciones",
     "children": ["menu-item#products-and-solutions"],
     "props": {
       "blockClass": "footer__container-products-and-solutions"
     }
   },
   "menu-item#products-and-solutions": {
+    "title": "item de productos y soluciones",
     "props": {
       "id": "products-and-solutions",
       "type": "custom",
@@ -40,6 +45,7 @@
     }
   },
   "menu#contact": {
+    "title": "menu de contacto",
     "children": ["menu-item#contact"],
     "props": {
       "blockClass": "footer__container-contact",
@@ -47,6 +53,7 @@
     }
   },
   "menu-item#contact": {
+    "title": "item de contacto",
     "props": {
       "id": "contact",
       "type": "custom",
@@ -60,18 +67,21 @@
     }
   },
   "flex-layout.row#footer__container-social-icons": {
+    "title": "contenedor de iconos de social",
     "children": ["rich-text#ubication", "social-networks"],
     "props": {
       "blockClass": "footer__container-social-icons"
     }
   },
   "rich-text#ubication": {
+    "title": "Texto de ubicacion",
     "props": {
       "text": "Colombia",
       "blockClass": "ubication"
     }
   },
   "social-networks": {
+    "title": "Iconos de redes sociales",
     "props": {
       "socialNetworks": [
         {
