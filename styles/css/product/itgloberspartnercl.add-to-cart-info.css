@@ -1,0 +1,28 @@
+.containerItem{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  margin: 1rem 5%;
+}
+.containerItem__info{
+  width: 50%;
+}
+.containerTotalItems{
+  display: grid;
+  place-items: center;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+.buttonModal{
+  background-color: #2d75c7;
+  padding: .5rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+.buttonModalLink{
+  text-decoration: none;
+  color: white;
+}

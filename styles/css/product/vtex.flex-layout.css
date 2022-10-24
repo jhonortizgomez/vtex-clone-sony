@@ -4,3 +4,7 @@
 .flexRowContent--product__tabs {
   margin-top: 20px;
 }
+
+.flexColChild--product__info--data{
+  margin-top: .5rem;
+}

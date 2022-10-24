@@ -1,8 +1,9 @@
 {
-  "pdf-reader#pdf__mobile": {
+  "pdf-reader": {
     "title": "Componente pdf-reader",
     "props": {
-      "pdfUrl": "assets/docs/Carton91.pdf"
+      "pdfUrl": "assets/docs/Carton91.pdf",
+      "width": "100%"
     }
   },
   "flex-layout.row#mobile--custom-layout":{

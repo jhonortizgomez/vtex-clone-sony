@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+.term{
+  padding-top: .3rem;
+}
+@media (max-width: 600px) {
+  .container{
+    justify-content: center;
+  }
+  .link{
+    font-size: .7rem;
+  }
+  .term{
+    font-size: .8rem;
+    padding-top: .3rem;
+  }
+}

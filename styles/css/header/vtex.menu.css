@@ -30,9 +30,14 @@
 }
 
 .accordionIcon--header__desktop--menu-item--isClosed{
-  background: url(assets/img/flecha.png);
-  width: 1rem;
-  height: 1rem;
+  background-image: url(assets/img/arrow-right.png);
+  width: 20px;
+  object-fit: contain;
+}
+.accordionIcon--header__desktop--menu-item--isOpen{
+  background-image: url(assets/img/arrow-left.png);
+  width: 20px;
+  object-fit: contain;
 }
 
 /* -------------------------------------------------------- mobile */
@@ -62,6 +67,21 @@
 }
 .menuContainerNav--header__mobile--menu-categories{
   width: 100%;
+}
+
+.accordionIcon--header__mobile--menu-item{
+  color: transparent;
+}
+
+.accordionIcon--header__mobile--menu-item--isClosed{
+  background-image: url(assets/img/arrow-right-w.png);
+  width: 20px;
+  object-fit: contain;
+}
+.accordionIcon--header__mobile--menu-item--isOpen{
+  background-image: url(assets/img/arrow-left-w.png);
+  width: 20px;
+  object-fit: contain;
 }
 .styledLinkContent--header__mobile--menu-item{
   color: white;

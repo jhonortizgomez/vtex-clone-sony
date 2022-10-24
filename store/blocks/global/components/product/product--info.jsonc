@@ -55,12 +55,16 @@
     "title": "modal de agregar al carrito",
     "children": ["modal-layout#add-to-cart-info"],
     "props": {
-      "customPixelEventName": "addToCart"
+      "customPixelEventName": "addToCart",
+      "blockClass": "trigger--add-to-cart-button"
     }
   },
   "modal-layout#add-to-cart-info": {
     "title": "informacion del carrito",
-    "children": ["modal-header#add-to-cart-info", "add-to-cart-info"]
+    "children": ["modal-header#add-to-cart-info", "add-to-cart-info"],
+    "props":{
+      "blockClass": "modal--add-to-cart-button"
+    }
   },
   "modal-header#add-to-cart-info": {
     "title": "icono de cerrar modal",
