@@ -1,6 +1,6 @@
 # vtex-clone-sony
 
-Sony Store is a model clone of sony.com.co store, made with VTEX IO and custom components
+Bienvenid@ a la Tienda Sony, una réplica meticulosamente elaborada de la tienda en línea oficial de Sony Colombia. Este proyecto ha sido desarrollado utilizando VTEX IO. of sony.com.co
 
 **HEADER MOBILE**
 
